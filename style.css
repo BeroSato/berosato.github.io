@@ -1,0 +1,357 @@
+* {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+::-webkit-scrollbar {
+    width: 10px;
+   }
+   
+  ::-webkit-scrollbar-track {
+    border: 3px solid rgb(61, 61, 61);
+    border-radius: 5px;
+    }
+   
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 179, 179);
+    border-radius: 5px;
+  }
+   
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(158, 106, 106);
+    box-shadow: 0 3px 10px black;
+    }
+
+html {
+    scrollbar-color: rgb(255, 179, 179) rgb(255, 235, 235);
+    scrollbar-width: 10px;
+    scroll-behavior: smooth;
+}
+
+nav {
+    border: 2px solid rgba(224, 208, 208, 0.5);
+    margin: 4px 0;
+    margin-right: 100px;
+    width: 98.7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(238, 224, 224, 0.76);
+    position: fixed;
+    animation: headeranimation 3s 2;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    top: 0;
+    backdrop-filter: blur(15px);
+}
+
+ul {
+    list-style: none;
+    cursor: default;
+}
+
+.list1 {
+    display: inline-block;
+    margin-right: 1px;
+}
+
+#alink4 {
+    margin-right: 25px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.alink {
+    color: #ec1c24;
+    background-color: rgba(255, 255, 255, 0.479);
+    text-decoration: none;
+    padding: 1px;
+    font-size: 20px;
+    border: 3px solid rgba(255, 85, 85, 0.76);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.alink:hover {
+    border: 3px solid brown;
+    font-size: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(206, 97, 97);
+    color: white;
+}
+
+.alink:focus {
+    border: 3px dotted rgb(99, 167, 99);
+    transition: all 0.3s;
+}
+
+#logo1 {
+    color: #ec1c24;
+    cursor: default;
+}
+
+#logo2 {
+    display: none;
+}
+
+footer {
+    border: 2px solid rgba(224, 208, 208, 0.5);
+    background-color: lightcoral;
+    background-image: url(images/background3.2.png);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px 0;
+    border-radius: 5px;
+    text-shadow: 2px 2px 20px #2b2b2b;
+}
+
+#link1 {
+    text-shadow: 0 0 0;
+    color: black;
+    display: block;
+    border: 2px solid rgba(255, 85, 85, 0.76);
+    background-color: rgba(238, 224, 224, 0.76);
+    backdrop-filter: blur(15px);
+    margin: 5px;
+    transition: 0.3s;
+}
+
+#link1:hover {
+    font-size: 30px;
+    color: white;
+    background-color: rgb(206, 97, 97);
+    border: 2px solid brown;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div {
+    padding-bottom: 20px;
+}
+
+.article1 {
+    background-color: blanchedalmond;
+    padding: 1px 0;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 124px;
+    background-image: url(images/welcome.png);
+    background-repeat: no-repeat;
+    border: 3px double rgb(201, 202, 159);
+}
+
+.article2 {
+    background-color: cadetblue;
+    background-image: url(images/qna.png);
+    background-repeat: no-repeat;
+    padding: 1px 0;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 3px double rgb(73, 84, 90);
+}
+
+.article3 {
+    background-color: crimson;
+    background-image: url(images/projects.png);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    text-align: left;
+    padding: 1px 0;
+    margin-bottom: 15px;
+    border: 3px double rgb(77, 48, 48);
+}
+
+.article4 {
+    background-color: rgb(248, 245, 245);
+    border-top: 2px solid steelblue;
+    background-image: url(images/about.png);
+    background-repeat: no-repeat;
+    padding: 1px 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    text-align: left;
+    padding-left: 25px;
+}
+
+p {
+    text-align: left;
+    padding-left: 25px;
+}
+
+li {
+    text-align: left;
+}
+
+mark {
+    text-align: left;
+    background-color: black;
+    color: steelblue;
+}
+
+details {
+    background-color: rgb(245, 239, 239);
+    border: 2px solid steelblue;
+    border-left: 4px solid steelblue;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+summary {
+    text-align: left;
+    padding-left: 25px;
+    padding-bottom: 19px;
+    padding-top: 15px;
+}
+
+#title1 {
+    text-align: center;
+    padding-right: 30px;
+}
+
+@keyframes headeranimation {
+    0% {border-radius: 5px;}
+    50% {border-radius: 10px;}
+    100% {border-radius: 5px;}
+}
+
+@media (max-width: 525px) {
+    .alink {
+        font-size: 18px;
+        border: 2px solid rgb(255, 85, 85);
+    }
+
+    .alink:hover {
+        font-size: 18px;
+        border: 2px solid brown;
+    }
+
+    #logo1 {
+        display: none;
+    }
+
+    #logo2 {
+        display: inline;
+        color: #ec1c24;
+    }
+}
+
+@media (max-width: 358px) {
+    .alink {
+        font-size: 17px;
+    }
+
+    .alink:hover {
+        font-size: 17px;
+    }
+
+    .article1 {
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 366px) {
+    .alink {
+        font-size: 17px;
+    }
+
+    .alink:hover {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 356px) {
+    .alink {
+        font-size: 15px;
+    }
+
+    .alink:hover {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 336px) {
+    .alink {
+        font-size: 14px;
+    }
+
+    .alink:hover {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 326px) {
+    .alink {
+        font-size: 13px;
+    }
+
+    .alink:hover {
+        font-size: 13px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        background-color: #2b2b2b;
+        color: white;
+    }
+
+    nav {
+        border: 2px solid rgba(82, 67, 67, 0.5);
+        background-color: rgba(66, 50, 50, 0.76);
+    }
+
+    .article1 {
+        background-color: rgb(189, 175, 152);
+        border: 3px double rgb(95, 95, 75);
+    }
+
+    .article3 {
+        background-color: rgb(190, 70, 94);
+    }
+
+    .article4 {
+        background-color: rgb(27, 25, 25);
+    }
+
+    details {
+        background-color: rgb(39, 35, 35);
+    }
+
+    #link1 {
+        color: white;
+        background-color: rgba(66, 50, 50, 0.76);
+        border: 2px solid rgba(255, 166, 166, 0.76);
+        backdrop-filter: blur(15px);
+    }
+
+    #link1:hover {
+        color: black;
+    }
+
+    footer {
+        border: 2px solid rgba(82, 67, 67, 0.5);
+        background-image: url(images/background3.png);
+    }
+
+    .alink {
+        border: 2px solid rgba(255, 166, 166, 0.76);
+        background-color: rgba(43, 36, 36, 0.479);
+    }
+
+    .alink:hover {
+        color: black;
+    }
+
+    ::-webkit-scrollbar-track {
+        border: 3px solid rgb(204, 204, 204);
+        border-radius: 5px;
+        }
+    
+    html {
+        scrollbar-color: rgb(255, 179, 179) rgb(82, 62, 62);
+    }
+}
