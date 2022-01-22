@@ -32,7 +32,7 @@ nav {
     border: 2px solid rgba(224, 208, 208, 0.5);
     margin: 4px 0;
     margin-right: 100px;
-    width: 98.7%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -43,6 +43,7 @@ nav {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     top: 0;
     backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
 }
 
 ul {
@@ -115,6 +116,7 @@ footer {
     border: 2px solid rgba(255, 85, 85, 0.76);
     background-color: rgba(238, 224, 224, 0.76);
     backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     margin: 5px;
     transition: 0.3s;
 }
@@ -325,7 +327,6 @@ summary {
         color: white;
         background-color: rgba(66, 50, 50, 0.76);
         border: 2px solid rgba(255, 166, 166, 0.76);
-        backdrop-filter: blur(15px);
     }
 
     #link1:hover {
