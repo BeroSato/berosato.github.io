@@ -109,6 +109,10 @@ footer {
     text-shadow: 2px 2px 20px #2b2b2b;
 }
 
+#strongtext {
+    color: #ec1c24;
+}
+
 #link1 {
     text-shadow: 0 0 0;
     color: black;
