@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/websiteicon.png" type="image/x-icon">
+    <title>Bero Sato's Website</title>
+    <style>
+        * {
+            font-size: 30px;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        html {
+            background-image: url(images/background3.2.png);
+        }
+
+        nav {
+            border: 2px solid rgba(224, 208, 208, 0.5);
+            margin: 4px 0;
+            margin-right: 100px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: rgba(238, 228, 228, 0.76);
+            position: fixed;
+            animation: headeranimation 3s 2;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            top: 0;
+        }
+
+        ul {
+            list-style: none;
+            cursor: default;
+        }
+
+        .alink {
+            color: #ec1c24;
+            background-color: rgba(255, 255, 255, 0.479);
+            text-decoration: none;
+            padding: 1px;
+            font-size: 20px;
+            border: 3px solid rgba(255, 85, 85, 0.76);
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        #alinkalt {
+            margin-right: 30px;
+        }
+
+        .alink:hover {
+            border: 3px solid brown;
+            font-size: 25px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-color: rgb(206, 97, 97);
+            color: white;
+        }
+
+        #logo1 {
+            color: #ec1c24;
+            margin-left: 25px;
+            cursor: default;
+        }
+
+        h1 {
+            margin-top: 124px;
+            font-size: 70px;
+        }
+
+        footer {
+            border: 2px solid rgba(224, 208, 208, 0.5);
+            background-color: lightcoral;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            padding: 20px 0;
+            border-radius: 5px;
+            text-shadow: 2px 2px 20px #2b2b2b;
+        }
+
+        strong {
+            color: #ec1c24;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            html {
+                background-color: #2b2b2b;
+                background-image: url(images/background3.png);
+                color: white;
+            }
+
+            nav {
+                border: 2px solid rgba(82, 67, 67, 0.5);
+                background-color: rgba(66, 50, 50, 0.76);
+            }
+
+            .alink {
+                border: 2px solid rgba(255, 166, 166, 0.76);
+                background-color: rgba(43, 36, 36, 0.479);
+            }
+
+            .alink:hover {
+                color: black;
+            }
+
+            footer {
+                border: 2px solid rgba(82, 67, 67, 0.5);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <p id="logo1">Bero Sato</p>
+            <ul>
+                <li class="list1">
+                    <a class="alink" id="alinkalt" href="https://berosato-x.github.io">Go back</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h1>404</h1>
+    <p>Invalid link/file, please make sure you have typed the link correctly.</p>
+    <br>
+    <p>Go back <a class="alink" href="https://berosato-x.github.io">here</a></p>
+    <footer>Developed and Designed by <strong>Bero Sato</strong> © 2022</footer>
+</body>
+</html>
