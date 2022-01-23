@@ -115,8 +115,6 @@ footer {
     display: block;
     border: 2px solid rgba(255, 85, 85, 0.76);
     background-color: rgba(238, 228, 228, 0.76);
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
     margin: 5px;
     transition: 0.3s;
 }
@@ -185,7 +183,7 @@ div {
 }
 
 .vidlink:hover {
-    background-color: rgb(255, 115, 80);
+    background-color: rgb(255, 109, 73);
     border-radius: 5px;
     margin: 0 5px;
 }
