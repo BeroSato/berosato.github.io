@@ -172,6 +172,7 @@ div {
     background-image: url(images/youtube.png);
     background-repeat: no-repeat;
     margin-bottom: 15px;
+    border: 3px double #4d1012;
 }
 
 .vidlink {
