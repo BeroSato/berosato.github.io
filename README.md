@@ -1,5 +1,5 @@
 # Info
-This is first my  website made for fun to try HTML and CSS.
+This is my first website made for fun to try HTML and CSS.
 
 it's still under development, some stuff are going to get changed and some new features will be there. :)
 
