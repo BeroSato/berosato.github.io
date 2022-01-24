@@ -212,8 +212,7 @@ div {
 }
 
 .tweetlink:hover {
-    background-color: rgba(60, 171, 179, 0.397);
-    backdrop-filter: blur(3px);
+    background-color: rgba(105, 196, 202, 0.397);
     color: white;
     border-radius: 5px;
     margin: 0 5px;
