@@ -141,7 +141,7 @@ div {
     border-radius: 5px;
     margin-bottom: 15px;
     margin-top: 124px;
-    border: 4px double rgb(218, 208, 193);
+    border: 5px double rgb(218, 208, 193);
 }
 
 .article2 {
@@ -149,7 +149,7 @@ div {
     padding: 1px 0;
     margin-bottom: 15px;
     border-radius: 5px;
-    border: 4px double rgb(174, 198, 199);
+    border: 5px double rgb(174, 198, 199);
 }
 
 .article3 {
@@ -158,7 +158,7 @@ div {
     text-align: left;
     padding: 1px 0;
     margin-bottom: 15px;
-    border: 4px double rgb(212, 174, 174);
+    border: 5px double rgb(212, 174, 174);
 }
 
 .article4 {
@@ -166,7 +166,7 @@ div {
     padding: 1px 0;
     background-image: linear-gradient(to right, #c9b39a, rgb(243, 242, 234));
     margin-bottom: 15px;
-    border: 4px double #c9b39a;
+    border: 5px double #c9b39a;
 }
 
 .vidlink {
@@ -180,8 +180,6 @@ div {
 
 .vidlink:hover {
     background-color: rgba(255, 115, 80, 0.397);
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(3px);
     color: white;
     border-radius: 5px;
     margin: 0 5px;
@@ -194,8 +192,6 @@ div {
 .article5 {
     background-color: rgb(248, 245, 245);
     border-top: 2px solid steelblue;
-    background-image: url(images/about.png);
-    background-repeat: no-repeat;
     padding: 1px 0;
     margin-bottom: 15px;
 }
