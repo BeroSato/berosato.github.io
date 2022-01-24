@@ -136,45 +136,37 @@ div {
 }
 
 .article1 {
-    background-color: blanchedalmond;
+    background-image: linear-gradient(to right, rgb(218, 208, 193), rgb(247, 246, 242));
     padding: 1px 0;
     border-radius: 5px;
     margin-bottom: 15px;
     margin-top: 124px;
-    background-image: url(images/welcome.png);
-    background-repeat: no-repeat;
-    border: 3px double rgb(201, 202, 159);
+    border: 4px double rgb(218, 208, 193);
 }
 
 .article2 {
-    background-color: cadetblue;
-    background-image: url(images/qna.png);
-    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, rgb(174, 198, 199), rgb(225, 233, 238));
     padding: 1px 0;
     margin-bottom: 15px;
     border-radius: 5px;
-    border: 3px double rgb(73, 84, 90);
+    border: 4px double rgb(174, 198, 199);
 }
 
 .article3 {
-    background-color: rgb(202, 78, 78);
-    background-image: url(images/plans.png);
-    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, rgb(212, 174, 174), rgb(243, 234, 234));
     border-radius: 5px;
     text-align: left;
     padding: 1px 0;
     margin-bottom: 15px;
-    border: 3px double rgb(77, 48, 48);
+    border: 4px double rgb(212, 174, 174);
 }
 
 .article4 {
     border-radius: 5px;
     padding: 1px 0;
-    background-color: #d62e33;
-    background-image: url(images/youtube.png);
-    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, #c9b39a, rgb(243, 242, 234));
     margin-bottom: 15px;
-    border: 3px double #4d1012;
+    border: 4px double #c9b39a;
 }
 
 .vidlink {
@@ -258,7 +250,7 @@ summary {
     .alink {
         font-size: 18px;
         border-radius: 4px;
-        border: 2px solid rgb(255, 85, 85);
+        border: 2px solid rgba(255, 85, 85, 0.76);
     }
 
     .alink:hover {
@@ -333,7 +325,7 @@ summary {
 
 @media (prefers-color-scheme: dark) {
     html {
-        background-color: #2b2b2b;
+        background-color: #1d1d1d;
         color: white;
     }
 
@@ -343,8 +335,23 @@ summary {
     }
 
     .article1 {
-        background-color: rgb(189, 175, 152);
-        border: 3px double rgb(95, 95, 75);
+        background-image: linear-gradient(to right, rgb(87, 80, 71), rgb(27, 27, 26));
+        border: 4px double rgb(87, 80, 71);
+    }
+
+    .article2 {
+        background-image: linear-gradient(to right, rgb(56, 66, 66), rgb(27, 28, 29));
+        border: 4px double rgb(56, 66, 66);
+    }
+
+    .article3 {
+        background-image: linear-gradient(to right, rgb(78, 57, 57), rgb(24, 22, 22));
+        border: 4px double rgb(78, 57, 57);
+    }
+
+    .article4 {
+        background-image: linear-gradient(to right, #504539, rgb(24, 24, 23));
+        border: 4px double #504539;
     }
 
     .vidlink {
