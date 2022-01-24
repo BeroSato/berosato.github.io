@@ -194,6 +194,36 @@ div {
 }
 
 .article5 {
+    background-image: linear-gradient(to right, #9ac9c9, rgb(234, 243, 243));
+    border-radius: 5px;
+    padding: 1px 0;
+    margin-bottom: 15px;
+    border: 4px double #9ac9c9;
+    background-repeat: no-repeat;
+}
+
+.tweetlink {
+    display: block;
+    color: black;
+    text-align: left;
+    padding-left: 25px;
+    padding-bottom: 4px;
+    transition: all 0.3s;
+}
+
+.tweetlink:hover {
+    background-color: rgba(60, 171, 179, 0.397);
+    backdrop-filter: blur(3px);
+    color: white;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+#tweetlink4 {
+    margin-bottom: 23px;
+}
+
+.article6 {
     background-color: rgb(248, 245, 245);
     border-top: 2px solid steelblue;
     padding: 1px 0;
@@ -359,6 +389,19 @@ summary {
     }
 
     .vidlink:hover {
+        color: black;
+    }
+
+    .article5 {
+        background-image: linear-gradient(to right, #304646, rgb(24, 26, 26));
+        border: 4px double #304646;
+    }
+
+    .tweetlink {
+        color: white;
+    }
+
+    .tweetlink:hover {
         color: black;
     }
 
