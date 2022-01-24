@@ -138,35 +138,39 @@ div {
 .article1 {
     background-image: linear-gradient(to right, rgb(218, 208, 193), rgb(247, 246, 242));
     padding: 1px 0;
+    background-repeat: no-repeat;
     border-radius: 5px;
     margin-bottom: 15px;
     margin-top: 124px;
-    border: 5px double rgb(218, 208, 193);
+    border: 4px double rgb(218, 208, 193);
 }
 
 .article2 {
     background-image: linear-gradient(to right, rgb(174, 198, 199), rgb(225, 233, 238));
+    background-repeat: no-repeat;
     padding: 1px 0;
     margin-bottom: 15px;
     border-radius: 5px;
-    border: 5px double rgb(174, 198, 199);
+    border: 4px double rgb(174, 198, 199);
 }
 
 .article3 {
     background-image: linear-gradient(to right, rgb(212, 174, 174), rgb(243, 234, 234));
+    background-repeat: no-repeat;
     border-radius: 5px;
     text-align: left;
     padding: 1px 0;
     margin-bottom: 15px;
-    border: 5px double rgb(212, 174, 174);
+    border: 4px double rgb(212, 174, 174);
 }
 
 .article4 {
     border-radius: 5px;
     padding: 1px 0;
     background-image: linear-gradient(to right, #c9b39a, rgb(243, 242, 234));
+    background-repeat: no-repeat;
     margin-bottom: 15px;
-    border: 5px double #c9b39a;
+    border: 4px double #c9b39a;
 }
 
 .vidlink {
