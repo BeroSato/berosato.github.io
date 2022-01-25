@@ -8,18 +8,20 @@
    }
    
   ::-webkit-scrollbar-track {
-    border: 3px solid rgb(61, 61, 61);
-    border-radius: 5px;
+    background-color: rgb(238, 226, 226);
+    border: 2px solid rgb(211, 191, 191);
+    border-radius: 3px;
     }
    
   ::-webkit-scrollbar-thumb {
-    background: rgb(255, 179, 179);
-    border-radius: 5px;
+    background-color: rgb(255, 179, 179);
+    border: 3px double rgb(201, 140, 140);
+    border-radius: 3px;
   }
    
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(158, 106, 106);
-    box-shadow: 0 3px 10px black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
 html {
@@ -30,13 +32,13 @@ html {
 
 nav {
     border: 2px solid rgba(224, 208, 208, 0.5);
-    margin: 4px 0;
+    margin: 8px 0;
     margin-right: 100px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(238, 228, 228, 0.76);
+    background-color: rgba(241, 232, 232, 0.76);
     position: fixed;
     animation: headeranimation 3s 2;
     border-radius: 5px;
@@ -78,15 +80,16 @@ nav a {
 }
 
 .alink:hover {
-    border: 3px solid brown;
+    border: 3px solid rgb(182, 50, 50);
     font-size: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: rgb(206, 97, 97);
+    background-color: rgb(221, 118, 118);
     color: white;
 }
 
 .alink:focus {
-    border: 3px dotted rgb(99, 167, 99);
+    border: 3px solid rgb(99, 167, 99);
+    background-color: rgb(85, 148, 85);
     transition: all 0.3s;
 }
 
@@ -117,8 +120,8 @@ footer {
     text-shadow: 0 0 0;
     color: black;
     display: block;
-    border: 2px solid rgba(255, 85, 85, 0.76);
-    background-color: rgba(238, 228, 228, 0.76);
+    background-color: rgb(221, 118, 118);
+    border: 2px solid rgb(182, 50, 50);
     margin: 5px;
     transition: 0.3s;
 }
@@ -141,7 +144,7 @@ div {
     background-repeat: no-repeat;
     border-radius: 5px;
     margin-bottom: 15px;
-    margin-top: 124px;
+    margin-top: 127px;
     border: 4px double rgb(218, 208, 193);
 }
 
@@ -183,7 +186,7 @@ div {
 }
 
 .vidlink:hover {
-    background-color: rgba(255, 115, 80, 0.397);
+    background-color: #968572;
     color: white;
     border-radius: 5px;
     margin: 0 5px;
@@ -212,7 +215,7 @@ div {
 }
 
 .tweetlink:hover {
-    background-color: rgba(105, 196, 202, 0.397);
+    background-color: #789b9b;
     color: white;
     border-radius: 5px;
     margin: 0 5px;
@@ -419,6 +422,8 @@ summary {
     }
 
     #link1:hover {
+        border: solid rgb(167, 46, 46);
+        background-color: rgb(194, 103, 103);
         color: black;
     }
 
@@ -433,12 +438,19 @@ summary {
     }
 
     .alink:hover {
+        border: solid rgb(167, 46, 46);
+        background-color: rgb(194, 103, 103);
         color: black;
     }
 
+    ::-webkit-scrollbar-thumb {
+        background-color: rgb(179, 114, 114);
+    }
+
     ::-webkit-scrollbar-track {
-        border: 3px solid rgb(204, 204, 204);
-        border-radius: 5px;
+        background-color: rgb(51, 41, 41);
+        border: 2px solid rgb(95, 89, 89);
+        border-radius: 3px;
         }
     
     html {
