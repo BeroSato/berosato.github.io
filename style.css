@@ -120,8 +120,8 @@ footer {
     text-shadow: 0 0 0;
     color: black;
     display: block;
-    background-color: rgb(221, 118, 118);
-    border: 2px solid rgb(182, 50, 50);
+    border: 2px solid rgba(255, 85, 85, 0.76);
+    background-color: rgba(241, 232, 232, 0.76);
     margin: 5px;
     transition: 0.3s;
 }
