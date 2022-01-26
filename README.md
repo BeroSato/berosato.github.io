@@ -9,8 +9,7 @@ https://berosato.github.io
 # Theme
 light mode:
 
-<img width="622" alt="msedge_cpWbzeUUmj" src="https://user-images.githubusercontent.com/75726739/150780425-0f4074f4-66c4-4441-800b-dbd712b47b14.png">
-
+<img width="633" alt="msedge_9nIhdC0XHL" src="https://user-images.githubusercontent.com/75726739/151113598-e8aeefca-323a-4ffa-9f64-95408203305d.png">
 dark mode:
 
-<img width="622" alt="msedge_eS5BFwiI9u" src="https://user-images.githubusercontent.com/75726739/150780458-dfa2b5d2-fd91-4462-b157-90f551563eb2.png">
+<img width="633" alt="msedge_r57Web9LDf" src="https://user-images.githubusercontent.com/75726739/151113650-e509c1b7-2c5c-4c46-af04-3f42ca0b5a0b.png">
