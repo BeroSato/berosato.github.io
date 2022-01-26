@@ -278,6 +278,109 @@ summary {
     100% {border-radius: 5px;}
 }
 
+@media (prefers-color-scheme: dark) {
+    html {
+        background-color: #1d1d1d;
+        color: white;
+    }
+
+    nav {
+        border: 2px solid rgba(82, 67, 67, 0.5);
+        background-color: rgba(46, 37, 37, 0.76);
+    }
+
+    .article1 {
+        background-image: linear-gradient(to right, rgb(87, 80, 71), rgb(36, 36, 32));
+        border: 4px double rgb(87, 80, 71);
+    }
+
+    .article2 {
+        background-image: linear-gradient(to right, rgb(56, 66, 66), rgb(35, 38, 41));
+        border: 4px double rgb(56, 66, 66);
+    }
+
+    .article3 {
+        background-image: linear-gradient(to right, rgb(78, 57, 57), rgb(36, 30, 30));
+        border: 4px double rgb(78, 57, 57);
+    }
+
+    .article4 {
+        background-image: linear-gradient(to right, #504539, rgb(39, 39, 34));
+        border: 4px double #504539;
+    }
+
+    .vidlink {
+        color: white;
+    }
+
+    .vidlink:hover {
+        color: black;
+    }
+
+    .article5 {
+        background-image: linear-gradient(to right, #304646, rgb(24, 26, 26));
+        border: 4px double #304646;
+    }
+
+    .tweetlink {
+        color: white;
+    }
+
+    .tweetlink:hover {
+        color: black;
+    }
+
+    .article6 {
+        background-color: rgb(27, 25, 25);
+    }
+
+    details {
+        background-color: rgb(39, 35, 35);
+    }
+
+    #link1 {
+        color: white;
+        background-color: rgba(58, 45, 45, 0.76);
+        border: 2px solid rgba(255, 166, 166, 0.76);
+    }
+
+    #link1:hover {
+        border: solid rgb(167, 46, 46);
+        background-color: rgb(194, 103, 103);
+        color: black;
+    }
+
+    footer {
+        border: 2px solid rgba(82, 67, 67, 0.5);
+        background-image: url(images/background3.png);
+    }
+
+    .alink {
+        border: 3px solid rgba(255, 166, 166, 0.76);
+        background-color: rgba(43, 36, 36, 0.479);
+    }
+
+    .alink:hover {
+        border: 3px solid rgb(167, 46, 46);
+        background-color: rgb(194, 103, 103);
+        color: black;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: rgb(179, 114, 114);
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: rgb(51, 41, 41);
+        border: 2px solid rgb(95, 89, 89);
+        border-radius: 3px;
+        }
+    
+    html {
+        scrollbar-color: rgb(255, 179, 179) rgb(82, 62, 62);
+    }
+}
+
 @media (max-width: 525px) {
     .alink {
         font-size: 18px;
@@ -352,108 +455,5 @@ summary {
 
     .alink:hover {
         font-size: 13px;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    html {
-        background-color: #1d1d1d;
-        color: white;
-    }
-
-    nav {
-        border: 2px solid rgba(82, 67, 67, 0.5);
-        background-color: rgba(58, 45, 45, 0.76);
-    }
-
-    .article1 {
-        background-image: linear-gradient(to right, rgb(87, 80, 71), rgb(27, 27, 26));
-        border: 4px double rgb(87, 80, 71);
-    }
-
-    .article2 {
-        background-image: linear-gradient(to right, rgb(56, 66, 66), rgb(27, 28, 29));
-        border: 4px double rgb(56, 66, 66);
-    }
-
-    .article3 {
-        background-image: linear-gradient(to right, rgb(78, 57, 57), rgb(24, 22, 22));
-        border: 4px double rgb(78, 57, 57);
-    }
-
-    .article4 {
-        background-image: linear-gradient(to right, #504539, rgb(24, 24, 23));
-        border: 4px double #504539;
-    }
-
-    .vidlink {
-        color: white;
-    }
-
-    .vidlink:hover {
-        color: black;
-    }
-
-    .article5 {
-        background-image: linear-gradient(to right, #304646, rgb(24, 26, 26));
-        border: 4px double #304646;
-    }
-
-    .tweetlink {
-        color: white;
-    }
-
-    .tweetlink:hover {
-        color: black;
-    }
-
-    .article5 {
-        background-color: rgb(27, 25, 25);
-    }
-
-    details {
-        background-color: rgb(39, 35, 35);
-    }
-
-    #link1 {
-        color: white;
-        background-color: rgba(58, 45, 45, 0.76);
-        border: 2px solid rgba(255, 166, 166, 0.76);
-    }
-
-    #link1:hover {
-        border: solid rgb(167, 46, 46);
-        background-color: rgb(194, 103, 103);
-        color: black;
-    }
-
-    footer {
-        border: 2px solid rgba(82, 67, 67, 0.5);
-        background-image: url(images/background3.png);
-    }
-
-    .alink {
-        border: 3px solid rgba(255, 166, 166, 0.76);
-        background-color: rgba(43, 36, 36, 0.479);
-    }
-
-    .alink:hover {
-        border: solid rgb(167, 46, 46);
-        background-color: rgb(194, 103, 103);
-        color: black;
-    }
-
-    ::-webkit-scrollbar-thumb {
-        background-color: rgb(179, 114, 114);
-    }
-
-    ::-webkit-scrollbar-track {
-        background-color: rgb(51, 41, 41);
-        border: 2px solid rgb(95, 89, 89);
-        border-radius: 3px;
-        }
-    
-    html {
-        scrollbar-color: rgb(255, 179, 179) rgb(82, 62, 62);
     }
 }
