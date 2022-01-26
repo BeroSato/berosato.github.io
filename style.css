@@ -118,7 +118,7 @@ footer {
 
 #link1 {
     text-shadow: 0 0 0;
-    color: black;
+    color: rgb(51, 43, 43);
     display: block;
     border: 2px solid rgba(255, 85, 85, 0.76);
     background-color: rgba(241, 232, 232, 0.76);
@@ -140,6 +140,7 @@ div {
 
 .article1 {
     background-image: linear-gradient(to right, rgb(218, 208, 193), rgb(247, 246, 242));
+    color: rgb(63, 60, 52);
     padding: 1px 0;
     background-repeat: no-repeat;
     border-radius: 5px;
@@ -150,6 +151,7 @@ div {
 
 .article2 {
     background-image: linear-gradient(to right, rgb(174, 198, 199), rgb(225, 233, 238));
+    color: rgb(36, 43, 43);
     background-repeat: no-repeat;
     padding: 1px 0;
     margin-bottom: 15px;
@@ -159,6 +161,7 @@ div {
 
 .article3 {
     background-image: linear-gradient(to right, rgb(212, 174, 174), rgb(243, 234, 234));
+    color: rgb(48, 40, 40);
     background-repeat: no-repeat;
     border-radius: 5px;
     text-align: left;
@@ -171,6 +174,7 @@ div {
     border-radius: 5px;
     padding: 1px 0;
     background-image: linear-gradient(to right, #c9b39a, rgb(243, 242, 234));
+    color: #2e2926;
     background-repeat: no-repeat;
     margin-bottom: 15px;
     border: 4px double #c9b39a;
@@ -178,7 +182,7 @@ div {
 
 .vidlink {
     display: block;
-    color: black;
+    color: #2e2926;
     text-align: left;
     padding-left: 25px;
     padding-bottom: 4px;
@@ -187,6 +191,7 @@ div {
 
 .vidlink:hover {
     background-color: #968572;
+    border-bottom: 2px solid #2e2926;
     color: white;
     border-radius: 5px;
     margin: 0 5px;
@@ -198,6 +203,7 @@ div {
 
 .article5 {
     background-image: linear-gradient(to right, #9ac9c9, rgb(234, 243, 243));
+    color: #2d3636;
     border-radius: 5px;
     padding: 1px 0;
     margin-bottom: 15px;
@@ -207,7 +213,7 @@ div {
 
 .tweetlink {
     display: block;
-    color: black;
+    color: #2d3636;
     text-align: left;
     padding-left: 25px;
     padding-bottom: 4px;
@@ -217,6 +223,7 @@ div {
 .tweetlink:hover {
     background-color: #789b9b;
     color: white;
+    border-bottom: 2px solid #2d3636;
     border-radius: 5px;
     margin: 0 5px;
 }
@@ -227,6 +234,7 @@ div {
 
 .article6 {
     background-color: rgb(248, 245, 245);
+    color: rgb(65, 53, 53);
     border-top: 2px solid steelblue;
     padding: 1px 0;
     margin-bottom: 15px;
@@ -246,14 +254,9 @@ li {
     text-align: left;
 }
 
-mark {
-    text-align: left;
-    background-color: black;
-    color: steelblue;
-}
-
 details {
     background-color: rgb(245, 239, 239);
+    color: rgb(65, 53, 53);
     border: 2px solid steelblue;
     border-left: 4px solid steelblue;
     margin-bottom: 15px;
@@ -291,55 +294,64 @@ summary {
 
     .article1 {
         background-image: linear-gradient(to right, rgb(87, 80, 71), rgb(36, 36, 32));
+        color: rgb(226, 212, 196);
         border: 4px double rgb(87, 80, 71);
     }
 
     .article2 {
         background-image: linear-gradient(to right, rgb(56, 66, 66), rgb(35, 38, 41));
+        color: rgb(181, 209, 209);
         border: 4px double rgb(56, 66, 66);
     }
 
     .article3 {
         background-image: linear-gradient(to right, rgb(78, 57, 57), rgb(36, 30, 30));
+        color: rgb(221, 195, 195);
         border: 4px double rgb(78, 57, 57);
     }
 
     .article4 {
         background-image: linear-gradient(to right, #504539, rgb(39, 39, 34));
+        color: #ddd0c1;
         border: 4px double #504539;
     }
 
     .vidlink {
-        color: white;
+        color: #ddd0c1;
     }
 
     .vidlink:hover {
         color: black;
+        border-bottom: 2px solid #ddd0c1;
     }
 
     .article5 {
         background-image: linear-gradient(to right, #304646, rgb(24, 26, 26));
+        color: #b7d6d6;
         border: 4px double #304646;
     }
 
     .tweetlink {
-        color: white;
+        color: #b7d6d6;
     }
 
     .tweetlink:hover {
         color: black;
+        border-bottom: 2px solid #b7d6d6;
     }
 
     .article6 {
         background-color: rgb(27, 25, 25);
+        color: rgb(219, 199, 199);
     }
 
     details {
         background-color: rgb(39, 35, 35);
+        color: rgb(219, 199, 199);
     }
 
     #link1 {
-        color: white;
+        color: rgb(238, 226, 226);
         background-color: rgba(58, 45, 45, 0.76);
         border: 2px solid rgba(255, 166, 166, 0.76);
     }
