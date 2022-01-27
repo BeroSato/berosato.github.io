@@ -326,7 +326,7 @@ summary {
     }
 
     .article5 {
-        background-image: linear-gradient(to right, #304646, rgb(24, 26, 26));
+        background-image: linear-gradient(to right, #304646, rgb(35, 41, 41));
         color: #b7d6d6;
         border: 4px double #304646;
     }
@@ -412,6 +412,12 @@ summary {
     #logo2 {
         display: inline;
         color: #ec1c24;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .alink {
+            border: 2px solid rgba(255, 166, 166, 0.76);
+        }
     }
 }
 
