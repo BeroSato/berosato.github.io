@@ -487,3 +487,13 @@ iframe {
         font-size: 13px;
     }
 }
+
+@media (max-width: 308px) {
+    .alink {
+        font-size: 11px;
+    }
+
+    .alink:hover {
+        font-size: 11px;
+    }
+}
