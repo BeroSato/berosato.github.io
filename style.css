@@ -272,6 +272,12 @@ summary {
     padding-top: 15px;
 }
 
+iframe {
+    border: 4px double rgb(233, 216, 216);
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
 #title1 {
     text-align: center;
     padding-right: 30px;
@@ -392,6 +398,10 @@ summary {
     
     html {
         scrollbar-color: rgb(255, 179, 179) rgb(82, 62, 62);
+    }
+
+    iframe {
+        border: 4px double rgb(56, 44, 44);
     }
 }
 

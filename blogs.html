@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            font-size: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: linear-gradient(to right, rgb(233, 216, 216), rgb(252, 247, 247));
+            color: rgb(48, 40, 40);
+        }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background-color: rgb(238, 226, 226);
+            border: 2px solid rgb(211, 191, 191);
+            border-radius: 3px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: rgb(255, 179, 179);
+            border: 3px double rgb(201, 140, 140);
+            border-radius: 3px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgb(158, 106, 106);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        html {
+            scrollbar-color: rgb(255, 179, 179) rgb(255, 235, 235);
+            scrollbar-width: 10px;
+        }
+
+        h1 {
+            padding-left: 15px;
+        }
+
+        summary {
+            font-size: 25px;
+        }
+
+        summary:hover {
+            background-color: red;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        #div2 {
+            border-bottom: 2px solid rgb(202, 168, 168);
+            border-radius: 50px;
+        }
+
+        sup {
+            font-size: 12px;
+            border-radius: 2px;
+        }
+
+        h4 {
+            font-size: 27px;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            * {
+                background-image: linear-gradient(to right, rgb(56, 44, 44), rgb(29, 27, 27));
+                color: rgb(228, 209, 209);
+            }
+
+            ::-webkit-scrollbar-thumb {
+                background-color: rgb(179, 114, 114);
+            }
+
+            ::-webkit-scrollbar-track {
+                background-color: rgb(51, 41, 41);
+                border: 2px solid rgb(95, 89, 89);
+                border-radius: 3px;
+            }
+
+            html {
+                scrollbar-color: rgb(255, 179, 179) rgb(82, 62, 62);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Blogs</h1>
+        <div id="div2"></div>
+    </div>
+    <details>
+        <summary>Version 1.8 release <sup>1/28/2022</sup></summary>
+        <h4>What's new?</h4>
+        <p>Blogs is here!</p>
+        <img width="300" alt="light mode" src="images/blogspost.png">
+        <h4>Other changes</h4>
+        <p>
+            1. Fixed the header buttons border color on small screens on dark mode
+            <br>
+            2. Changed the latest tweets article background colors a bit in dark mode
+        </p>
+        <h4>Note</h4>
+        <p>This is the last version of the website using HTML and CSS only, the future versions will use both and JavaScript.</p>
+        <p>- Omar</p>
+    </details>
+    <details>
+        <summary>First blog! <sup>1/28/2022</sup></summary>
+        <p>Hello!</p>
+        <p>This is my first blog for this website, I will mostly post about new versions/updates of this website and
+            other projects.</p>
+        <p>- Omar</p>
+    </details>
+</body>
+</html>
