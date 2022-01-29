@@ -297,7 +297,7 @@ iframe {
 
     nav {
         border: 2px solid rgba(82, 67, 67, 0.5);
-        background-color: rgba(41, 35, 35, 0.76);
+        background-color: rgba(49, 41, 41, 0.76);
     }
 
     .article1 {
@@ -360,7 +360,7 @@ iframe {
 
     #link1 {
         color: rgb(238, 226, 226);
-        background-color: rgba(58, 45, 45, 0.76);
+        background-color: rgba(49, 41, 41, 0.76);
         border: 2px solid rgba(255, 166, 166, 0.76);
     }
 
