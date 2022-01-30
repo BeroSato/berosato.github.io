@@ -1,12 +1,12 @@
-# Info
+## Info
 This is my first website made for fun to try HTML and CSS.
 
 it's still under development, some stuff are going to get changed and some new features will be there. :)
 
-# Link
+## Link
 https://berosato.github.io
 
-# Theme
+## Theme
 light mode:
 
 <img width="637" alt="msedge_JtpYn94xfv" src="https://user-images.githubusercontent.com/75726739/151688469-2debf088-00f3-4350-a4c4-2f881c6693aa.png">
