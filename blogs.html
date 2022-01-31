@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bero Sato's Website</title>
+    <link rel="shortcut icon" href="images/websiteicon.png" type="image/x-icon">
     <style>
         * {
             font-size: 30px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-image: linear-gradient(to right, rgb(233, 216, 216), rgb(252, 247, 247));
             color: rgb(48, 40, 40);
         }
 
@@ -36,18 +37,104 @@
         html {
             scrollbar-color: rgb(255, 179, 179) rgb(255, 235, 235);
             scrollbar-width: 10px;
+            background-image: linear-gradient(to right, rgb(233, 216, 216), rgb(252, 247, 247));
+        }
+
+        nav {
+            margin: 8px 0;
+            border: 2px solid rgba(224, 208, 208, 0.5);
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: rgba(241, 232, 232, 0.76);
+            position: fixed;
+            animation: headeranimation 3s 2;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            top: 0;
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+        }
+
+        ul {
+            list-style: none;
+            cursor: default;
+        }
+
+        .list1 {
+            display: inline-block;
+            margin-right: 1px;
+        }
+
+        #alink4 {
+            margin-right: 32px;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .alink {
+            color: #ec1c24;
+            background-color: rgba(255, 255, 255, 0.479);
+            text-decoration: none;
+            padding: 1px;
+            font-size: 20px;
+            border: 3px solid rgba(255, 85, 85, 0.76);
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .alink:hover {
+            border: 3px solid rgb(182, 50, 50);
+            font-size: 25px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-color: rgb(221, 118, 118);
+            color: white;
+        }
+
+        .alink:focus {
+            border: 3px dotted rgb(99, 167, 99);
+            transition: all 0.3s;
+        }
+
+        #logo1 {
+            margin-left: 25px;
+            font-size: 30px;
+            color: #ec1c24;
+            cursor: default;
+        }
+
+        #logo2 {
+            display: none;
         }
 
         h1 {
+            margin-top: 127px;
             padding-left: 15px;
         }
 
         summary {
             font-size: 25px;
+            padding-left: 14px;
+            transition: all 0.2s;
         }
 
         summary:hover {
-            background-color: red;
+            background-color: rgb(197, 176, 176);
+            border-radius: 3px;
+            margin: 0 5px;
+        }
+
+        img {
+            border-radius: 5px;
+        }
+
+        .firstblog {
+            margin-bottom: 15px;
         }
 
         p {
@@ -60,6 +147,7 @@
         }
 
         sup {
+            background-image: linear-gradient(to right, rgb(233, 216, 216), rgb(252, 247, 247));
             font-size: 12px;
             border-radius: 2px;
         }
@@ -78,10 +166,58 @@
             display: inline;
         }
 
+        footer {
+            text-align: center;
+            border: 2px solid rgba(224, 208, 208, 0.5);
+            background-color: lightcoral;
+            background-image: url(images/background3.2.png);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            padding: 20px 0;
+            border-radius: 5px;
+            text-shadow: 2px 2px 20px #2b2b2b;
+        }
+
+        #link1 {
+            text-shadow: 0 0 0;
+            color: rgb(51, 43, 43);
+            display: block;
+            border: 2px solid rgba(255, 85, 85, 0.76);
+            background-color: rgba(241, 232, 232, 0.76);
+            margin: 5px;
+            transition: 0.3s;
+        }
+
+        #link1:hover {
+            font-size: 30px;
+            color: white;
+            background-color: rgb(221, 118, 118);
+            border: 2px solid rgb(182, 50, 50);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .divlast {
+            color: black;
+            padding-bottom: 20px;
+        }
+
+        strong {
+            color: #ec1c24;
+        }
+
+        @keyframes headeranimation {
+            0% {border-radius: 5px;}
+            50% {border-radius: 10px;}
+            100% {border-radius: 5px;}
+        }
+
         @media (prefers-color-scheme: dark) {
             * {
-                background-image: linear-gradient(to right, rgb(56, 44, 44), rgb(29, 27, 27));
                 color: rgb(228, 209, 209);
+            }
+
+            nav {
+                border: 2px solid rgba(82, 67, 67, 0.5);
+                background-color: rgba(49, 41, 41, 0.76);
             }
 
             #div2 {
@@ -101,52 +237,224 @@
 
             html {
                 scrollbar-color: rgb(255, 179, 179) rgb(82, 62, 62);
+                background-image: linear-gradient(to right, rgb(56, 44, 44), rgb(29, 27, 27));
+                background-color: #1d1d1d;
+            }
+
+            sup {
+                background-image: linear-gradient(to right, rgb(56, 44, 44), rgb(29, 27, 27));
+            }
+
+            summary:hover {
+                background-color: rgb(100, 81, 81);
+            }
+
+            .divlast {
+                color: white;
+            }
+
+            #link1 {
+                color: rgb(238, 226, 226);
+                background-color: rgba(49, 41, 41, 0.76);
+                border: 2px solid rgba(255, 166, 166, 0.76);
+            }
+
+            #link1:hover {
+                border: solid rgb(167, 46, 46);
+                background-color: rgb(194, 103, 103);
+                color: black;
+            }
+
+            footer {
+                border: 2px solid rgba(82, 67, 67, 0.5);
+                background-image: url(images/background3.png);
+            }
+
+            .alink {
+                border: 3px solid rgba(255, 166, 166, 0.76);
+                background-color: rgba(43, 36, 36, 0.479);
+            }
+
+            .alink:hover {
+                border: 3px solid rgb(167, 46, 46);
+                background-color: rgb(194, 103, 103);
+                color: black;
+            }
+        }
+
+        @media (max-width: 525px) {
+            .alink {
+                font-size: 18px;
+                border-radius: 4px;
+                border: 2px solid rgba(255, 85, 85, 0.76);
+            }
+
+            .alink:hover {
+                font-size: 18px;
+                border: 2px solid brown;
+            }
+
+            #logo1 {
+                display: none;
+            }
+
+            #logo2 {
+                margin-left: 25px;
+                font-size: 30px;
+                display: inline;
+                color: #ec1c24;
+            }
+
+            @media (prefers-color-scheme: dark) {
+                .alink {
+                    border: 2px solid rgba(255, 166, 166, 0.76);
+                }
+            }
+        }
+
+        @media (max-width: 358px) {
+            .alink {
+                font-size: 17px;
+                border-radius: 3px;
+            }
+
+            .alink:hover {
+                font-size: 17px;
+            }
+
+            .article1 {
+                margin-top: 150px;
+            }
+        }
+
+        @media (max-width: 366px) {
+            .alink {
+                font-size: 17px;
+            }
+
+            .alink:hover {
+                font-size: 17px;
+            }
+        }
+
+        @media (max-width: 356px) {
+            .alink {
+                font-size: 15px;
+            }
+
+            .alink:hover {
+                font-size: 15px;
+            }
+        }
+
+        @media (max-width: 336px) {
+            .alink {
+                font-size: 14px;
+            }
+
+            .alink:hover {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 326px) {
+            .alink {
+                font-size: 13px;
+            }
+
+            .alink:hover {
+                font-size: 13px;
+            }
+        }
+
+        @media (max-width: 308px) {
+            .alink {
+                font-size: 11px;
+            }
+
+            .alink:hover {
+                font-size: 11px;
             }
         }
     </style>
 </head>
 <body>
+    <header>
+        <nav>
+            <p id="logo1">Bero Sato</p>
+            <p id="logo2">B</p>
+            <ul>
+                <li class="list1">
+                    <a class="alink" id="alink1" href="https://berosato.github.io/#home">Home</a>
+                </li>
+                <li class="list1">
+                    <a class="alink" id="alink2" href="https://berosato.github.io/blogs">Blogs</a>
+                </li>
+                <li class="list1">
+                    <a class="alink" id="alink3" href="https://berosato.github.io/#projects">Plans</a>
+                </li>
+                <li class="list1">
+                    <a class="alink" id="alink4" href="https://berosato.github.io/#about">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <div>
         <h1>Blogs</h1>
         <div id="div2"></div>
     </div>
-    <details>
-        <summary>The future of this website <sup>1/29/2022</sup></summary>
-        <p>Hello!</p>
-        <p>I Have been working on this website for almost 1 month now,
-        I have been thinking a lot about what I should add, for now until I finish learning JavaScript,
-        The final touchs I will do for this website is: <br>
-        1. mobile menu for the header <br>
-        2. Blogs page for the website <br>
-        Hopefully I will be able to do these and the last version number will be 2.0 (newer versions will be just a fix for stuff). :)</p>
-        <p id="para2">- Omar</p>
-        <img id="pfp1" width="30" alt="pfp" src="images/logo.png">
-    </details>
-    <details>
-        <summary>Version 1.8 release <sup>1/28/2022</sup></summary>
-        <h4>What's new?</h4>
-        <p>Blogs is here!</p>
-        <img width="300" alt="light mode" src="images/blogspost.png">
-        <h4>Other changes</h4>
-        <p>
-            1. Fixed the header buttons border color on small screens on dark mode
-            <br>
-            2. Changed the latest tweets article background colors a bit in dark mode
-            <br>
-            3. Replaced the QnA button with Blogs button.
-        </p>
-        <h4>Note</h4>
-        <p>This is the last version of the website using HTML and CSS only, the future versions will use both and JavaScript.</p>
-        <p id="para2">- Omar</p>
-        <img id="pfp1" width="30" alt="pfp" src="images/logo.png">
-    </details>
-    <details>
-        <summary>First blog! <sup>1/28/2022</sup></summary>
-        <p>Hello!</p>
-        <p>This is my first blog for this website, I will mostly post about new versions/updates of this website and
-            other projects.</p>
-        <p id="para2">- Omar</p>
-        <img id="pfp1" width="30" alt="pfp" src="images/logo.png">
-    </details>
+        <details>
+            <summary>The new blogs! <sup>1/31/2022</sup></summary>
+            <p>Hello!</p>
+            <p>Blogs has been improved and it does have its own page now, <br>
+                it feels better right? :)</p>
+            <p id="para2">- Omar</p>
+            <img id="pfp1" width="30" alt="pfp" src="images/logoalt.png">
+        </details>
+        <details>
+            <summary>The future of this website <sup>1/29/2022</sup></summary>
+            <p>Hello!</p>
+            <p>I Have been working on this website for almost 1 month now,
+                I have been thinking a lot about what I should add, for now until I finish learning JavaScript,
+                The final touchs I will do for this website is: <br>
+                1. mobile menu for the header <br>
+                2. Blogs page for the website <br>
+                Hopefully I will be able to do these and the last version number will be 2.0 (newer versions will be just a
+                fix for stuff). :)</p>
+            <p id="para2">- Omar</p>
+            <img id="pfp1" width="30" alt="pfp" src="images/logoalt.png">
+        </details>
+        <details>
+            <summary>Version 1.8 release <sup>1/28/2022</sup></summary>
+            <h4>What's new?</h4>
+            <p>Blogs is here!</p>
+            <img width="300" alt="light mode" src="images/blogspost.png">
+            <h4>Other changes</h4>
+            <p>
+                1. Fixed the header buttons border color on small screens on dark mode
+                <br>
+                2. Changed the latest tweets article background colors a bit in dark mode
+            </p>
+            <h4>Note</h4>
+            <p>This is the last version of the website using HTML and CSS only, the future versions will use both and
+                JavaScript.</p>
+            <p id="para2">- Omar</p>
+            <img id="pfp1" width="30" alt="pfp" src="images/logoalt.png">
+        </details>
+        <details class="firstblog">
+            <summary>First blog! <sup>1/28/2022</sup></summary>
+            <p>Hello!</p>
+            <p>This is my first blog for this website, I will mostly post about new versions/updates of this website and
+                other projects.</p>
+            <p id="para2">- Omar</p>
+            <img id="pfp1" width="30" alt="pfp" src="images/logoalt.png">
+        </details>
+    <footer>
+        <div class="divlast">Developed and Designed by <strong>Bero Sato</strong> © 2022</div>
+        <a id="link1" target="_blank" href="https://youtube.com/c/BeroSato">YouTube</a>
+        <a id="link1" target="_blank" href="https://twitter.com/Bero_Sato">Twitter</a>
+        <a id="link1" target="_blank" href="https://github.com/BeroSato-X">Github</a>
+        <a id="link1" target="_blank" href="https://github.com/BeroSato-X/berosato-x.github.io">Source code</a>
+    </footer>
 </body>
 </html>
