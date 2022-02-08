@@ -11,3 +11,8 @@ light mode:
 dark mode:
 
 <img width="637" alt="msedge_fbCY4ed5Qe" src="https://user-images.githubusercontent.com/75726739/151688487-acb11f07-dd5a-4c2d-b823-e0a3c2994af2.png">
+
+## Credits 
+Made with HTML and CSS
+
+Default font: Segoe UI by Steve Matteson
