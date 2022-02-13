@@ -21,6 +21,20 @@
 
         a {
             color: #ec1c24;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer a {
+            color: rgb(51, 43, 43);
+        }
+
+        footer a:hover {
+            color: rgb(138, 94, 94);
         }
 
         sup {
@@ -30,9 +44,11 @@
         footer {
             background-color: #f3ebeb;
             padding-left: 30px;
-            padding-top: 10px;
-            padding-bottom: 25px;
+            padding-top: 1px;
+            padding-bottom: 20px;
             box-shadow: 5px 6px rgb(90, 87, 87);
+            text-align: center;
+            font-size: 20px;
         }
 
         .article1 {
@@ -61,6 +77,19 @@
             border: 3px double rgb(109, 90, 90);
             color: rgb(48, 40, 40);
         }
+
+        .article6 {
+            color: rgb(65, 53, 53);
+            background-color: #b5c5dd;
+            border: 3px double #737e8d;
+            background-repeat: no-repeat;
+            padding-left: 15px;
+            margin-bottom: 15px;
+        }
+
+        #name1 {
+            color: #ec1c24;
+        }
     </style>
 </head>
 <body>
@@ -68,8 +97,8 @@
         <h1 class="header">Bero Sato <sup>Classic</sup></h1>
         <a href="#home">Home</a>
         <a href="https://berosato.github.io/blogs">Blogs</a>
-        <a href="#Plans">Plans</a>
-        <a href="#About">About</a>
+        <a href="#plans">Plans</a>
+        <a href="#about">About</a>
     </header>
     <section>
         <article class="article1" id="home">
@@ -83,21 +112,28 @@
              <h2>Why is this exists?</h2>
              <p>I have made this website for fun, trying HTML and CSS.</p>
              <h2>How many programming languages do you know?</h2>
-             <p>HTML (not a programming language but still counts), CSS and currently learning C#</p>
+             <p>HTML (not a programming language but still counts), CSS and currently learning JavaScript and C#</p>
              <h2>What projects are you planning to do?</h2>
              <p>I'm planning to make a simple UWP app and a Unity Engine game with C#</p>
         </article>
-        <article class="article3" id="projects">
-            <h2>List of my projects:</h2>
+        <article class="article3" id="plans">
+            <h2>List of my plans:</h2>
             <ol>
                 <li>A simple UWP app</li>
                 <li>The <b>Kart Racing</b> game</li>
                 <li><del>private</del></li>
             </ol>
         </article>
+        <article class="article6">
+            <h2>About this website</h2>
+            <h3>Made with HTML and CSS</h3>
+            <strong>Version: 0.5_Pre-release</strong>
+            <h3>This website is made for fun.</h3>
+            <em>modifed in 2/13/2022</em>
+        </article>
     </section>
     <footer>
-        <h4>Developed and designed by Bero Sato © 2022</h4>
+        <h4>Developed and designed by <strong id="name1">Bero Sato</strong> © 2022</h4>
         <a href="https://youtube.com/c/BeroSato">YouTube</a>
         <a href="https://twitter.com/Bero_Sato">Twitter</a>
         <a href="https://github.com/BeroSato">GitHub</a>
