@@ -19,9 +19,8 @@
             box-shadow: 5px 6px rgb(90, 87, 87);
         }
 
-        h2 {
-            text-align: center;
-            font-size: 30px;
+        a {
+            color: #ec1c24;
         }
 
         sup {
@@ -35,20 +34,68 @@
             padding-bottom: 25px;
             box-shadow: 5px 6px rgb(90, 87, 87);
         }
+
+        .article1 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding-left: 20px;
+            background-color: rgb(226, 218, 207);
+            border: 3px double rgb(139, 133, 124);
+            color: rgb(63, 60, 52);
+        }
+
+        .article2 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding-left: 20px;
+            background-color: rgb(174, 198, 199);
+            border: 3px double rgb(107, 124, 124);
+            color: rgb(36, 43, 43);
+        }
+
+        .article3 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding-left: 20px;
+            background-color: rgb(212, 174, 174);
+            border: 3px double rgb(109, 90, 90);
+            color: rgb(48, 40, 40);
+        }
     </style>
 </head>
 <body>
     <header>
         <h1 class="header">Bero Sato <sup>Classic</sup></h1>
         <a href="#home">Home</a>
-        <a href="#blogs">Blogs</a>
+        <a href="https://berosato.github.io/blogs">Blogs</a>
         <a href="#Plans">Plans</a>
         <a href="#About">About</a>
     </header>
-    <h2>Coming soon!</h2>
-    <hr>
-    <a href="https://berosato.github.io">Go back here</a>
-    <hr>
+    <section>
+        <article class="article1" id="home">
+            <h2>Welcome to my website!</h2>
+            <p>I'm Bero Sato and i'm a normal person who loves nerding.</p>
+        </article>
+        <article class="article2" id="qna">
+            <h2>Who are you?</h2>
+            <p>I'm Bero, my real name is omar and I like some tech stuff and trying to explore them.
+             I also love reading manga and watching some animes and I'm a huge fan of HTC :) </p>
+             <h2>Why is this exists?</h2>
+             <p>I have made this website for fun, trying HTML and CSS.</p>
+             <h2>How many programming languages do you know?</h2>
+             <p>HTML (not a programming language but still counts), CSS and currently learning C#</p>
+             <h2>What projects are you planning to do?</h2>
+             <p>I'm planning to make a simple UWP app and a Unity Engine game with C#</p>
+        </article>
+        <article class="article3" id="projects">
+            <h2>List of my projects:</h2>
+            <ol>
+                <li>A simple UWP app</li>
+                <li>The <b>Kart Racing</b> game</li>
+                <li><del>private</del></li>
+            </ol>
+        </article>
+    </section>
     <footer>
         <h4>Developed and designed by Bero Sato © 2022</h4>
         <a href="https://youtube.com/c/BeroSato">YouTube</a>
