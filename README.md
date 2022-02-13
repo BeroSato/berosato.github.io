@@ -1,8 +1,10 @@
 ## Info
 This is my first website made for fun to try HTML and CSS.
 
-## Link
+## Links
 https://berosato.github.io
+
+https://berosato.github.io/classic
 
 ## Theme
 light mode:
