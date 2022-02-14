@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bero Sato's Classic Style Website">
+    <meta name="description" content="Bero Sato's Classic Website">
     <title>Bero Sato's Website</title>
     <link rel="shortcut icon" href="images/websiteicon.png" type="image/x-icon">
     <style>
@@ -27,6 +27,7 @@
             color: #ec1c24;
             text-decoration: none;
             font-size: 20px;
+            cursor: pointer;
         }
 
         a:hover {
@@ -99,6 +100,18 @@
             color: #ec1c24;
         }
 
+        #logo1 {
+            cursor: default;
+        }
+
+        .navbar {
+            cursor: default;
+        }
+
+        .footernav {
+            cursor: default;
+        }
+
         @media (prefers-color-scheme: dark) {
             html {
                 background-image: url(images/background3.jpg);
@@ -153,11 +166,13 @@
 </head>
 <body>
     <header>
-        <h1 class="header">Bero Sato <sup>Classic</sup></h1>
-        <a href="#home">Home</a>
-        <a href="https://berosato.github.io/blogs">Blogs</a>
-        <a href="#plans">Plans</a>
-        <a href="#about">About</a>
+        <h1 id="logo1">Bero Sato <sup>Classic</sup></h1>
+        <div class="navbar">
+            <a href="#home">Home</a>
+            <a href="https://berosato.github.io/blogs">Blogs</a>
+            <a href="#plans">Plans</a>
+            <a href="#about">About</a>
+        </div>
     </header>
     <section>
         <article class="article1" id="home">
@@ -193,10 +208,12 @@
     </section>
     <footer>
         <h4>Developed and designed by <strong id="name1">Bero Sato</strong> © 2022</h4>
-        <a href="https://youtube.com/c/BeroSato">YouTube</a>
-        <a href="https://twitter.com/Bero_Sato">Twitter</a>
-        <a href="https://github.com/BeroSato">GitHub</a>
-        <a href="https://github.com/BeroSato/berosato.github.io">Source Code</a>
+        <div class="footernav">
+            <a href="https://youtube.com/c/BeroSato">YouTube</a>
+            <a href="https://twitter.com/Bero_Sato">Twitter</a>
+            <a href="https://github.com/BeroSato">GitHub</a>
+            <a href="https://github.com/BeroSato/berosato.github.io">Source Code</a>
+        </div>
     </footer>
 </body>
 </html>
