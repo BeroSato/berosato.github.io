@@ -17,10 +17,10 @@ dark mode:
 ## Classic Theme
 light mode:
 
-<img width="637" alt="msedge_xVZcuWPwNd" src="https://user-images.githubusercontent.com/75726739/153752022-f0f3b160-0ee0-403b-b936-97d78e895c8a.png">
+<img width="637" alt="msedge_XrREo4mt2U" src="https://user-images.githubusercontent.com/75726739/153862438-9de4cb49-7336-42a0-aac0-9d49462f5c5a.png">
 dark mode:
   
-[soon]
+<img width="637" alt="msedge_5SgrYT0vQs" src="https://user-images.githubusercontent.com/75726739/153862468-84025a33-7200-40da-8d53-2b773f548897.png">
 
 ## Credits 
 Made with HTML and CSS
