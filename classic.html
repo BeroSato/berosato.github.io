@@ -87,10 +87,9 @@
         }
 
         .article6 {
-            color: rgb(65, 53, 53);
+            color: rgb(53, 59, 65);
             background-color: #b5c5dd;
             border: 3px double #737e8d;
-            background-repeat: no-repeat;
             padding-left: 20px;
             margin-bottom: 15px;
             padding-bottom: 20px;
@@ -98,6 +97,57 @@
 
         #name1 {
             color: #ec1c24;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            html {
+                background-image: url(images/background3.jpg);
+            }
+
+            header {
+                background-image: linear-gradient(to right, #3b3232, #1f1d1d);
+                border: 2px solid rgba(82, 67, 67, 0.5);
+                box-shadow: 3px 3px rgb(0, 0, 0);
+            }
+
+            .article1 {
+                color: rgb(226, 212, 196);
+                background-color: rgb(87, 80, 71);
+                border: 3px double rgb(124, 114, 101);
+            }
+
+            .article2 {
+                color: rgb(181, 209, 209);
+                background-color: rgb(56, 66, 66);
+                border: 3px double rgb(85, 100, 100);
+            }
+
+            .article3 {
+                color: rgb(221, 195, 195);
+                background-color: rgb(78, 57, 57);
+                border: 3px double rgb(116, 84, 84);
+            }
+
+            .article6 {
+                color: rgb(213, 222, 231);
+                background-color: #475261;
+                border: 3px double #636c7a;
+            }
+
+            footer {
+                background-color: #3b3232;
+                border: 2px solid rgba(82, 67, 67, 0.5);
+                box-shadow: 3px 3px rgb(0, 0, 0);
+                color: white;
+            }
+
+            footer a {
+                color: rgb(240, 230, 230);
+            }
+
+            footer a:hover {
+                color: rgb(167, 123, 123);
+            }
         }
     </style>
 </head>
@@ -136,9 +186,9 @@
         <article class="article6">
             <h2>About this website:</h2>
             <h3>Made with HTML and CSS</h3>
-            <strong>Version: 0.5_Pre-release</strong>
+            <strong>Version: 0.7_Pre-release</strong>
             <h3>This website is made for fun.</h3>
-            <em>modifed in 2/13/2022</em>
+            <em>modifed in 2/14/2022</em>
         </article>
     </section>
     <footer>
