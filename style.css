@@ -361,14 +361,16 @@ em {
     }
 
     .article6 {
-        background-color: rgb(27, 25, 25);
-        background-image: linear-gradient(to right, #423737, rgb(27, 25, 25));
-        color: rgb(219, 199, 199);
+        background-image: linear-gradient(to right, rgb(67, 85, 100), rgb(42, 47, 51));
+        color: rgb(199, 208, 219);
+        background-color: #1d1d1d;
+        border-top: 4px double rgb(67, 85, 100);
     }
 
     details {
-        background-color: rgb(39, 35, 35);
-        color: rgb(219, 199, 199);
+        background-image: linear-gradient(to right, rgb(67, 85, 100), rgb(42, 47, 51));
+        border: 4px double rgb(67, 85, 100);
+        color: rgb(199, 208, 219);
     }
 
     .links {
