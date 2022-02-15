@@ -4,11 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bero Sato's Classic Style Website">
+    <meta name="description" content="Bero Sato's Classic Website">
     <title>Bero Sato's Website</title>
     <link rel="shortcut icon" href="images/websiteicon.png" type="image/x-icon">
     <style>
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+   
+        ::-webkit-scrollbar-track {
+            background-color: rgb(238, 226, 226);
+            border: 2px solid rgb(211, 191, 191);
+        }
+   
+        ::-webkit-scrollbar-thumb {
+            background-color: rgb(255, 179, 179);
+            border: 3px double rgb(201, 140, 140);
+        }
+
         html {
+            scrollbar-color: rgb(255, 179, 179) rgb(255, 235, 235);
+            scrollbar-width: 10px;
             background-image: url(images/background3.2.jpg);
         }
 
@@ -57,6 +73,18 @@
             font-size: 20px;
         }
 
+        p {
+            font-size: 20px;
+        }
+
+        li {
+            font-size: 20px;
+        }
+
+        em {
+            font-size: 20px;
+        }
+
         .article1 {
             margin-top: 10px;
             margin-bottom: 10px;
@@ -87,12 +115,62 @@
             padding-bottom: 5px;
         }
 
-        .article6 {
-            color: rgb(53, 59, 65);
-            background-color: #b5c5dd;
-            border: 3px double #737e8d;
+        .article4 {
+            background-color: #c9b39a;
+            color: #2e2926;
             padding-left: 20px;
+            border: 3px double #6e6254;
+            margin-bottom: 10px;
+        }
+
+        .vidlink {
+            padding-bottom: 4px;
+            display: block;
+            color: #2e2926;
+            text-decoration: none;
+            text-align: left;
+        }
+
+        .vidlink:hover {
+            color: white;
+            text-decoration: underline;
+        }
+
+        #vidlink4 {
             margin-bottom: 15px;
+        }
+
+        .article5 {
+            background-color: #9ac9c9;
+            color: #2d3636;
+            padding-left: 20px;
+            border: 3px double #587272;
+            margin-bottom: 10px;
+        }
+
+        .tweetlink {
+            padding-bottom: 4px;
+            display: block;
+            color: #2d3636;
+            text-decoration: none;
+            text-align: left;
+        }
+
+        .tweetlink:hover {
+            color: white;
+            text-decoration: underline;
+        }
+
+        #tweetlink4 {
+            margin-bottom: 15px;
+        }
+
+        .article6 {
+            color: rgb(49, 55, 61);
+            background-color: rgb(175, 203, 226);
+            border: 3px double rgb(110, 128, 143);
+            padding-left: 20px;
+            margin-bottom: 10px;
             padding-bottom: 20px;
         }
 
@@ -115,6 +193,7 @@
         @media (prefers-color-scheme: dark) {
             html {
                 background-image: url(images/background3.jpg);
+                scrollbar-color: rgb(255, 179, 179) rgb(82, 62, 62);
             }
 
             header {
@@ -141,10 +220,38 @@
                 border: 3px double rgb(116, 84, 84);
             }
 
+            .article4 {
+                background-color: #504539;
+                color: #ddd0c1;
+                border: 3px double #776858;
+            }
+
+            .vidlink {
+                color: #ddd0c1;
+            }
+
+            .vidlink:hover {
+                color: black;
+            }
+
+            .article5 {
+                background-color: #304646;
+                color: #b7d6d6;
+                border: 3px double #4f7272;
+            }
+
+            .tweetlink {
+                color: #b7d6d6;
+            }
+
+            .tweetlink:hover {
+                color: black;
+            }
+
             .article6 {
-                color: rgb(213, 222, 231);
-                background-color: #475261;
-                border: 3px double #636c7a;
+                color: rgb(199, 208, 219);
+                background-color: rgb(67, 85, 100);
+                border: 3px double rgb(105, 127, 148);
             }
 
             footer {
@@ -160,6 +267,15 @@
 
             footer a:hover {
                 color: rgb(167, 123, 123);
+            }
+
+            ::-webkit-scrollbar-thumb {
+                background-color: rgb(179, 114, 114);
+            }
+
+            ::-webkit-scrollbar-track {
+                background-color: rgb(51, 41, 41);
+                border: 2px solid rgb(95, 89, 89);
             }
         }
     </style>
@@ -198,12 +314,26 @@
                 <li><del>private</del></li>
             </ol>
         </article>
-        <article class="article6">
+        <article class="article4">
+            <h2>Latest 4 videos:</h2>
+            <a class="vidlink" href="https://youtu.be/fUp3MXwbonM">Windows 7 in 2022</a>
+            <a class="vidlink" href="https://youtu.be/_Jx1tMnM1qo">Windows 11 with 500% scaling</a>
+            <a class="vidlink" href="https://youtu.be/wQ82H3IhKwo">Let's take a look at the first Enterprise LTSB of Windows 10 (LTSB 2015)</a>
+            <a class="vidlink" id="vidlink4" href="https://youtu.be/ZLlhzmmPurk">Windows Vista in 2021</a>
+        </article>
+        <article class="article5">
+            <h2>Latest 4 tweets:</h2>
+            <a class="tweetlink" href="https://twitter.com/Bero_Sato/status/1492081271870300206">Just joined the @windowsinsider beta channel!</a>
+            <a class="tweetlink" href="https://twitter.com/Bero_Sato/status/1490292235300229124">Had fun with Windows 10X today ...</a>
+            <a class="tweetlink" href="https://twitter.com/Bero_Sato/status/1489309089834360832">Looks like those computer stores are still using Windows 11 Build 22000.9 :/</a>
+            <a class="tweetlink" id="tweetlink4" href="https://twitter.com/Bero_Sato/status/1488212520276004873">that's why I didn't add the mobile menu in the header ...</a>
+        </article>
+        <article class="article6" id="about">
             <h2>About this website:</h2>
-            <h3>Made with HTML and CSS</h3>
-            <strong>Version: 0.7_Pre-release</strong>
-            <h3>This website is made for fun.</h3>
-            <em>modifed in 2/14/2022</em>
+            <p>Made with HTML and CSS</p>
+            <p>Version: 2.1</p>
+            <p>This website is made for fun.</p>
+            <em>modifed in 2/15/2022</em>
         </article>
     </section>
     <footer>
