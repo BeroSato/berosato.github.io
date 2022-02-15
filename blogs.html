@@ -181,7 +181,17 @@
             text-shadow: 2px 2px 20px #2b2b2b;
         }
 
-        #link1 {
+        #linkfirst {
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+        }
+
+        #linklast {
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        .links {
             text-shadow: 0 0 0;
             color: rgb(51, 43, 43);
             display: block;
@@ -191,11 +201,11 @@
             transition: 0.3s;
         }
 
-        #link1:hover {
+        .links:hover {
             font-size: 30px;
             color: white;
-            background-color: rgb(221, 118, 118);
-            border: 2px solid rgb(182, 50, 50);
+            background-color: rgb(206, 97, 97);
+            border: 2px solid brown;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
 
@@ -257,13 +267,13 @@
                 color: white;
             }
 
-            #link1 {
+            .links {
                 color: rgb(238, 226, 226);
                 background-color: rgba(49, 41, 41, 0.76);
                 border: 2px solid rgba(255, 166, 166, 0.76);
             }
 
-            #link1:hover {
+            .links:hover {
                 border: 2px solid rgb(167, 46, 46);
                 background-color: rgb(194, 103, 103);
                 color: black;
@@ -503,10 +513,10 @@
         </details>
     <footer>
         <div class="divlast">Developed and Designed by <strong>Bero Sato</strong> © 2022</div>
-        <a id="link1" target="_blank" href="https://youtube.com/c/BeroSato">YouTube</a>
-        <a id="link1" target="_blank" href="https://twitter.com/Bero_Sato">Twitter</a>
-        <a id="link1" target="_blank" href="https://github.com/BeroSato-X">GitHub</a>
-        <a id="link1" target="_blank" href="https://github.com/BeroSato-X/berosato-x.github.io">Source Code</a>
+        <a id="linkfirst" class="links" href="https://youtube.com/c/BeroSato">YouTube</a>
+        <a id="link1" class="links" href="https://twitter.com/Bero_Sato">Twitter</a>
+        <a id="link1" class="links" href="https://github.com/BeroSato-X">GitHub</a>
+        <a id="linklast" class="links" href="https://github.com/BeroSato-X/berosato-x.github.io">Source Code</a>
     </footer>
 </body>
 </html>
