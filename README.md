@@ -9,20 +9,20 @@ https://berosato.github.io/classic
 ## Theme
 light mode:
 
-<img width="637" alt="msedge_JtpYn94xfv" src="https://user-images.githubusercontent.com/75726739/151688469-2debf088-00f3-4350-a4c4-2f881c6693aa.png">
+<img width="639" alt="msedge_JjdRNNuivU" src="https://user-images.githubusercontent.com/75726739/154852368-e053725c-8dfb-4581-913c-70e00fbc099a.png">
 
 dark mode:
 
-<img width="637" alt="msedge_fbCY4ed5Qe" src="https://user-images.githubusercontent.com/75726739/151688487-acb11f07-dd5a-4c2d-b823-e0a3c2994af2.png">
+<img width="639" alt="msedge_v317hbxU6G" src="https://user-images.githubusercontent.com/75726739/154852390-58451e23-c134-45f5-9b3d-433fcd136935.png">
 
 ## Classic Theme
 light mode:
 
-<img width="637" alt="msedge_nZqAq8xlJs" src="https://user-images.githubusercontent.com/75726739/154253737-52a4c13e-30cc-4d7a-ab3b-2d1ee2f16f14.png">
+<img width="639" alt="msedge_HB14AfmW9A" src="https://user-images.githubusercontent.com/75726739/154852406-9e5e2fb7-82dd-4a5d-b7de-3baf13e3d87d.png">
 
 dark mode:
   
-<img width="637" alt="msedge_cjAZ8TUmVD" src="https://user-images.githubusercontent.com/75726739/154253764-eed7e5f3-7c77-4968-bbb0-afbe26858a66.png">
+<img width="639" alt="msedge_xlcaCuCQ6G" src="https://user-images.githubusercontent.com/75726739/154852414-ba7405e0-1cdb-4757-b744-404eb977901e.png">
 
 ## Credits 
 Made with HTML and CSS
