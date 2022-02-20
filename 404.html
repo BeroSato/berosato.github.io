@@ -18,20 +18,20 @@
         }
 
         nav {
-            border: 2px solid rgba(224, 208, 208, 0.5);
             margin: 8px 0;
-            margin-right: 100px;
+            border: 3px double rgba(224, 208, 208, 0.5);
             width: 100%;
             display: flex;
             align-items: center;
             justify-content: space-between;
             background-color: rgba(241, 232, 232, 0.76);
             position: fixed;
+            animation: headeranimation 3s 1;
             border-radius: 5px;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             top: 0;
-            backdrop-filter: blur(15px);
-            -webkit-backdrop-filter: blur(15px);
+            backdrop-filter: blur(13px);
+            -webkit-backdrop-filter: blur(13px);
         }
 
         ul {
@@ -45,22 +45,30 @@
             text-decoration: none;
             padding: 1px;
             font-size: 20px;
-            border: 3px solid rgba(255, 85, 85, 0.76);
-            border-radius: 5px;
+            border: 4px double rgba(243, 37, 37, 0.76);
             cursor: pointer;
-            transition: all 0.3s;
+            transition: all 0.2s;
+        }
+
+        .alink:hover {
+            border: 4px double #99292d;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-color: rgb(197, 96, 96);
+            background-image: linear-gradient(to right, rgb(197, 96, 96), rgb(214, 181, 181));
+            background-repeat: no-repeat;
+            color: white;
+        }
+
+        .alink:focus {
+            border: 4px double rgb(99, 167, 99);
+            background-color: rgb(116, 197, 96);
+            color: rgb(54, 99, 54);
+            background-image: linear-gradient(to right, rgb(116, 197, 96), rgb(185, 214, 181));
+            background-repeat: no-repeat;
         }
 
         #alinkalt {
             margin-right: 32px;
-        }
-
-        .alink:hover {
-            border: 3px solid rgb(182, 50, 50);
-            font-size: 25px;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            background-color: rgb(221, 118, 118);
-            color: white;
         }
 
         #alinkback {
@@ -88,14 +96,14 @@
         }
 
         footer {
-            border: 2px solid rgba(224, 208, 208, 0.5);
+            border: 3px double rgba(224, 208, 208, 0.5);
+            color: rgb(51, 43, 43);
             background-image: linear-gradient(to right, rgb(221, 200, 200), rgb(245, 235, 235));
             background-repeat: no-repeat;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             padding: 20px 0;
             border-radius: 5px;
             text-shadow: 2px 2px 20px #2b2b2b;
-            color: rgb(51, 43, 43);
         }
 
         #logo2 {
@@ -114,7 +122,7 @@
             }
 
             nav {
-                border: 2px solid rgba(82, 67, 67, 0.5);
+                border: 3px double rgba(82, 67, 67, 0.5);
                 background-color: rgba(49, 41, 41, 0.76);
             }
 
@@ -127,14 +135,21 @@
             }
 
             .alink {
-                border: 3px solid rgba(255, 166, 166, 0.76);
+                border: 4px double rgba(240, 69, 69, 0.76);
                 background-color: rgba(43, 36, 36, 0.479);
             }
 
             .alink:hover {
-                border: 3px solid rgb(167, 46, 46);
-                background-color: rgb(194, 103, 103);
+                border: 4px double #d17373;
+                background-color: rgb(153, 76, 76);
+                background-image: linear-gradient(to right, rgb(153, 76, 76), rgb(88, 61, 61));
                 color: black;
+            }
+
+            .alink:focus {
+                color: rgb(160, 212, 160);
+                background-color: rgb(99, 161, 84);
+                background-image: linear-gradient(to right, rgb(99, 161, 84), rgb(64, 83, 61));
             }
 
             footer {
