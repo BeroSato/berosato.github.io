@@ -145,6 +145,14 @@
             margin: 0 5px;
         }
 
+        summary:focus {
+            border-radius: 3px;
+            margin: 0 5px;
+            color: rgb(54, 99, 54);
+            background-image: linear-gradient(to right, rgb(116, 197, 96), rgb(185, 214, 181));
+            border-left: 2px solid rgb(116, 197, 96);
+        }
+
         img {
             border-radius: 5px;
             margin-left: 10px;
@@ -282,6 +290,12 @@
 
             summary:hover {
                 background-image: linear-gradient(to right, rgb(100, 81, 81), rgb(49, 41, 41));
+            }
+
+            summary:focus {
+                color: rgb(160, 212, 160);
+                background-image: linear-gradient(to right, rgb(99, 161, 84), rgb(64, 83, 61));
+                border-left: 2px solid rgb(99, 161, 84);
             }
 
             .divlast {
