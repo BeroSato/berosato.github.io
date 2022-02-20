@@ -453,6 +453,7 @@ em {
 
     footer {
         border: 3px double rgba(82, 67, 67, 0.5);
+        color: rgb(238, 226, 226);
         background-image: url(images/background3.png);
     }
 
