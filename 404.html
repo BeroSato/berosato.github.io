@@ -13,8 +13,33 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+   
+        ::-webkit-scrollbar-track {
+            background-color: rgb(238, 226, 226);
+            border: 3px double rgb(211, 191, 191);
+            border-radius: 3px;
+        }
+   
+        ::-webkit-scrollbar-thumb {
+            background-color: rgb(255, 179, 179);
+            background-image: linear-gradient(to bottom, rgb(255, 179, 179), rgb(255, 227, 227));
+            background-repeat: no-repeat;
+            border: 3px double rgb(201, 140, 140);
+            border-radius: 3px;
+        }
+   
+        ::-webkit-scrollbar-thumb:hover {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-image: linear-gradient(to bottom, rgb(221, 159, 159), rgb(218, 192, 192));
+        }
+
         html {
-            background-image: url(images/background3.2.png);
+            background-image: url(images/background3.2.jpg);
+            scrollbar-color: rgb(255, 179, 179) rgb(255, 235, 235);
+            scrollbar-width: 10px;
         }
 
         nav {
@@ -114,6 +139,7 @@
 
         @media (prefers-color-scheme: dark) {
             html {
+                scrollbar-color: rgb(255, 179, 179) rgb(82, 62, 62);
                 background-color: #1d1d1d;
                 background-image: url(images/background3.png);
                 color: white;
@@ -155,6 +181,21 @@
                 background-image: linear-gradient(to right, rgb(83, 59, 59), rgb(39, 36, 36));
                 border: 4px double rgba(82, 67, 67, 0.5);
                 color: rgb(238, 226, 226);
+            }
+
+            ::-webkit-scrollbar-thumb {
+                background-color: rgb(179, 114, 114);
+                background-image: linear-gradient(to bottom, rgb(179, 114, 114), rgb(104, 69, 69));
+            }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background-image: linear-gradient(to bottom, rgb(146, 94, 94), rgb(71, 47, 47));
+            }
+
+            ::-webkit-scrollbar-track {
+                background-color: rgb(51, 41, 41);
+                border: 3px double rgb(95, 89, 89);
+                border-radius: 3px;
             }
         }
 
