@@ -27,7 +27,7 @@
     }
 
 html {
-    scrollbar-color: rgb(255, 179, 179) rgb(255, 235, 235);
+    scrollbar-color: rgb(245, 235, 235) rgb(221, 200, 200);
     scrollbar-width: 10px;
     scroll-behavior: smooth;
     background-color: #f8f8f8;
@@ -492,7 +492,7 @@ em {
         }
     
     html {
-        scrollbar-color: rgb(255, 179, 179) rgb(82, 62, 62);
+        scrollbar-color: rgb(83, 59, 59) rgb(39, 36, 36);
     }
 }
 
