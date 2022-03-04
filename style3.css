@@ -1,0 +1,218 @@
+* {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+   
+::-webkit-scrollbar-track {
+    background-color: rgb(241, 231, 231);
+    border: 3px double rgb(221, 203, 203);
+    border-radius: 3px;
+}
+   
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom, rgb(243, 229, 229), rgb(247, 241, 241));
+    background-repeat: no-repeat;
+    border: 3px double rgb(201, 179, 179);
+    border-radius: 3px;
+}
+   
+::-webkit-scrollbar-thumb:hover {
+    box-shadow: 0 4px 8px 0 rgba(48, 28, 28, 0.26);
+    background-image: linear-gradient(to bottom, rgb(235, 219, 219), rgb(238, 226, 226));
+}
+
+html {
+    background-image: url(images/background3.2.jpg);
+    scrollbar-color: rgb(201, 179, 179) rgb(241, 231, 231);
+    scrollbar-width: 10px;
+    animation: startupa 1s 1;
+}
+
+nav {
+    border-bottom: 3px double rgba(224, 208, 208, 0.5);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(241, 232, 232, 0.76);
+    position: fixed;
+    box-shadow: 0 4px 8px 0 rgba(48, 28, 28, 0.26);
+    top: 0;
+    backdrop-filter: blur(13px);
+    -webkit-backdrop-filter: blur(13px);
+    padding: 13px;
+}
+
+ul {
+    list-style: none;
+    cursor: default;
+}
+
+.alink {
+    color: #ec1c24;
+    background-color: rgba(255, 255, 255, 0.479);
+    text-decoration: none;
+    padding: 1px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 4px double rgb(238, 172, 172);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.alink:hover {
+    border: 4px double #c49091;
+    box-shadow: 0 4px 8px 0 rgba(48, 28, 28, 0.26);
+    background-image: linear-gradient(to right, rgb(233, 217, 217), rgb(245, 238, 238));
+    background-repeat: no-repeat;
+    color: rgb(51, 43, 43);
+}
+
+.alink:focus {
+    border: 4px double rgb(146, 194, 146);
+    color: rgb(54, 99, 54);
+    background-image: linear-gradient(to right, rgb(183, 211, 176), rgb(222, 235, 221));
+    background-repeat: no-repeat;
+}
+
+#alinkalt {
+    margin-right: 22px;
+}
+
+#alinkback {
+    font-size: 30px;
+}
+
+#logo1 {
+    color: #ec1c24;
+    margin-left: 25px;
+    cursor: default;
+    font-size: 30px;
+}
+
+h1 {
+    margin-top: 150px;
+    font-size: 70px;
+    color: #4b3939;
+}
+
+p {
+    color: #4b3939;
+    font-size: 30px;
+}
+
+footer {
+    margin-top: 150px;
+    border: 3px double rgba(224, 208, 208, 0.5);
+    color: rgb(51, 43, 43);
+    background-color: rgba(241, 232, 232, 0.76);
+    background-image: linear-gradient(to right, rgb(247, 238, 238), rgb(248, 245, 245));
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px 0 rgba(48, 28, 28, 0.26);
+    padding: 20px 0;
+    border-radius: 5px;
+    font-size: 28px;
+    text-shadow: 2px 2px 40px #1d1d1d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#logo2 {
+    display: none;
+}
+
+strong {
+    color: #ec1c24;
+}
+
+@keyframes startupa {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        scrollbar-color: rgb(129, 96, 96) rgb(51, 41, 41);
+        background-color: #1d1d1d;
+        background-image: url(images/background3.jpg);
+        color: white;
+    }
+
+    nav {
+        border-bottom: 3px double rgba(82, 67, 67, 0.5);
+        background-color: rgba(49, 41, 41, 0.76);
+        box-shadow: 0 4px 8px 0 rgba(158, 101, 101, 0.26);
+    }
+
+    h1 {
+        color: #e4d4d4;
+    }
+
+    p {
+        color: #e4d4d4;
+    }
+
+    .alink {
+        background-color: rgba(49, 41, 41, 0.76);
+        border: 4px double rgb(112, 57, 57);
+    }
+
+    .alink:hover {
+        border: 4px double #584141;
+        box-shadow: 0 4px 8px 0 rgba(158, 101, 101, 0.26);
+        background-image: linear-gradient(to right, rgb(66, 49, 49), rgb(46, 38, 38));
+        color: rgb(238, 226, 226);
+    }
+
+    .alink:focus {
+        color: rgb(160, 212, 160);
+        border: 4px double rgb(89, 112, 84);
+        background-image: linear-gradient(to right, rgb(67, 87, 61), rgb(39, 46, 38));
+    }
+
+    footer {
+        background-color: rgba(49, 41, 41, 0.76);
+        background-image: linear-gradient(to right, rgb(43, 36, 36), rgb(39, 36, 36));
+        box-shadow: 0 4px 8px 0 rgba(158, 101, 101, 0.26);
+        border: 3px double rgba(82, 67, 67, 0.5);
+        color: rgb(238, 226, 226);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-image: linear-gradient(to bottom, rgb(58, 48, 48), rgb(39, 35, 35));
+        border: 3px double rgb(129, 96, 96);
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-image: linear-gradient(to bottom, rgb(80, 59, 59), rgb(59, 49, 49));
+        box-shadow: 0 4px 8px 0 rgba(158, 101, 101, 0.26);
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: rgb(51, 41, 41);
+        border: 3px double rgb(95, 89, 89);
+        border-radius: 3px;
+    }
+}
+
+@media (max-width: 320px) {
+    #logo1 {
+        display: none;
+    }
+
+    #logo2 {
+        display: inline;
+        margin-left: 25px;
+        color: #ec1c24;
+    }
+}

@@ -6,408 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bero Sato's Website - Blogs</title>
     <link rel="shortcut icon" href="images/websiteicon.png" type="image/x-icon">
-    <style>
-        * {
-            font-size: 30px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: rgb(48, 40, 40);
-        }
-
-        ::-webkit-scrollbar {
-            width: 10px;
-        }
-   
-        ::-webkit-scrollbar-track {
-            background-color: rgb(238, 226, 226);
-            border: 3px double rgb(211, 191, 191);
-            border-radius: 3px;
-        }
-   
-        ::-webkit-scrollbar-thumb {
-            background-color: rgb(255, 179, 179);
-            background-image: linear-gradient(to bottom, rgb(255, 179, 179), rgb(255, 227, 227));
-            background-repeat: no-repeat;
-            border: 3px double rgb(201, 140, 140);
-            border-radius: 3px;
-        }
-   
-        ::-webkit-scrollbar-thumb:hover {
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            background-image: linear-gradient(to bottom, rgb(221, 159, 159), rgb(218, 192, 192));
-        }
-
-        html {
-            scrollbar-color: rgb(255, 179, 179) rgb(255, 235, 235);
-            scrollbar-width: 10px;
-            background-color: rgb(252, 247, 247);
-            background-image: linear-gradient(to right, rgb(233, 216, 216), rgb(252, 247, 247));
-        }
-
-        nav {
-            margin: 8px 0;
-            border: 3px double rgba(224, 208, 208, 0.5);
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            background-color: rgba(241, 232, 232, 0.76);
-            position: fixed;
-            animation: headeranimation 3s 1;
-            border-radius: 5px;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            top: 0;
-            backdrop-filter: blur(13px);
-            -webkit-backdrop-filter: blur(13px);
-        }
-
-        ul {
-            list-style: none;
-            cursor: default;
-        }
-
-        .list1 {
-            display: inline-block;
-            margin-right: 1px;
-        }
-
-        #alink4 {
-            margin-right: 32px;
-        }
-
-        nav a {
-            color: black;
-            text-decoration: none;
-        }
-
-        .alink {
-            color: #ec1c24;
-            background-color: rgba(255, 255, 255, 0.479);
-            text-decoration: none;
-            padding: 1px;
-            font-size: 20px;
-            border: 4px double rgba(243, 37, 37, 0.76);
-            cursor: pointer;
-            transition: all 0.2s;
-        }
-
-        .alink:hover {
-            border: 4px double #99292d;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            background-color: rgb(197, 96, 96);
-            background-image: linear-gradient(to right, rgb(197, 96, 96), rgb(214, 181, 181));
-            background-repeat: no-repeat;
-            color: white;
-        }
-
-        .alink:focus {
-            border: 4px double rgb(99, 167, 99);
-            background-color: rgb(116, 197, 96);
-            color: rgb(54, 99, 54);
-            background-image: linear-gradient(to right, rgb(116, 197, 96), rgb(185, 214, 181));
-            background-repeat: no-repeat;
-        }
-
-        #alink1 {
-            border-top-left-radius: 5px;
-            border-bottom-left-radius: 5px;
-        }
-
-        #alink4 {
-            border-top-right-radius: 5px;
-            border-bottom-right-radius: 5px;
-        }
-
-        #logo1 {
-            margin-left: 25px;
-            font-size: 30px;
-            color: #ec1c24;
-            cursor: default;
-        }
-
-        #logo2 {
-            display: none;
-        }
-
-        h1 {
-            margin-top: 127px;
-            padding-left: 15px;
-        }
-
-        summary {
-            font-size: 25px;
-            padding-left: 14px;
-            border-left: 2px solid rgb(197, 176, 176);
-            transition: all 0.2s;
-        }
-
-        summary:hover {
-            background-image: linear-gradient(to right, rgb(197, 176, 176), rgb(240, 228, 228));
-            border-radius: 3px;
-            margin: 0 5px;
-        }
-
-        summary:focus {
-            border-radius: 3px;
-            margin: 0 5px;
-            color: rgb(54, 99, 54);
-            background-image: linear-gradient(to right, rgb(116, 197, 96), rgb(185, 214, 181));
-            border-left: 2px solid rgb(116, 197, 96);
-        }
-
-        img {
-            border-radius: 5px;
-            margin-left: 10px;
-        }
-
-        .firstblog {
-            margin-bottom: 15px;
-        }
-
-        p {
-            font-size: 20px;
-            margin-left: 10px;
-        }
-
-        #div2 {
-            border-bottom: 2px solid rgb(202, 168, 168);
-            border-radius: 50px;
-            margin-bottom: 15px;
-        }
-
-        sup {
-            background-image: linear-gradient(to right, rgb(233, 216, 216), rgb(252, 247, 247));
-            font-size: 12px;
-            border-radius: 2px;
-        }
-
-        h4 {
-            font-size: 27px;
-            margin-left: 10px;
-        }
-
-        #para2 {
-            display: inline;
-            border-radius: 2px;
-        }
-
-        #pfp1 {
-            border-radius: 50px;
-            display: inline;
-        }
-
-        footer {
-            text-align: center;
-            border: 3px double rgba(224, 208, 208, 0.5);
-            color: rgb(51, 43, 43);
-            background-color: rgb(221, 200, 200);
-            background-image: url(images/background3.2.jpg);
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            padding: 20px 0;
-            border-radius: 5px;
-            text-shadow: 2px 2px 40px #1d1d1d;
-        }
-
-        #linkfirst {
-            border-top-right-radius: 5px;
-            border-top-left-radius: 5px;
-        }
-
-        #linklast {
-            border-bottom-right-radius: 5px;
-            border-bottom-left-radius: 5px;
-        }
-
-        .links {
-            text-shadow: 0 0 0;
-            color: rgb(51, 43, 43);
-            display: block;
-            border: 4px double rgba(243, 37, 37, 0.76);
-            background-color: rgba(238, 228, 228, 0.76);
-            background-repeat: no-repeat;
-            margin: 5px;
-            transition: 0.2s;
-        }
-
-        .links:hover {
-            font-size: 30px;
-            color: white;
-            background-color: rgb(197, 96, 96);
-            background-image: linear-gradient(to right, rgb(197, 96, 96), rgb(214, 181, 181));
-            border: 4px double #99292d;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        }
-
-        .links:focus {
-            border: 4px double rgb(99, 167, 99);
-            background-color: rgb(116, 197, 96);
-            color: rgb(54, 99, 54);
-            background-image: linear-gradient(to right, rgb(116, 197, 96), rgb(185, 214, 181));
-            background-repeat: no-repeat;
-        }
-
-        .divlast {
-            color: rgb(51, 43, 43);
-            padding-bottom: 20px;
-        }
-
-        strong {
-            color: #ec1c24;
-        }
-
-        p em b {
-            font-size: 20px;
-        }
-
-        @keyframes headeranimation {
-            0% {border-radius: 5px;}
-            50% {border-radius: 10px;}
-            100% {border-radius: 5px;}
-        }
-
-        @media (prefers-color-scheme: dark) {
-            * {
-                color: rgb(228, 209, 209);
-            }
-
-            nav {
-                border: 3px double rgba(82, 67, 67, 0.5);
-                background-color: rgba(49, 41, 41, 0.76);
-            }
-
-            #div2 {
-                border-bottom: 2px solid rgb(88, 68, 68);
-                border-radius: 50px;
-            }
-
-            html {
-                scrollbar-color: rgb(255, 179, 179) rgb(82, 62, 62);
-                background-color: rgb(29, 27, 27);
-                background-image: linear-gradient(to right, rgb(56, 44, 44), rgb(29, 27, 27));
-            }
-
-            sup {
-                background-image: linear-gradient(to right, rgb(56, 44, 44), rgb(29, 27, 27));
-            }
-
-            summary {
-                border-left: 2px solid rgb(100, 81, 81);
-            }
-
-            summary:hover {
-                background-image: linear-gradient(to right, rgb(100, 81, 81), rgb(49, 41, 41));
-            }
-
-            summary:focus {
-                color: rgb(160, 212, 160);
-                background-image: linear-gradient(to right, rgb(99, 161, 84), rgb(64, 83, 61));
-                border-left: 2px solid rgb(99, 161, 84);
-            }
-
-            .divlast {
-                color: rgb(238, 226, 226);
-            }
-
-            .links {
-                color: rgb(238, 226, 226);
-                background-color: rgba(49, 41, 41, 0.76);
-                border: 4px double rgba(240, 69, 69, 0.76);
-            }
-
-            .links:hover {
-                border: 4px double #d17373;
-                background-color: rgb(153, 76, 76);
-                background-image: linear-gradient(to right, rgb(153, 76, 76), rgb(88, 61, 61));
-                color: black;
-            }
-
-            .links:focus {
-                color: rgb(160, 212, 160);
-                background-color: rgb(99, 161, 84);
-                background-image: linear-gradient(to right, rgb(99, 161, 84), rgb(64, 83, 61));
-            }
-
-            footer {
-                border: 3px double rgba(82, 67, 67, 0.5);
-                color: rgb(238, 226, 226);
-                background-color: rgb(83, 59, 59);
-                background-image: url(images/background3.jpg);
-            }
-
-            .alink {
-                border: 4px double rgba(240, 69, 69, 0.76);
-                background-color: rgba(43, 36, 36, 0.479);
-            }
-
-            .alink:hover {
-                border: 4px double #d17373;
-                background-color: rgb(153, 76, 76);
-                background-image: linear-gradient(to right, rgb(153, 76, 76), rgb(88, 61, 61));
-                color: black;
-            }
-
-            .alink:focus {
-                color: rgb(160, 212, 160);
-                background-color: rgb(99, 161, 84);
-                background-image: linear-gradient(to right, rgb(99, 161, 84), rgb(64, 83, 61));
-            }
-
-            ::-webkit-scrollbar-thumb {
-                background-color: rgb(179, 114, 114);
-                background-image: linear-gradient(to bottom, rgb(179, 114, 114), rgb(104, 69, 69));
-            }
-
-            ::-webkit-scrollbar-thumb:hover {
-                background-image: linear-gradient(to bottom, rgb(146, 94, 94), rgb(71, 47, 47));
-            }
-
-            ::-webkit-scrollbar-track {
-                background-color: rgb(51, 41, 41);
-                border: 3px double rgb(95, 89, 89);
-                border-radius: 3px;
-            }
-        }
-
-        @media (max-width: 506px) {
-            #logo1 {
-                display: none;
-            }
-
-            #logo2 {
-                margin-left: 25px;
-                font-size: 30px;
-                display: inline;
-                color: #ec1c24;
-            }
-
-            .alink {
-                font-size: 17px;
-            }
-        }
-
-        @media (max-width: 366px) {
-            .alink {
-                font-size: 15px;
-            }
-        }
-
-        @media (max-width: 344px) {
-            .alink {
-                font-size: 13px;
-            }
-        }
-
-        @media (max-width: 324px) {
-            .alink {
-                font-size: 11px;
-            }
-        }
-
-        @media (max-width: 304px) {
-            .alink {
-                font-size: 9px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
     <header>
@@ -435,7 +34,34 @@
         <div id="div2"></div>
     </div>
         <details>
-            <summary>Version 2.2 release <sup>2/20/2022</sup></summary>
+            <summary id="v2.5">Version 2.5 release <sup>3/4/2022</sup></summary>
+            <h4>What's new?</h4>
+            <p>A brand new design!</p>
+            <img src="images/newdesign.png" width="300" alt="New website design">
+            <p>More options is now here</p>
+            <img src="images/moreoptions.png" width="300" alt="More options">
+            <h4>Other changes</h4>
+            <p>
+                - Added a startup animation for the website
+                <br>
+                - Added a little tab title update
+                <br>
+                - Updated the hover and focus design
+                <br>
+                - Blogs now have an underline when you hover to one
+                <br>
+                - Updated the scrollbar colors for Firefox browser
+            </p>
+            <h4>Known issue</h4>
+            <p>- The header buttons place is a bit up than it should be on the blogs and 404 pages</p>
+            <img src="images/knownheaderissue.png" width="300" alt="Header buttons issue">
+            <p>I'm not aware of any other issue.</p>
+            <h4>Where to try?</h4>
+            <p>As always, you can try it now. <a href="https://berosato.github.io">Here</a> & <a href="https://berosato.github.io/classic">Here</a></p>
+            <p>That's all, see you later.</p>
+        </details>
+        <details>
+            <summary id="v2.2">Version 2.2 release <sup>2/20/2022</sup></summary>
             <h4>What's new?</h4>
             <p>A fully new header and footer buttons</p>
             <img src="images/newbuttons.png" width="300" alt="New header and footer buttons">
@@ -455,32 +81,32 @@
                 <br>
                 - Changed the header blur (backdrop-filter) from 15px to 13px
                 <br>
-                - <em><b>New!</b></em> Added focus when pressing TAB or holding on mobile in the blogs
+                - <em>New!</em> Added focus when pressing TAB or holding on mobile in the blogs
                 <br>
-                - <em><b>New!</b></em> Fixed the logo being so small on mobile screens in blogs
+                - <em>New!</em> Fixed the logo being so small on mobile screens in blogs
                 <br>
-                - <em><b>New!</b></em> Fixed the white/black corners in the scrollbar in blogs
+                - <em>New!</em> Fixed the white/black corners in the scrollbar in blogs
                 <br> 
-                - <em><b>New!</b></em> Fixed the footer texts color on dark mode
+                - <em>New!</em> Fixed the footer texts color on dark mode
                 <br>
-                - <em><b>New!</b></em> Changed the footer border in 404 page
+                - <em>New!</em> Changed the footer border in 404 page
                 <br> 
-                - <em><b>New!</b></em> Added website's scrollbar design to the 404 page
+                - <em>New!</em> Added website's scrollbar design to the 404 page
                 <br>
-                - <em><b>New!</b></em> Changed the footer background color when loading its background image
+                - <em>New!</em> Changed the footer background color when loading its background image
                 <br>
-                - <em><b>New!</b></em> Changed the texts shadow in the footer
+                - <em>New!</em> Changed the texts shadow in the footer
                 <br>
-                - <em><b>New!</b></em> Updated the scrollbar colors for Firefox browser
+                - <em>New!</em> Updated the scrollbar colors for Firefox browser
             </p>
             <h4>Where to try?</h4>
             <p>As always you can try it now. <a href="https://berosato.github.io">Here</a> & <a href="https://berosato.github.io/classic">Here</a></p>
             <p>That's all, see you later.</p>
-            <p id="para2">- Omar</p>
             <img id="pfp1" width="30" alt="pfp" src="images/logoalt.png">
+            <p id="para2">- Omar</p>
         </details>
         <details>
-            <summary>Version 2.1 release <sup>2/15/2022</sup></summary>
+            <summary id="v2.1">Version 2.1 release <sup>2/15/2022</sup></summary>
             <h4>What's new?</h4>
             <p>Classic style is finally here!</p>
             <img src="images/newclassicstyle.png" width="300" alt="New classic style">
@@ -508,7 +134,7 @@
             <img id="pfp1" width="30" alt="pfp" src="images/logoalt.png">
         </details>
         <details>
-            <summary>Classic style is here! <sup>2/14/2022</sup></summary>
+            <summary id="classics">Classic style is here! <sup>2/14/2022</sup></summary>
             <h4>Introducing...</h4>
             <img src="images/classicstyle.png" width="300" alt="Classic style">
             <p>The classic style is here!</p>
@@ -522,7 +148,7 @@
             <img id="pfp1" width="30" alt="pfp" src="images/logoalt.png">
         </details>
         <details>
-            <summary>What's next? <sup>2/4/2022</sup></summary>
+            <summary id="wnext">What's next? <sup>2/4/2022</sup></summary>
             <p>Hello!</p>
             <p>so, I have finally finished the development of this website.</p>
             <br>
@@ -539,7 +165,7 @@
             <img id="pfp1" width="30" alt="pfp" src="images/logoalt.png">
         </details>
         <details>
-            <summary>Version 2.0 release <sup>1/31/2022</sup></summary>
+            <summary id="v2.0">Version 2.0 release <sup>1/31/2022</sup></summary>
             <h4>What's new?</h4>
             <p>The new blogs is here!</p>
             <img src="images/newblogs.png" width="300" alt="New Blogs">
@@ -556,7 +182,7 @@
             <img id="pfp1" width="30" alt="pfp" src="images/logoalt.png">
         </details>
         <details>
-            <summary>The new blogs! <sup>1/31/2022</sup></summary>
+            <summary id="newblogs">The new blogs! <sup>1/31/2022</sup></summary>
             <p>Hello!</p>
             <p>Blogs has been improved and it does have its own page now, <br>
                 it feels better right? :)</p>
@@ -564,7 +190,7 @@
             <img id="pfp1" width="30" alt="pfp" src="images/logoalt.png">
         </details>
         <details>
-            <summary>The future of this website <sup>1/29/2022</sup></summary>
+            <summary id="future1">The future of this website <sup>1/29/2022</sup></summary>
             <p>Hello!</p>
             <p>I Have been working on this website for almost 1 month now,
                 I have been thinking a lot about what I should add, for now until I finish learning JavaScript,
@@ -577,7 +203,7 @@
             <img id="pfp1" width="30" alt="pfp" src="images/logoalt.png">
         </details>
         <details>
-            <summary>Version 1.8 release <sup>1/28/2022</sup></summary>
+            <summary id="v1.8">Version 1.8 release <sup>1/28/2022</sup></summary>
             <h4>What's new?</h4>
             <p>Blogs is here!</p>
             <img width="300" alt="light mode" src="images/blogspost.png">
@@ -594,7 +220,7 @@
             <img id="pfp1" width="30" alt="pfp" src="images/logoalt.png">
         </details>
         <details class="firstblog">
-            <summary>First blog! <sup>1/28/2022</sup></summary>
+            <summary id="firstblog">First blog! <sup>1/28/2022</sup></summary>
             <p>Hello!</p>
             <p>This is my first blog for this website, I will mostly post about new versions/updates of this website and
                 other projects.</p>
