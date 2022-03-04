@@ -206,7 +206,7 @@ footer {
     color: rgb(51, 43, 43);
     background-color: rgb(247, 238, 238);
     background-image: url(images/background3.2.jpg);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(48, 28, 28, 0.26);
     padding: 20px 0;
     border-radius: 5px;
     font-size: 27px;
