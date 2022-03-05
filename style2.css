@@ -1,4 +1,5 @@
 * {
+    font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(54, 45, 45);
     box-sizing: border-box;
@@ -202,20 +203,16 @@ h4 {
 
 footer {
     text-align: center;
-    border: 3px double rgba(224, 208, 208, 0.5);
+    border-top: 3px double rgba(224, 208, 208, 0.5);
     color: rgb(51, 43, 43);
     background-color: rgb(247, 238, 238);
     background-image: url(images/background3.2.jpg);
-    box-shadow: 0 4px 8px 0 rgba(48, 28, 28, 0.26);
+    box-shadow: 0 -4px 8px 0 rgba(48, 28, 28, 0.26);
     padding: 20px 0;
-    border-radius: 5px;
     font-size: 27px;
     text-shadow: 2px 2px 40px #1d1d1d;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
 }
 
 #linkfirst {
@@ -238,6 +235,8 @@ footer {
     background-color: rgba(238, 228, 228, 0.76);
     background-repeat: no-repeat;
     margin: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
     font-size: 27px;
     transition: 0.2s;
 }
@@ -366,11 +365,11 @@ em {
     }
 
     footer {
-        border: 3px double rgba(82, 67, 67, 0.5);
+        border-top: 3px double rgba(82, 67, 67, 0.5);
         color: rgb(238, 226, 226);
         background-color: rgb(43, 36, 36);
         background-image: url(images/background3.jpg);
-        box-shadow: 0 4px 8px 0 rgba(158, 101, 101, 0.26);
+        box-shadow: 0 -4px 8px 0 rgba(158, 101, 101, 0.26);
     }
 
     .alink {

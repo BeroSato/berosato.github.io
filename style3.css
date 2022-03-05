@@ -1,4 +1,5 @@
 * {
+    font-size: 25px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
@@ -109,22 +110,18 @@ p {
 }
 
 footer {
-    margin-top: 150px;
-    border: 3px double rgba(224, 208, 208, 0.5);
+    margin-top: 153px;
+    border-top: 3px double rgba(224, 208, 208, 0.5);
     color: rgb(51, 43, 43);
     background-color: rgba(241, 232, 232, 0.76);
     background-image: linear-gradient(to right, rgb(247, 238, 238), rgb(248, 245, 245));
     background-repeat: no-repeat;
-    box-shadow: 0 4px 8px 0 rgba(48, 28, 28, 0.26);
+    box-shadow: 0 -4px 8px 0 rgba(48, 28, 28, 0.26);
     padding: 20px 0;
-    border-radius: 5px;
     font-size: 28px;
     text-shadow: 2px 2px 40px #1d1d1d;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
 }
 
 #logo2 {
@@ -183,8 +180,8 @@ strong {
     footer {
         background-color: rgba(49, 41, 41, 0.76);
         background-image: linear-gradient(to right, rgb(43, 36, 36), rgb(39, 36, 36));
-        box-shadow: 0 4px 8px 0 rgba(158, 101, 101, 0.26);
-        border: 3px double rgba(82, 67, 67, 0.5);
+        box-shadow: 0 -4px 8px 0 rgba(158, 101, 101, 0.26);
+        border-top: 3px double rgba(82, 67, 67, 0.5);
         color: rgb(238, 226, 226);
     }
 
