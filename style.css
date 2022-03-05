@@ -120,7 +120,7 @@ nav a {
 footer {
     border: 3px double rgba(224, 208, 208, 0.5);
     background-color: rgb(247, 238, 238);
-    background-image: url(images/background3.2.png);
+    background-image: url(images/background3.2.jpg);
     box-shadow: 0 4px 8px 0 rgba(48, 28, 28, 0.26);
     border-radius: 5px;
     color: rgb(51, 43, 43);
@@ -604,7 +604,7 @@ em {
         background-color: rgb(43, 36, 36);
         color: rgb(238, 226, 226);
         box-shadow: 0 4px 8px 0 rgba(158, 101, 101, 0.26);
-        background-image: url(images/background3.png);
+        background-image: url(images/background3.jpg);
     }
 
     .alink {
