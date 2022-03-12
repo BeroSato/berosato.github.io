@@ -482,16 +482,6 @@ em {
         box-shadow: 0 4px 8px 0 rgba(158, 101, 101, 0.26);
     }
 
-    #maintxt1 {
-        background-color: rgb(107, 63, 63);
-        border: 3px double rgb(175, 100, 100);
-        color: white;
-    }
-
-    #mainlink1:hover {
-        color: black;
-    }
-
     .mainarticle {
         background-image: linear-gradient(to right, rgb(58, 44, 44), rgb(44, 35, 35));
         border: 4px double rgb(112, 57, 57);
