@@ -270,6 +270,7 @@ p em b {
 
 em {
     font-weight: bold;
+    font-size: 20px;
 }
 
 @keyframes bganimation {
