@@ -212,31 +212,28 @@ footer {
     font-size: 27px;
     text-shadow: 2px 2px 40px #1d1d1d;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 #linkfirst {
-    border-top-right-radius: 5px;
     border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     margin-top: 0;
 }
 
 #linklast {
     border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .links {
     text-shadow: 0 0 0;
     text-decoration: none;
     color: #ec1c24;
-    display: block;
+    display: inline;
     border: 4px double rgb(238, 172, 172);
     background-color: rgba(241, 232, 232, 0.76);
     background-repeat: no-repeat;
-    margin: 5px;
-    margin-right: 10px;
-    margin-left: 10px;
     font-size: 27px;
     transition: 0.2s;
 }
@@ -420,6 +417,29 @@ em {
 
     .alink {
         font-size: 17px;
+    }
+
+    footer {
+        padding-bottom: 10px;
+    }
+
+    #linkfirst {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 0;
+    }
+
+    #linklast {
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 0;
+    }
+
+    .links {
+        display: block;
+        margin: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 
