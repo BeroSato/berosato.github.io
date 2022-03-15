@@ -135,7 +135,7 @@ summary {
 
 summary:hover {
     background-image: linear-gradient(to right, rgb(233, 219, 219), rgb(240, 231, 231));
-    color: rgb(51, 43, 43);
+    color: black;
     text-decoration: underline;
     border-left: 2px solid rgb(233, 219, 219);
     border-radius: 3px;
@@ -326,7 +326,7 @@ em {
 
     summary:hover {
         background-image: linear-gradient(to right, rgb(59, 50, 50), rgb(43, 37, 37));
-        color: rgb(238, 226, 226);
+        color: white;
         border-left: 2px solid rgb(59, 50, 50);
     }
 

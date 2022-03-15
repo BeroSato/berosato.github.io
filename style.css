@@ -427,6 +427,7 @@ summary {
 details summary:hover {
     text-decoration: underline;
     background-color: rgb(219, 228, 235);
+    color: black;
 }
 
 b {
@@ -565,6 +566,7 @@ em {
 
     details summary:hover {
         background-color: rgb(47, 53, 59);
+        color: white;
     }
 
     .links {
