@@ -149,7 +149,6 @@ footer {
     display: inline;
     border: 4px double rgb(238, 172, 172);
     background-color: rgba(241, 232, 232, 0.76);
-    background-repeat: no-repeat;
     font-size: 25px;
     padding: 1px;
     transition: 0.2s;
@@ -158,6 +157,7 @@ footer {
 .links:hover {
     color: rgb(51, 43, 43);
     background-image: linear-gradient(to right, rgb(233, 217, 217), rgb(245, 238, 238));
+    background-repeat: no-repeat;
     border: 4px double #c49091;
     box-shadow: 0 4px 8px 0 rgba(48, 28, 28, 0.26);
 }
