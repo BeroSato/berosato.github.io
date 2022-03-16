@@ -209,7 +209,7 @@ footer {
     background-image: url(images/background3.2.jpg);
     box-shadow: 0 -4px 8px 0 rgba(48, 28, 28, 0.26);
     padding: 20px 0;
-    font-size: 27px;
+    font-size: 15px;
     text-shadow: 2px 2px 40px #1d1d1d;
     padding-top: 10px;
     padding-bottom: 20px;
@@ -233,7 +233,7 @@ footer {
     display: inline;
     border: 4px double rgb(238, 172, 172);
     background-color: rgba(241, 232, 232, 0.76);
-    font-size: 25px;
+    font-size: 19px;
     padding: 1px;
     transition: 0.2s;
 }
@@ -420,14 +420,6 @@ em {
     .alink {
         font-size: 17px;
     }
-
-    footer {
-        font-size: 15px;
-    }
-
-    .links {
-        font-size: 19px;
-    }
 }
 
 @media (max-width: 366px) {
@@ -442,7 +434,7 @@ em {
     }
 
     .links {
-        font-size: 17px;
+        font-size: 16px;
     }
 }
 
@@ -454,7 +446,7 @@ em {
 
 @media (max-width: 310px) {
     .links {
-        font-size: 15px;
+        font-size: 14px;
     }
 }
 
