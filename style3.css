@@ -110,7 +110,7 @@ p {
 }
 
 footer {
-    margin-top: 153px;
+    margin-top: 160px;
     border-top: 3px double rgba(224, 208, 208, 0.5);
     color: rgb(51, 43, 43);
     background-color: rgba(241, 232, 232, 0.76);
@@ -120,8 +120,8 @@ footer {
     padding: 20px 0;
     font-size: 28px;
     text-shadow: 2px 2px 40px #1d1d1d;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 8px;
 }
 
 #logo2 {
