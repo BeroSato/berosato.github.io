@@ -1,3 +1,5 @@
+![websitelogo](https://user-images.githubusercontent.com/75726739/158659463-400f94d5-1ffa-49c8-aa57-387b60f38b89.png)
+
 ## Info
 This is my first website made for fun to try HTML and CSS.
 
