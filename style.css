@@ -433,7 +433,6 @@ details summary:hover {
 
 details summary:focus {
     padding-left: 30px;
-    border: 4px double rgb(146, 194, 146);
     color: rgb(54, 99, 54);
     background-image: linear-gradient(to right, rgb(183, 211, 176), rgb(222, 235, 221));
     background-repeat: no-repeat;
@@ -587,7 +586,6 @@ em {
 
     details summary:focus {
         color: rgb(160, 212, 160);
-        border: 4px double rgb(89, 112, 84);
         background-image: linear-gradient(to right, rgb(67, 87, 61), rgb(39, 46, 38));
     }
 
