@@ -6,7 +6,7 @@ https://berosato.github.io
 
 https://berosato.github.io/classic
 
-## Theme
+## Default Theme
 light mode:
 
 <img width="651" alt="msedge_pIX45GaNvN" src="https://user-images.githubusercontent.com/75726739/156715547-acb1bcac-3729-466f-858b-823be2c1b5c2.png">
