@@ -211,7 +211,7 @@ footer {
     padding: 20px 0;
     font-size: 15px;
     text-shadow: 2px 2px 40px #1d1d1d;
-    padding-top: 5px;
+    padding-top: 6px;
     padding-bottom: 20px;
 }
 
@@ -262,6 +262,7 @@ footer {
 strong {
     color: #ec1c24;
     font-size: 29px;
+    animation: txtanimation 2s infinite;
 }
 
 p em b {
@@ -292,6 +293,12 @@ em {
 @keyframes startupa {
     0% {opacity: 0;}
     100% {opacity: 1;}
+}
+
+@keyframes txtanimation {
+    0% {text-shadow: 2px 2px 15px #c9161c;}
+    50% {text-shadow: 2px 2px 25px #c9161c;}
+    100% {text-shadow: 2px 2px 15px #c9161c;}
 }
 
 @media (prefers-color-scheme: dark) {

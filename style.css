@@ -126,7 +126,7 @@ footer {
     font-size: 15px;
     text-shadow: 2px 2px 40px #1d1d1d;
     animation: startupa 1s 1;
-    padding-top: 5px;
+    padding-top: 6px;
     padding-bottom: 20px;
     cursor: default;
 }
@@ -425,6 +425,7 @@ summary {
 }
 
 details summary:hover {
+    padding-left: 30px;
     text-decoration: underline;
     background-color: rgb(219, 228, 235);
     color: black;
@@ -446,6 +447,7 @@ em {
 .strongtext {
     color: #ec1c24;
     font-size: 29px;
+    animation: txtanimation 2s infinite;
 }
 
 @keyframes bganimation {
@@ -467,6 +469,12 @@ em {
 @keyframes startupa {
     0% {opacity: 0;}
     100% {opacity: 1;}
+}
+
+@keyframes txtanimation {
+    0% {text-shadow: 2px 2px 15px #c9161c;}
+    50% {text-shadow: 2px 2px 25px #c9161c;}
+    100% {text-shadow: 2px 2px 15px #c9161c;}
 }
 
 @media (prefers-color-scheme: dark) {

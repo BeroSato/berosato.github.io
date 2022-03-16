@@ -110,7 +110,7 @@ p {
 }
 
 footer {
-    margin-top: 160px;
+    margin-top: 159px;
     border-top: 3px double rgba(224, 208, 208, 0.5);
     color: rgb(51, 43, 43);
     background-color: rgba(241, 232, 232, 0.76);
@@ -120,8 +120,8 @@ footer {
     padding: 20px 0;
     font-size: 28px;
     text-shadow: 2px 2px 40px #1d1d1d;
-    padding-top: 5px;
-    padding-bottom: 8px;
+    padding-top: 6px;
+    padding-bottom: 9px;
 }
 
 #logo2 {
@@ -131,11 +131,18 @@ footer {
 strong {
     color: #ec1c24;
     font-size: 29px;
+    animation: txtanimation 2s infinite;
 }
 
 @keyframes startupa {
     0% {opacity: 0;}
     100% {opacity: 1;}
+}
+
+@keyframes txtanimation {
+    0% {text-shadow: 2px 2px 15px #c9161c;}
+    50% {text-shadow: 2px 2px 25px #c9161c;}
+    100% {text-shadow: 2px 2px 15px #c9161c;}
 }
 
 @media (prefers-color-scheme: dark) {
