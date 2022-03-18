@@ -388,7 +388,9 @@ h2 {
 }
 
 sup {
-    font-size: 10px;
+    background-image: linear-gradient(to right, #ebe4dd, #f8f6f2);
+    font-size: 12px;
+    border-radius: 2px;
 }
 
 p {
@@ -572,6 +574,10 @@ em {
         color: rgb(175, 203, 226);
         background-color: #1d1d1d;
         border-top: 4px double rgb(57, 73, 85);
+    }
+
+    sup {
+        background-image: linear-gradient(to right, #38332d, #1a1817);
     }
 
     details {
