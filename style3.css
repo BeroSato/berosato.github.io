@@ -31,6 +31,7 @@
 
 html {
     background-image: url(images/background3.2.jpg);
+    background-size: cover;
     scrollbar-color: rgb(201, 179, 179) rgb(241, 231, 231);
     scrollbar-width: 10px;
     animation: startupa 1s 1;
