@@ -61,8 +61,12 @@ footer a:hover {
     color: rgb(138, 94, 94);
 }
 
-sup {
+#logotxt {
     font-size: 15px;
+}
+
+sup {
+    font-size: 12px;
 }
 
 footer {
