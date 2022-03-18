@@ -1,3 +1,5 @@
+![websitelogo](https://user-images.githubusercontent.com/75726739/158659463-400f94d5-1ffa-49c8-aa57-387b60f38b89.png)
+
 ## Info
 This is my first website made for fun to try HTML and CSS.
 
@@ -6,7 +8,7 @@ https://berosato.github.io
 
 https://berosato.github.io/classic
 
-## Theme
+## Default Theme
 light mode:
 
 <img width="651" alt="msedge_pIX45GaNvN" src="https://user-images.githubusercontent.com/75726739/156715547-acb1bcac-3729-466f-858b-823be2c1b5c2.png">
