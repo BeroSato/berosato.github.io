@@ -1,4 +1,5 @@
 * {
+    font-size: 25px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
@@ -11,45 +12,37 @@
 }
    
 ::-webkit-scrollbar-track {
-    background-color: rgb(241, 231, 231);
-    border: 3px double rgb(221, 203, 203);
-    border-radius: 3px;
+    background-color: #f3f3f3;
 }
    
 ::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(to bottom, rgb(243, 229, 229), rgb(247, 241, 241));
-    background-repeat: no-repeat;
-    border: 3px double rgb(201, 179, 179);
-    border-radius: 3px;
+    background-color: #e6e6e6;
 }
    
 ::-webkit-scrollbar-thumb:hover {
-    box-shadow: 0 4px 8px 0 rgba(48, 28, 28, 0.26);
-    background-image: linear-gradient(to bottom, rgb(235, 219, 219), rgb(238, 226, 226));
+    background-color:#d8d8d8;
 }
 
 html {
-    scrollbar-color: rgb(201, 179, 179) rgb(241, 231, 231);
+    scrollbar-color: rgb(216, 216, 216) rgb(243, 243, 243);
     scrollbar-width: 10px;
     scroll-behavior: smooth;
-    background-color: #f8f8f8;
-    animation: bganimation 2s 1;
+    background-color: #ffffff;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    animation: startupa 1s 1;
 }
 
 nav {
-    border-bottom: 3px double rgba(224, 208, 208, 0.5);
+    border-bottom: 2px solid rgba(231, 231, 231, 0.5);
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(241, 232, 232, 0.76);
+    background-color: #f1f1f1fa;
     position: fixed;
-    box-shadow: 0 4px 8px 0 rgba(48, 28, 28, 0.26);
     top: 0;
-    backdrop-filter: blur(13px);
-    -webkit-backdrop-filter: blur(13px);
-    animation: startupa 1s 1;
-    padding: 13px;
+    padding: 6px;
 }
 
 ul {
@@ -61,8 +54,12 @@ ul {
     display: inline-block;
 }
 
+#alink1 {
+    margin-left: 26px;
+}
+
 #alink4 {
-    margin-right: 21px;
+    margin-right: 26px;
 }
 
 nav a {
@@ -71,147 +68,112 @@ nav a {
 }
 
 .alink {
-    color: #ec1c24;
-    background-color: rgba(255, 255, 255, 0.479);
+    color: rgb(36, 36, 36);
     text-decoration: none;
-    padding: 1px;
-    font-size: 18px;
-    border: 4px double rgb(238, 172, 172);
+    font-size: 20px;
     cursor: pointer;
-    transition: all 0.2s;
+    border-bottom: 2px solid #ec1c2300;
+    transition: all 0.1s;
+    padding-top: 14px;
+    padding-bottom: 11.5px;
 }
 
 .alink:hover {
-    border: 4px double #c49091;
-    box-shadow: 0 4px 8px 0 rgba(48, 28, 28, 0.26);
-    background-image: linear-gradient(to right, rgb(233, 217, 217), rgb(245, 238, 238));
-    background-repeat: no-repeat;
-    color: rgb(51, 43, 43);
+    background-color: #e6e6e6c2;
+    border-bottom: 2px solid rgb(36, 36, 36);
 }
 
 .alink:focus {
-    border: 4px double rgb(146, 194, 146);
-    color: rgb(54, 99, 54);
-    background-image: linear-gradient(to right, rgb(183, 211, 176), rgb(222, 235, 221));
-    background-repeat: no-repeat;
-}
-
-#alink1 {
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-}
-
-#alink4 {
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    color: rgb(102, 160, 102);
+    border-bottom: 2px solid rgb(102, 160, 102);
 }
 
 #logo1 {
     color: #ec1c24;
+    text-align: center;
     cursor: default;
     font-size: 30px;
+    padding-right: 22px;
+    animation: txtanimation 2s infinite;
 }
 
 #logo2 {
     font-size: 30px;
+    padding-right: 22px;
     display: none;
 }
 
 footer {
-    border-top: 3px double rgba(224, 208, 208, 0.5);
-    background-color: rgb(247, 238, 238);
-    background-image: url(images/background3.2.jpg);
-    background-size: cover;
-    box-shadow: 0 -4px 8px 0 rgba(48, 28, 28, 0.26);
-    color: rgb(51, 43, 43);
-    font-size: 15px;
-    text-shadow: 2px 2px 40px #1d1d1d;
+    border-top: 2px solid rgba(231, 231, 231, 0.5);
+    background-color: #f1f1f1fa;
+    color: rgb(36, 36, 36);
     animation: startupa 1s 1;
     padding-top: 6px;
-    padding-bottom: 20px;
+    padding-bottom: 12px;
     cursor: default;
-}
-
-#linkfirst {
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    margin-top: 0;
-}
-
-#linklast {
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
 }
 
 .links {
     text-shadow: 0 0 0;
     text-decoration: none;
-    color: #ec1c24;
+    color: rgb(36, 36, 36);
+    border-top: 2px solid #ec1c2300;
     display: inline;
-    border: 4px double rgb(238, 172, 172);
-    background-color: rgba(241, 232, 232, 0.76);
+    background-repeat: no-repeat;
     font-size: 19px;
-    padding: 1px;
-    transition: 0.2s;
+    padding-top: 6px;
+    padding-bottom: 13px;
+    transition: 0.1s;
 }
 
 .links:hover {
-    color: rgb(51, 43, 43);
-    background-image: linear-gradient(to right, rgb(233, 217, 217), rgb(245, 238, 238));
-    background-repeat: no-repeat;
-    border: 4px double #c49091;
-    box-shadow: 0 4px 8px 0 rgba(48, 28, 28, 0.26);
+    background-color: #e6e6e6c2;
+    border-top: 2px solid rgb(36, 36, 36);
 }
 
 .links:focus {
-    border: 4px double rgb(146, 194, 146);
-    color: rgb(54, 99, 54);
-    background-image: linear-gradient(to right, rgb(183, 211, 176), rgb(222, 235, 221));
-    background-repeat: no-repeat;
+    color: rgb(102, 160, 102);
+    border-bottom: 2px solid rgb(102, 160, 102);
 }
 
 div {
-    padding-bottom: 15px;
     font-size: 28px;
+    padding-bottom: 7px;
+    border-bottom: 2px solid rgba(231, 231, 231, 0.5);
 }
 
 .mainarticle {
-    border-radius: 5px;
-    background-image: linear-gradient(to right, rgb(241, 228, 228), rgb(245, 238, 238));
-    color: #ec1c24;
+    background-color: #f3f3f3de;
+    border-bottom: 2px solid rgba(231, 231, 231, 0.5);
+    color: rgb(36, 36, 36);
     background-repeat: no-repeat;
-    border: 4px double rgb(238, 172, 172);
-    margin-top: 85px;
     margin-bottom: 10px;
+    margin-top: 54px;
     cursor: default;
-    animation: startupa 1s 1;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 7px;
 }
 
 .ellink {
     cursor: pointer;
-    font-size: 20px;
+    font-size: 23px;
+    color: rgb(36, 36, 36);
+    padding-top: 9px;
+    padding-bottom: 9.5px;
+}
+
+.ellink:hover {
+    border-bottom: 2px solid rgb(36, 36, 36);
 }
 
 .paraellink {
-    margin-bottom: 7px;
+    text-align: center;
+    margin-bottom: 2px;
+    padding-left: 0;
 }
 
-.qnalink {
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-}
-
-.classiclink {
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-h2 {
-    margin-bottom: 7px;
+#h2options {
+    padding-left: 0;
 }
 
 #lastpara1 {
@@ -219,150 +181,81 @@ h2 {
 }
 
 .article1 {
-    background-image: linear-gradient(to right, rgb(243, 238, 233), rgb(247, 246, 242));
-    color: rgb(87, 80, 71);
-    border-radius: 5px;
+    background-color: #f3f3f3;
+    box-shadow: 0 4px 8px 0 rgba(49, 49, 49, 0.26);
+    color: rgb(36, 36, 36);
+    margin-top: 14px;
     margin-bottom: 10px;
     background-repeat: no-repeat;
-    border: 4px double rgb(218, 208, 193);
-    animation: startupa 1s 1;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
 }
 
 .article2 {
-    background-image: linear-gradient(to right, rgb(232, 241, 241), rgb(235, 240, 243));
-    color: rgb(56, 66, 66);
+    background-color: #f3f3f3;
+    box-shadow: 0 4px 8px 0 rgba(49, 49, 49, 0.26);
+    color: rgb(36, 36, 36);
     background-repeat: no-repeat;
     margin-bottom: 10px;
-    border-radius: 5px;
-    border: 4px double rgb(174, 198, 199);
-    animation: startupa 1s 1;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
 }
 
 .article3 {
-    background-image: linear-gradient(to right, rgb(241, 231, 231), rgb(247, 240, 240));
-    color: rgb(78, 57, 57);
+    background-color: #f3f3f3;
+    box-shadow: 0 4px 8px 0 rgba(49, 49, 49, 0.26);
+    color: rgb(36, 36, 36);
     background-repeat: no-repeat;
-    border-radius: 5px;
     text-align: left;
     margin-bottom: 10px;
-    border: 4px double rgb(212, 174, 174);
-    animation: startupa 1s 1;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-ol {
-    margin-left: 50px;
-    font-size: 25px;
 }
 
 .article4 {
-    border-radius: 5px;
-    background-image: linear-gradient(to right, #f0ece7, rgb(247, 246, 240));
-    color: #504539;
+    background-color: #f3f3f3;
+    box-shadow: 0 4px 8px 0 rgba(49, 49, 49, 0.26);
+    color: rgb(36, 36, 36);
     background-repeat: no-repeat;
     margin-bottom: 10px;
-    border: 4px double #c9b39a;
-    animation: startupa 1s 1;
     padding-top: 10px;
-    padding-bottom: 5px;
-    margin-right: 10px;
-    margin-left: 10px;
+    padding-bottom: 1px;
 }
 
-.vidlink {
+.articlelink {
     display: block;
     text-decoration: none;
-    color: #504539;
+    color: rgb(36, 36, 36);
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
     text-align: left;
     padding-left: 25px;
     padding-bottom: 4px;
-    border-left: 2px solid #af9f8d;
-    margin-left: 1px;
-    margin-right: 1px;
-    transition: all 0.2s;
+    transition: all 0.1s;
     font-size: 25px;
 }
 
-.vidlink:hover {
-    background-image: linear-gradient(to right, #dfd6ce, #eeeae5);
-    border-left: 2px solid #dfd6ce;
-    text-decoration: underline;
-    background-repeat: no-repeat;
-    color: black;
-    border-radius: 5px;
-    margin: 0 5px;
+.articlelink:hover {
+    background-color: #e9e9e9;
+    border-bottom: 2px solid rgb(36, 36, 36);
 }
 
-.vidlink:focus {
-    background-image: linear-gradient(to right, rgb(183, 211, 176), rgb(222, 235, 221));
-    border-radius: 5px;
-    border-left: 2px solid rgb(183, 211, 176);
-    color: rgb(54, 99, 54);
-    margin: 0 5px;
+.articlelink:focus {
+    color: rgb(102, 160, 102);
+    border-bottom: 2px solid rgb(102, 160, 102);
 }
 
-#vidlink4 {
-    margin-bottom: 10px;
+#articlelink4 {
+    margin-bottom: 9px;
 }
 
 .article5 {
-    background-image: linear-gradient(to right, #e6f0f0, rgb(237, 245, 245));
-    color: #304646;
-    border-radius: 5px;
+    background-color: #f3f3f3;
+    box-shadow: 0 4px 8px 0 rgba(49, 49, 49, 0.26);
+    color: rgb(36, 36, 36);
     margin-bottom: 10px;
-    border: 4px double #9ac9c9;
     background-repeat: no-repeat;
-    animation: startupa 1s 1;
     padding-top: 10px;
-    padding-bottom: 5px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-.tweetlink {
-    display: block;
-    color: #304646;
-    text-decoration: none;
-    text-align: left;
-    padding-left: 25px;
-    padding-bottom: 4px;
-    border-left: 2px solid #98b6b6;
-    margin-left: 1px;
-    margin-right: 1px;
-    transition: all 0.2s;
-    font-size: 25px;
-}
-
-.tweetlink:hover {
-    background-image: linear-gradient(to right, #cadfdf, #ddebeb);
-    border-left: 2px solid #cadfdf;
-    text-decoration: underline;
-    color: black;
-    border-radius: 5px;
-    margin: 0 5px;
-}
-
-.tweetlink:focus {
-    background-image: linear-gradient(to right, rgb(183, 211, 176), rgb(222, 235, 221));
-    border-radius: 5px;
-    border-left: 2px solid rgb(183, 211, 176);
-    color: rgb(54, 99, 54);
-    margin: 0 5px;
-}
-
-#tweetlink4 {
-    margin-bottom: 10px;
+    padding-bottom: 1px;
 }
 
 #latestmargin {
@@ -370,27 +263,34 @@ ol {
 }
 
 .article6 {
-    color: rgb(57, 73, 85);
-    background-color: rgb(248, 245, 245);
-    background-image: linear-gradient(to right, rgb(234, 238, 241), rgb(240, 244, 247));
+    background-color: #f3f3f3;
+    box-shadow: 0 4px 8px 0 rgba(49, 49, 49, 0.26);
+    color: rgb(36, 36, 36);
     background-repeat: no-repeat;
-    border-top: 4px double rgb(175, 203, 226);
-    margin-bottom: 10px;
     text-align: left;
-    animation: startupa 1s 1;
-    padding-top: 7px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.article6 > p {
+    padding-bottom: 4px;
 }
 
 h2 {
-    text-align: left;
-    padding-left: 25px;
+    margin-bottom: 7px;
+    padding-bottom: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
     font-size: 27px;
+    font-weight: initial;
+    color: black;
+    border-bottom: 2px solid rgba(231, 231, 231, 0.5);
 }
 
 sup {
-    background-image: linear-gradient(to right, #ebe4dd, rgb(247, 246, 240));
     font-size: 12px;
-    border-radius: 2px;
 }
 
 p {
@@ -401,44 +301,8 @@ p {
 
 li {
     text-align: left;
-    font-size: 25px
-}
-
-details {
-    color: rgb(57, 73, 85);
-    background-image: linear-gradient(to right, rgb(234, 238, 241), rgb(240, 244, 247));
-    background-repeat: no-repeat;
-    border: 4px double rgb(175, 203, 226);
-    margin-bottom: 15px;
-    border-radius: 5px;
-    cursor: normal;
-    animation: startupa 1s 1;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-summary {
-    text-align: left;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 27px;
-    font-size: 27px;
-    cursor: default;
-    transition: all 0.2s;
-}
-
-details summary:hover {
-    padding-left: 30px;
-    text-decoration: underline;
-    background-image: linear-gradient(to right, rgb(219, 228, 235), rgb(231, 237, 241));
-    color: black;
-}
-
-details summary:focus {
-    padding-left: 30px;
-    color: rgb(54, 99, 54);
-    background-image: linear-gradient(to right, rgb(183, 211, 176), rgb(222, 235, 221));
-    background-repeat: no-repeat;
+    font-size: 25px;
+    padding-bottom: 2px;
 }
 
 b {
@@ -447,33 +311,25 @@ b {
 
 #btxt {
     font-size: 25px;
+    font-weight: initial;
+    color: black;
 }
 
 em {
-    padding-left: 25px;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .strongtext {
     color: #ec1c24;
     font-size: 29px;
+    font-weight: initial;
     animation: txtanimation 2s infinite;
 }
 
-@keyframes bganimation {
-    0% {background-color: #f8f8f8;}
-    20% {background-color: rgb(248, 241, 241);}
-    50% {background-color: rgb(243, 235, 235);}
-    75% {background-color: rgb(248, 244, 244);}
-    100% {background-color: #f8f8f8;}
-}
-
-@keyframes bganimationalt {
-    0% {background-color: #1d1d1d;}
-    20% {background-color: rgb(39, 34, 34);}
-    50% {background-color: rgb(56, 47, 47);}
-    75% {background-color: rgb(36, 34, 34);}
-    100% {background-color: #1d1d1d;}
+@keyframes txtanimation {
+    0% {text-shadow: 2px 2px 25px #c9161c;}
+    50% {text-shadow: 2px 2px 35px #c9161c;}
+    100% {text-shadow: 2px 2px 25px #c9161c;}
 }
 
 @keyframes startupa {
@@ -481,184 +337,133 @@ em {
     100% {opacity: 1;}
 }
 
-@keyframes txtanimation {
-    0% {text-shadow: 2px 2px 15px #c9161c;}
-    50% {text-shadow: 2px 2px 25px #c9161c;}
-    100% {text-shadow: 2px 2px 15px #c9161c;}
-}
-
 @media (prefers-color-scheme: dark) {
     html {
-        background-color: #1d1d1d;
+        background-color: #121212;
         color: white;
-        animation: bganimationalt 2s 1;
+        background-image: url(images/backgrounddark.jpg);
     }
 
     nav {
-        border-bottom: 3px double rgba(82, 67, 67, 0.5);
-        background-color: rgba(49, 41, 41, 0.76);
-        box-shadow: 0 4px 8px 0 rgba(158, 101, 101, 0.26);
+        border-bottom: 2px solid rgba(46, 46, 46, 0.5);
+        background-color: #222222fa;
+    }
+
+    h2 {
+        color: white;
+        border-bottom: 2px solid rgba(46, 46, 46, 0.5);
+    }
+
+    #btxt {
+        color: white;
     }
 
     .mainarticle {
-        background-image: linear-gradient(to right, rgb(58, 44, 44), rgb(44, 35, 35));
-        border: 4px double rgb(112, 57, 57);
+        color: rgb(236, 236, 236);
+        background-color: #1f1f1fde;
+        border-bottom: 2px solid rgba(46, 46, 46, 0.5);
+    }
+
+    #h2options {
+        border-bottom: 2px solid rgba(46, 46, 46, 0.5);
     }
 
     .article1 {
-        color: rgb(218, 208, 193);
-        background-image: linear-gradient(to right, rgb(48, 44, 39), rgb(36, 36, 32));
-        border: 4px double rgb(87, 80, 71);
+        color: rgb(236, 236, 236);
+        background-color: #1f1f1f;
+        box-shadow: 0 4px 8px 0 rgba(124, 124, 124, 0.26);
     }
 
     .article2 {
-        color: rgb(174, 198, 199);
-        background-image: linear-gradient(to right, rgb(38, 44, 44), rgb(29, 30, 32));
-        border: 4px double rgb(56, 66, 66);
+        color: rgb(236, 236, 236);
+        background-color: #1f1f1f;
+        box-shadow: 0 4px 8px 0 rgba(124, 124, 124, 0.26);
     }
 
     .article3 {
-        color: rgb(212, 174, 174);
-        background-image: linear-gradient(to right, rgb(48, 39, 39), rgb(36, 30, 30));
-        border: 4px double rgb(78, 57, 57);
+        color: rgb(236, 236, 236);
+        background-color: #1f1f1f;
+        box-shadow: 0 4px 8px 0 rgba(124, 124, 124, 0.26);
     }
 
     .article4 {
-        color: #c9b39a;
-        background-image: linear-gradient(to right, #302c27, rgb(39, 39, 34));
-        border: 4px double #504539;
+        color: rgb(236, 236, 236);
+        background-color: #1f1f1f;
+        box-shadow: 0 4px 8px 0 rgba(124, 124, 124, 0.26);
     }
 
-    .vidlink {
-        color: #c9b39a;
-        border-left: 2px solid #887963;
+    .articlelink {
+        color: rgb(236, 236, 236);
+        border-bottom: 2px solid rgba(255, 255, 255, 0);
     }
 
-    .vidlink:hover {
-        background-image: linear-gradient(to right, #4b443b, #36322d);
-        border-left: 2px solid #4b443b;
-        color: white;
-    }
-
-    .vidlink:focus {
-        color: rgb(160, 212, 160);
-        border-left: 2px solid rgb(67, 87, 61);
-        background-image: linear-gradient(to right, rgb(67, 87, 61), rgb(39, 46, 38));
+    .articlelink:hover {
+        background-color: #2a2a2a;
+        border-bottom: 2px solid rgb(236, 236, 236);
     }
 
     .article5 {
-        color: #9ac9c9;
-        background-image: linear-gradient(to right, #263030, rgb(35, 41, 41));
-        border: 4px double #304646;
-    }
-
-    .tweetlink {
-        color: #9ac9c9;
-        border-left: 2px solid #618d8d;
-    }
-
-    .tweetlink:hover {
-        background-image: linear-gradient(to right, #364646, #2b3535);
-        border-left: 2px solid #364646;
-        color: white;
-    }
-
-    .tweetlink:focus {
-        color: rgb(160, 212, 160);
-        border-left: 2px solid rgb(67, 87, 61);
-        background-image: linear-gradient(to right, rgb(67, 87, 61), rgb(39, 46, 38));
+        color: rgb(236, 236, 236);
+        background-color: #1f1f1f;
+        box-shadow: 0 4px 8px 0 rgba(124, 124, 124, 0.26);
     }
 
     .article6 {
-        background-image: linear-gradient(to right, rgb(38, 42, 46), rgb(34, 38, 41));
-        color: rgb(175, 203, 226);
-        background-color: #1d1d1d;
-        border-top: 4px double rgb(57, 73, 85);
-    }
-
-    sup {
-        background-image: linear-gradient(to right, #38332d, rgb(39, 39, 34));
-    }
-
-    details {
-        background-image: linear-gradient(to right, rgb(38, 42, 46), rgb(34, 38, 41));
-        border: 4px double rgb(57, 73, 85);
-        color: rgb(175, 203, 226);
-    }
-
-    details summary:hover {
-        background-image: linear-gradient(to right, rgb(47, 53, 59), rgb(35, 39, 43));
-        color: white;
-    }
-
-    details summary:focus {
-        color: rgb(160, 212, 160);
-        background-image: linear-gradient(to right, rgb(67, 87, 61), rgb(39, 46, 38));
-    }
-
-    .links {
-        color: #ec1c24;
-        background-color: rgba(49, 41, 41, 0.76);
-        border: 4px double rgb(112, 57, 57);
-    }
-
-    .links:hover {
-        border: 4px double #584141;
-        box-shadow: 0 4px 8px 0 rgba(158, 101, 101, 0.26);
-        background-image: linear-gradient(to right, rgb(66, 49, 49), rgb(46, 38, 38));
-        color: rgb(238, 226, 226);
-    }
-
-    .links:focus {
-        color: rgb(160, 212, 160);
-        border: 4px double rgb(89, 112, 84);
-        background-image: linear-gradient(to right, rgb(67, 87, 61), rgb(39, 46, 38));
+        color: rgb(236, 236, 236);
+        background-color: #1f1f1f;
+        box-shadow: 0 4px 8px 0 rgba(124, 124, 124, 0.26);
     }
 
     footer {
-        border-top: 3px double rgba(82, 67, 67, 0.5);
-        background-color: rgb(43, 36, 36);
-        color: rgb(238, 226, 226);
-        box-shadow: 0 -4px 8px 0 rgba(158, 101, 101, 0.26);
-        background-image: url(images/background3.jpg);
+        border-top: 2px solid rgba(46, 46, 46, 0.5);
+        background-color: #222222fa;
+        color: rgb(236, 236, 236);
+    }
+
+    .links {
+        color: rgb(236, 236, 236);
+    }
+
+    .links:hover {
+        background-color: #2e2e2ec2;
+        border-top: 2px solid rgb(236, 236, 236);
+    }
+
+    div {
+        border-bottom: 2px solid rgb(46, 46, 46, 0.5);
     }
 
     .alink {
-        border: 4px double rgb(112, 57, 57);
-        background-color: rgba(43, 36, 36, 0.479);
+        color: rgb(236, 236, 236);
     }
 
     .alink:hover {
-        border: 4px double #584141;
-        box-shadow: 0 4px 8px 0 rgba(158, 101, 101, 0.26);
-        background-image: linear-gradient(to right, rgb(66, 49, 49), rgb(46, 38, 38));
-        color: rgb(238, 226, 226);
+        background-color: #2e2e2ec2;
+        border-bottom: 2px solid rgb(236, 236, 236);
     }
 
-    .alink:focus {
-        color: rgb(160, 212, 160);
-        border: 4px double rgb(89, 112, 84);
-        background-image: linear-gradient(to right, rgb(67, 87, 61), rgb(39, 46, 38));
+    .ellink {
+        color: rgb(236, 236, 236);
+    }
+
+    .ellink:hover {
+        border-bottom: 2px solid rgb(236, 236, 236);
     }
 
     ::-webkit-scrollbar-thumb {
-        background-image: linear-gradient(to bottom, rgb(58, 48, 48), rgb(39, 35, 35));
-        border: 3px double rgb(129, 96, 96);
+        background-color:#2e2e2e;
     }
 
     ::-webkit-scrollbar-thumb:hover {
-        background-image: linear-gradient(to bottom, rgb(80, 59, 59), rgb(59, 49, 49));
-        box-shadow: 0 4px 8px 0 rgba(158, 101, 101, 0.26);
+        background-color:#383838;
     }
 
     ::-webkit-scrollbar-track {
-        background-color: rgb(51, 41, 41);
-        border: 3px double rgb(95, 89, 89);
-        border-radius: 3px;
+        background-color: #1f1f1f;
     }
     
     html {
-        scrollbar-color: rgb(129, 96, 96) rgb(51, 41, 41);
+        scrollbar-color: rgb(46, 46, 46) rgb(31, 31, 31);
     }
 }
 
@@ -670,48 +475,61 @@ em {
     #logo2 {
         display: inline;
         color: #ec1c24;
+        animation: txtanimation 2s infinite;
     }
 
     .alink {
-        font-size: 17px;
+        font-size: 18px;
+        padding-top: 16px;
+        padding-bottom: 12px;
     }
 
     .ellink {
-        font-size: 19px;
+        font-size: 23px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+    }
+
+    .mainarticle {
+        margin-top: 49px;
     }
 }
 
 @media (max-width: 366px) {
     .alink {
-        font-size: 15px;
+        font-size: 17px;
+        padding-top: 17px;
+        padding-bottom: 12.5px;
     }
 
     .ellink {
-        font-size: 18px;
+        font-size: 23px;
+        padding-top: 9px;
+        padding-bottom: 9px;
     }
 }
 
 @media (max-width: 344px) {
     .alink {
-        font-size: 13px;
-    }
-
-    .ellink {
-        font-size: 17px;
+        font-size: 16px;
     }
 
     .links {
         font-size: 16px;
     }
+
+    .ellink {
+        font-size: 23px;
+    }
 }
 
 @media (max-width: 324px) {
     .alink {
-        font-size: 11px;
+        font-size: 15px;
     }
 
     .ellink {
-        font-size: 16px;
+        font-size: 23px;
     }
 }
 
@@ -723,10 +541,10 @@ em {
 
 @media (max-width: 304px) {
     .alink {
-        font-size: 9px;
+        font-size: 14px;
     }
 
     .ellink {
-        font-size: 14px;
+        font-size: 23px;
     }
 }

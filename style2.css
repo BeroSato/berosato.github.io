@@ -1,7 +1,7 @@
 * {
-    font-size: 25px;
+    font-size: 21px;
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(54, 45, 45);
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -10,46 +10,37 @@
 ::-webkit-scrollbar {
     width: 10px;
 }
-
+   
 ::-webkit-scrollbar-track {
-    background-color: rgb(241, 231, 231);
-    border: 3px double rgb(221, 203, 203);
-    border-radius: 3px;
+    background-color: #f3f3f3;
 }
-
+   
 ::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(to bottom, rgb(243, 229, 229), rgb(247, 241, 241));
-    background-repeat: no-repeat;
-    border: 3px double rgb(201, 179, 179);
-    border-radius: 3px;
+    background-color: #e6e6e6;
 }
-
+   
 ::-webkit-scrollbar-thumb:hover {
-    box-shadow: 0 4px 8px 0 rgba(48, 28, 28, 0.26);
-    background-image: linear-gradient(to bottom, rgb(235, 219, 219), rgb(238, 226, 226));
+    background-color:#d8d8d8;
 }
 
 html {
-    scrollbar-color: rgb(201, 179, 179) rgb(241, 231, 231);
+    scrollbar-color: rgb(216, 216, 216) rgb(243, 243, 243);
     scrollbar-width: 10px;
-    background-color: rgb(252, 247, 247);
-    background-image: linear-gradient(to right, rgb(243, 237, 237), rgb(252, 247, 247));
+    scroll-behavior: smooth;
+    background-color: #f3f3f3;
     animation: startupa 1s 1;
 }
 
 nav {
-    border-bottom: 3px double rgba(224, 208, 208, 0.5);
+    border-bottom: 2px solid rgba(231, 231, 231, 0.5);
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(241, 232, 232, 0.76);
+    background-color: #f1f1f1fa;
     position: fixed;
-    box-shadow: 0 4px 8px 0 rgba(48, 28, 28, 0.26);
     top: 0;
-    backdrop-filter: blur(13px);
-    -webkit-backdrop-filter: blur(13px);
-    padding: 13px;
+    padding: 6px;
 }
 
 ul {
@@ -61,8 +52,12 @@ ul {
     display: inline-block;
 }
 
+#alink1 {
+    margin-left: 26px;
+}
+
 #alink4 {
-    margin-right: 21px;
+    margin-right: 26px;
 }
 
 nav a {
@@ -71,98 +66,104 @@ nav a {
 }
 
 .alink {
-    color: #ec1c24;
-    background-color: rgba(255, 255, 255, 0.479);
+    color: rgb(36, 36, 36);
     text-decoration: none;
-    padding: 1px;
-    font-size: 18px;
-    border: 4px double rgb(238, 172, 172);
+    font-size: 20px;
     cursor: pointer;
-    transition: all 0.2s;
+    border-bottom: 2px solid #ec1c2300;
+    transition: all 0.1s;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    margin-left: 1px;
 }
 
 .alink:hover {
-    border: 4px double #c49091;
-    box-shadow: 0 4px 8px 0 rgba(48, 28, 28, 0.26);
-    background-image: linear-gradient(to right, rgb(233, 217, 217), rgb(245, 238, 238));
-    background-repeat: no-repeat;
-    color: rgb(51, 43, 43);
+    color: rgb(36, 36, 36);
+    background-color: #e6e6e6c2;
+    border-bottom: 2px solid rgb(36, 36, 36);
 }
 
 .alink:focus {
-    border: 4px double rgb(146, 194, 146);
-    color: rgb(54, 99, 54);
-    background-image: linear-gradient(to right, rgb(183, 211, 176), rgb(222, 235, 221));
-    background-repeat: no-repeat;
-}
-
-#alink1 {
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-}
-
-#alink4 {
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    color: rgb(102, 160, 102);
+    border-bottom: 2px solid rgb(102, 160, 102);
 }
 
 #logo1 {
-    margin-left: 25px;
-    font-size: 30px;
     color: #ec1c24;
+    text-align: center;
     cursor: default;
+    font-size: 30px;
+    padding-right: 1.5px;
+    animation: txtanimation 2s infinite;
+    padding-bottom: 0;
 }
 
 #logo2 {
     font-size: 30px;
     display: none;
+    padding-bottom: 0;
 }
 
 h1 {
-    margin-top: 80px;
-    margin-bottom: 10px;
-    padding-left: 24px;
     font-size: 30px;
+    background-color: #f3f3f3;
+    border-bottom: 2px solid rgba(231, 231, 231, 0.5);
+    color: black;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    cursor: default;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: initial;
 }
 
 summary {
+    display: block;
+    color: rgb(36, 36, 36);
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    text-decoration: none;
+    text-align: left;
+    padding-left: 25px;
+    padding-bottom: 4px;
+    transition: all 0.1s;
     font-size: 25px;
-    padding-left: 14px;
-    margin: 0 10px;
-    border-left: 2px solid rgb(197, 176, 176);
-    transition: all 0.2s;
 }
 
 summary:hover {
-    background-image: linear-gradient(to right, rgb(233, 219, 219), rgb(240, 231, 231));
-    color: black;
-    text-decoration: underline;
-    border-left: 2px solid rgb(233, 219, 219);
-    border-radius: 3px;
-    margin: 0 15px;
+    background-color: #e6e6e6c2;
+    border-bottom: 2px solid rgb(36, 36, 36);
 }
 
 summary:focus {
-    border-radius: 3px;
-    margin: 0 15px;
-    color: rgb(54, 99, 54);
-    background-image: linear-gradient(to right, rgb(183, 211, 176), rgb(222, 235, 221));
-    border-left: 2px solid rgb(183, 211, 176);
+    color: rgb(102, 160, 102);
+    border-bottom: 2px solid rgb(102, 160, 102);
+}
+
+a {
+    font-size: 20px;
+    color: rgb(36, 36, 36);
+    transition: all 0.1s;
+}
+
+a:hover {
+    color: black;
 }
 
 img {
     border-radius: 5px;
-    margin-left: 25px;
+    text-align: left;
 }
 
 .firstblog {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 p {
     font-size: 20px;
     margin-left: 25px;
     margin-right: 20px;
+    text-align: left;
+    padding-bottom: 3px;
 }
 
 div {
@@ -170,17 +171,7 @@ div {
     font-size: 28px;
 }
 
-#div2 {
-    border-bottom: 2px solid rgb(197, 176, 176);
-    border-radius: 50px;
-    margin-bottom: 1px;
-    margin-right: 10px;
-    margin-left: 10px;
-    padding-bottom: 0;
-}
-
 sup {
-    background-image: linear-gradient(to right, rgb(241, 233, 233), rgb(252, 247, 247));
     font-size: 12px;
     border-radius: 2px;
 }
@@ -188,6 +179,10 @@ sup {
 h4 {
     font-size: 27px;
     margin-left: 25px;
+    text-align: left;
+    padding-bottom: 3px;
+    font-weight: initial;
+    color: black;
 }
 
 #para2 {
@@ -202,67 +197,50 @@ h4 {
 }
 
 footer {
-    text-align: center;
-    border-top: 3px double rgba(224, 208, 208, 0.5);
-    color: rgb(51, 43, 43);
-    background-color: rgb(247, 238, 238);
-    background-image: url(images/background3.2.jpg);
-    background-size: cover;
-    box-shadow: 0 -4px 8px 0 rgba(48, 28, 28, 0.26);
-    padding: 20px 0;
-    font-size: 15px;
-    text-shadow: 2px 2px 40px #1d1d1d;
+    border-top: 2px solid rgba(231, 231, 231, 0.5);
+    background-color: #f1f1f1fa;
+    color: rgb(36, 36, 36);
     padding-top: 6px;
-    padding-bottom: 20px;
-}
-
-#linkfirst {
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    margin-top: 0;
-}
-
-#linklast {
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
+    padding-bottom: 12px;
+    cursor: default;
 }
 
 .links {
     text-shadow: 0 0 0;
     text-decoration: none;
-    color: #ec1c24;
+    color: rgb(36, 36, 36);
+    border-top: 2px solid #ec1c2300;
     display: inline;
-    border: 4px double rgb(238, 172, 172);
-    background-color: rgba(241, 232, 232, 0.76);
+    background-repeat: no-repeat;
     font-size: 19px;
-    padding: 1px;
-    transition: 0.2s;
+    padding-top: 7px;
+    padding-bottom: 13px;
+    transition: 0.1s;
+    margin-left: 1px;
 }
 
 .links:hover {
-    color: rgb(51, 43, 43);
-    background-image: linear-gradient(to right, rgb(233, 217, 217), rgb(245, 238, 238));
-    background-repeat: no-repeat;
-    border: 4px double #c49091;
-    box-shadow: 0 4px 8px 0 rgba(48, 28, 28, 0.26);
+    color: rgb(36, 36, 36);
+    background-color: #e6e6e6c2;
+    border-top: 2px solid rgb(36, 36, 36);
 }
 
 .links:focus {
-    border: 4px double rgb(146, 194, 146);
-    background-color: rgb(116, 197, 96);
-    color: rgb(54, 99, 54);
-    background-image: linear-gradient(to right, rgb(183, 211, 176), rgb(222, 235, 221));
-    background-repeat: no-repeat;
+    color: rgb(102, 160, 102);
+    border-bottom: 2px solid rgb(102, 160, 102);
 }
 
 .divlast {
-    color: rgb(51, 43, 43);
-    padding-bottom: 15px;
+    font-size: 28px;
+    padding-bottom: 7px;
+    border-bottom: 2px solid rgba(231, 231, 231, 0.5);
+    margin-bottom: 5px;
 }
 
 strong {
     color: #ec1c24;
     font-size: 29px;
+    font-weight: normal;
     animation: txtanimation 2s infinite;
 }
 
@@ -275,142 +253,99 @@ em {
     font-size: 20px;
 }
 
-@keyframes bganimation {
-    0% {background-color: #f8f8f8;}
-    20% {background-color: rgb(248, 241, 241);}
-    50% {background-color: rgb(243, 235, 235);}
-    75% {background-color: rgb(248, 244, 244);}
-    100% {background-color: #f8f8f8;}
-}
-
-@keyframes bganimationalt {
-    0% {background-color: #1d1d1d;}
-    20% {background-color: rgb(39, 34, 34);}
-    50% {background-color: rgb(56, 47, 47);}
-    75% {background-color: rgb(36, 34, 34);}
-    100% {background-color: #1d1d1d;}
-}
-
 @keyframes startupa {
     0% {opacity: 0;}
     100% {opacity: 1;}
 }
 
 @keyframes txtanimation {
-    0% {text-shadow: 2px 2px 15px #c9161c;}
-    50% {text-shadow: 2px 2px 25px #c9161c;}
-    100% {text-shadow: 2px 2px 15px #c9161c;}
+    0% {text-shadow: 2px 2px 25px #c9161c;}
+    50% {text-shadow: 2px 2px 35px #c9161c;}
+    100% {text-shadow: 2px 2px 25px #c9161c;}
 }
 
 @media (prefers-color-scheme: dark) {
-    * {
-        color: rgb(231, 219, 219);
+    html {
+        background-color: #1f1f1f;
+        color: white;
     }
 
     nav {
-        border-bottom: 3px double rgba(82, 67, 67, 0.5);
-        background-color: rgba(49, 41, 41, 0.76);
-        box-shadow: 0 4px 8px 0 rgba(158, 101, 101, 0.26);
-    }
-
-    #div2 {
-        border-bottom: 2px solid rgb(88, 68, 68);
-        border-radius: 50px;
-    }
-
-    html {
-        scrollbar-color: rgb(129, 96, 96) rgb(51, 41, 41);
-        background-color: rgb(29, 27, 27);
-        background-image: linear-gradient(to right, rgb(41, 35, 35), rgb(29, 27, 27));
-    }
-
-    sup {
-        background-image: linear-gradient(to right, rgb(48, 39, 39), rgb(29, 27, 27));
-    }
-
-    summary {
-        border-left: 2px solid rgb(100, 81, 81);
-    }
-
-    summary:hover {
-        background-image: linear-gradient(to right, rgb(59, 50, 50), rgb(43, 37, 37));
-        color: white;
-        border-left: 2px solid rgb(59, 50, 50);
-    }
-
-    summary:focus {
-        color: rgb(160, 212, 160);
-        background-image: linear-gradient(to right, rgb(67, 87, 61), rgb(39, 46, 38));
-        border-left: 2px solid rgb(67, 87, 61);
+        border-bottom: 2px solid rgba(46, 46, 46, 0.5);
+        background-color: #222222fa;
     }
 
     .divlast {
-        color: rgb(238, 226, 226);
+        color: rgb(236, 236, 236);
     }
 
-    #div2 {
-        border-bottom: 2px solid rgb(100, 81, 81);
+    summary {
+        color: rgb(236, 236, 236);
     }
 
-    .links {
-        color: #ec1c24;
-        background-color: rgba(49, 41, 41, 0.76);
-        border: 4px double rgb(112, 57, 57);
+    summary:hover {
+        background-color: #2e2e2ec2;
+        border-bottom: 2px solid rgb(236, 236, 236);
     }
 
-    .links:hover {
-        border: 4px double #584141;
-        box-shadow: 0 4px 8px 0 rgba(158, 101, 101, 0.26);
-        background-image: linear-gradient(to right, rgb(66, 49, 49), rgb(46, 38, 38));
-        color: rgb(238, 226, 226);
+    a {
+        color: rgb(236, 236, 236);
     }
 
-    .links:focus {
-        color: rgb(160, 212, 160);
-        border: 4px double rgb(89, 112, 84);
-        background-image: linear-gradient(to right, rgb(67, 87, 61), rgb(39, 46, 38));
+    a:hover {
+        color: white;
     }
 
     footer {
-        border-top: 3px double rgba(82, 67, 67, 0.5);
-        color: rgb(238, 226, 226);
-        background-color: rgb(43, 36, 36);
-        background-image: url(images/background3.jpg);
-        box-shadow: 0 -4px 8px 0 rgba(158, 101, 101, 0.26);
+        border-top: 2px solid rgba(46, 46, 46, 0.5);
+        background-color: #222222fa;
+        color: rgb(236, 236, 236);
+    }
+
+    .links {
+        color: rgb(236, 236, 236);
+    }
+
+    .links:hover {
+        color: rgb(236, 236, 236);
+        background-color: #2e2e2ec2;
+        border-top: 2px solid rgb(236, 236, 236);
+    }
+
+    .divlast {
+        border-bottom: 2px solid rgb(46, 46, 46, 0.5);
     }
 
     .alink {
-        border: 4px double rgb(112, 57, 57);
-        background-color: rgba(43, 36, 36, 0.479);
+        color: rgb(236, 236, 236);
     }
 
     .alink:hover {
-        border: 4px double #584141;
-        box-shadow: 0 4px 8px 0 rgba(158, 101, 101, 0.26);
-        background-image: linear-gradient(to right, rgb(66, 49, 49), rgb(46, 38, 38));
-        color: rgb(238, 226, 226);
+        color: rgb(236, 236, 236);
+        background-color: #2e2e2ec2;
+        border-bottom: 2px solid rgb(236, 236, 236);
     }
 
-    .alink:focus {
-        color: rgb(160, 212, 160);
-        border: 4px double rgb(89, 112, 84);
-        background-image: linear-gradient(to right, rgb(67, 87, 61), rgb(39, 46, 38));
+    h1 {
+        color: white;
+        background-color: #1f1f1fde;
+        border-bottom: 2px solid rgba(46, 46, 46, 0.5);
+    }
+
+    h4 {
+        color: white;
     }
 
     ::-webkit-scrollbar-thumb {
-        background-image: linear-gradient(to bottom, rgb(58, 48, 48), rgb(39, 35, 35));
-        border: 3px double rgb(129, 96, 96);
+        background-color:#2e2e2e;
     }
 
     ::-webkit-scrollbar-thumb:hover {
-        background-image: linear-gradient(to bottom, rgb(80, 59, 59), rgb(59, 49, 49));
-        box-shadow: 0 4px 8px 0 rgba(158, 101, 101, 0.26);
+        background-color:#383838;
     }
 
     ::-webkit-scrollbar-track {
-        background-color: rgb(51, 41, 41);
-        border: 3px double rgb(95, 89, 89);
-        border-radius: 3px;
+        background-color: #1f1f1f;
     }
 }
 
@@ -423,22 +358,27 @@ em {
         margin-left: 25px;
         display: inline;
         color: #ec1c24;
+        animation: txtanimation 2s infinite;
     }
 
     .alink {
-        font-size: 17px;
+        font-size: 18px;
+        padding-top: 16px;
+        padding-bottom: 12.8px;
     }
 }
 
 @media (max-width: 366px) {
     .alink {
-        font-size: 15px;
+        font-size: 17px;
     }
 }
 
 @media (max-width: 344px) {
     .alink {
-        font-size: 13px;
+        font-size: 16px;
+        padding-top: 17px;
+        padding-bottom: 13px;
     }
 
     .links {
@@ -448,7 +388,7 @@ em {
 
 @media (max-width: 324px) {
     .alink {
-        font-size: 11px;
+        font-size: 15px;
     }
 }
 
@@ -460,6 +400,6 @@ em {
 
 @media (max-width: 304px) {
     .alink {
-        font-size: 9px;
+        font-size: 14px;
     }
 }
