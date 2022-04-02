@@ -75,7 +75,7 @@ nav a {
     border-bottom: 2px solid #ec1c2300;
     transition: all 0.1s;
     padding-top: 14px;
-    padding-bottom: 11.5px;
+    padding-bottom: 11px;
 }
 
 .alink:hover {
@@ -159,7 +159,7 @@ div {
     font-size: 23px;
     color: rgb(36, 36, 36);
     padding-top: 9px;
-    padding-bottom: 9.5px;
+    padding-bottom: 9.6px;
 }
 
 .ellink:hover {
