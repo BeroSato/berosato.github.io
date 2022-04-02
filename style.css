@@ -277,6 +277,14 @@ div {
     padding-bottom: 4px;
 }
 
+#title1 {
+    padding-top: 4px;
+}
+
+#modtxt {
+    padding-bottom: 10px;
+}
+
 h2 {
     margin-bottom: 7px;
     padding-bottom: 9px;
@@ -481,7 +489,7 @@ em {
     .alink {
         font-size: 18px;
         padding-top: 16px;
-        padding-bottom: 12px;
+        padding-bottom: 12.3px;
     }
 
     .ellink {
