@@ -11,22 +11,24 @@ https://berosato.github.io/classic
 ## Default Theme
 light mode:
 
-<img width="606" alt="newredesign" src="https://user-images.githubusercontent.com/75726739/161369435-af0650ea-e1d6-478b-8a9c-6ff941bb6d6a.png">
+<img width="630" alt="designupdate" src="https://user-images.githubusercontent.com/75726739/167240542-b2abd7c7-f835-4129-bc13-296ae6df190f.png">
 
 dark mode:
 
-<img width="606" alt="newredesign2" src="https://user-images.githubusercontent.com/75726739/161369441-389e0584-c9b6-40f8-8908-91f59b478dba.png">
+<img width="630" alt="designupdatedark" src="https://user-images.githubusercontent.com/75726739/167240551-c58a4f34-1bbc-4ff5-9a6c-540b26a5765a.png">
 
 ## Classic Theme
 light mode:
 
-<img width="644" alt="newclassic" src="https://user-images.githubusercontent.com/75726739/161369447-742bb718-a578-472c-b843-b5861b09ef56.png">
+<img width="619" alt="msedge_m7FZkCPUJV" src="https://user-images.githubusercontent.com/75726739/167240582-3aa18ed2-7cce-4df5-833c-88ed19f2147f.png">
 
 dark mode:
 
-<img width="644" alt="newclassic2" src="https://user-images.githubusercontent.com/75726739/161369452-56f42772-aa26-4694-9411-20bf3f407d97.png">
+<img width="619" alt="msedge_NAhsV4c3Yw" src="https://user-images.githubusercontent.com/75726739/167240587-87590bd2-77bd-47e4-92d0-1701a8a4aeae.png">
 
 ## Credits 
 Made with HTML and CSS
 
 Default font: Segoe UI by Steve Matteson
+
+Icons: By Typicons, Iconic, MFG Labs and Font Awesome. (Generated using Fontello)
