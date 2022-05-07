@@ -9,26 +9,28 @@
     <title>Bero Sato's Website - Home</title>
     <link rel="shortcut icon" href="images/websiteicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <script defer src="config.json"></script>
+    <link rel="stylesheet" href="fontello.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
                 <li class="list1">
-                    <a class="alink" id="alink1" href="#home">Home</a>
+                    <a class="icon-home-outline alink" id="alink1" href="#home"></a>
                 </li>
                 <li class="list1">
-                    <a class="alink linko" id="alink2" href="https://berosato.github.io/blogs">Blogs</a>
+                    <a class="icon-book alink" id="alink2" href="https://berosato.github.io/blogs"></a>
                 </li>
             </ul>
             <p id="logo1">Bero Sato</p>
             <p id="logo2">B</p>
             <ul>
                 <li class="list1">
-                    <a class="alink linko" id="alink3" href="#projects">Projects</a>
+                    <a class="icon-th-list-outline alink" id="alink3" href="#projects"></a>
                 </li>
                 <li class="list1">
-                    <a class="alink linko"  id="alink4" href="#about">About</a>
+                    <a class="icon-info-outline alink"  id="alink4" href="#about"></a>
                 </li>
             </ul>
         </nav>
@@ -36,12 +38,12 @@
     <main>
         <section>
             <article class="mainarticle">
-                <h2 id="h2options">More options</h2>
+                <h2 id="h2options">More shortcuts</h2>
                 <p class="paraellink">
-                    <a class="alink ellink qnalink" href="#qna">QnA</a>
-                    <a class="alink ellink videoslink" href="#videos">Videos</a>
-                    <a class="alink ellink tweetslink" href="#tweets">Tweets</a>
-                    <a class="alink ellink classiclink" href="https://berosato.github.io/classic">Classic</a>
+                    <a class="icon-help-circled-alt alink ellink qnalink" href="#qna"></a>
+                    <a class="icon-youtube alink ellink videoslink" href="#videos"></a>
+                    <a class="icon-twitter-circled alink ellink tweetslink" href="#tweets"></a>
+                    <a class="icon-archive alink ellink classiclink" href="https://berosato.github.io/classic"></a>
                 </p>
             </article>
             <article class="article1" id="home">
@@ -49,10 +51,10 @@
                 <p>Here you can explore some stuff.</p>
             </article>
             <article class="article2" id="qna">
-                <h2>Who are you?</h2>
+                <h2 id="firstqna">Who are you?</h2>
                 <p id="lastpara1">I'm Bero, My real name is Omar and I like some tech stuff and trying to explore them.
                 I also love reading manga and watching some animes, playing some games and I'm a huge fan of HTC :) </p>
-                <h2>Why is this exists?</h2>
+                <h2>Why does this exist?</h2>
                 <p id="lastpara1">I have made this website for fun.</p>
                 <h2>How many programming languages do you know?</h2>
                 <p id="lastpara1">HTML (not a programming language but still counts), CSS and will learn JavaScript and C# soon.</p>
@@ -66,8 +68,8 @@
             <article class="article3" id="projects">
                 <h2 id="latestmargin">List of my projects</h2>
                 <a class="articlelink" href="https://berosato.github.io">Bero Sato's Website <sup>Completed</sup></a>
-                <a class="articlelink" href="https://berosato.github.io#projects">UWP Apps <sup>Not started yet</sup></a>
-                <a class="articlelink" href="https://berosato.github.io#projects">Kart Racing <sup>Not started yet</sup></a>
+                <a class="articlelink" href="https://berosato.github.io/uwpapps">UWP Apps <sup>Not started yet</sup></a>
+                <a class="articlelink" href="https://berosato.github.io/kartracing">Kart Racing <sup>Not started yet</sup></a>
             </article>
             <article class="article4" id="videos">
                 <h2 id="latestmargin">Latest 4 videos</h2>
@@ -85,20 +87,21 @@
             </article>
             <article class="article6" id="about">
                 <h2>About this website</h2>
-                <p id="title1">Made with <b id="btxt">HTML & CSS</b></p>
-                <p>Version: <b id="btxt">3.0</b></p>
+                <p id="title1">Bero Sato's Website</p>
+                <p>Version: <b id="btxt">3.0.5</b></p>
+                <p>Made with: <b id="btxt">HTML, CSS and Paint 3D</b></p>
                 <p>Font: <b id="btxt">Segoe UI by Steve Matteson</b></p>
-                <p>This website is <b id="btxt">made for fun</b>.</p>
-                <p id="modtxt">Modifed in <b id="btxt">4/2/2022</b></p>
+                <p>Icons: <b id="btxt">By Typicons, Iconic, MFG Labs and Font Awesome. (Generated using Fontello)</b></p>
+                <p id="modtxt">Last modifed: <b id="btxt">5/7/2022</b></p>
             </article>
         </section>
     </main>
     <footer>
         <div>© 2022 <strong class="strongtext">Bero Sato</strong></div>
-        <a id="linkfirst" class="links" href="https://youtube.com/c/BeroSato">YouTube</a>
-        <a id="link1" class="links" href="https://twitter.com/Bero_Sato">Twitter</a>
-        <a id="link1" class="links" href="https://github.com/BeroSato">GitHub</a>
-        <a id="linklast" class="links" href="https://github.com/BeroSato/berosato.github.io">Source Code</a>
+        <a id="linkfirst" class="icon-youtube links" href="https://youtube.com/c/BeroSato"></a>
+        <a id="link1" class="icon-twitter-circled links" href="https://twitter.com/Bero_Sato"></a>
+        <a id="link1" class="icon-github-circled links" href="https://github.com/BeroSato"></a>
+        <a id="linklast" class="icon-code-outline links" href="https://github.com/BeroSato/berosato.github.io"></a>
     </footer>
 </body>
 </html>

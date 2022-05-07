@@ -1,5 +1,5 @@
 * {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
@@ -13,6 +13,10 @@
    
 ::-webkit-scrollbar-track {
     background-color: #f3f3f3;
+}
+
+::-webkit-scrollbar-track:hover {
+    background-color: #eeeeee;
 }
    
 ::-webkit-scrollbar-thumb {
@@ -40,9 +44,10 @@ nav {
     align-items: center;
     justify-content: space-between;
     background-color: #f1f1f1fa;
+    box-shadow: 0 4px 8px 0 rgba(118, 118, 118, 0.26);
     position: fixed;
     top: 0;
-    padding: 6px;
+    padding: 5px;
 }
 
 ul {
@@ -51,125 +56,107 @@ ul {
 }
 
 .list1 {
-    display: inline-block;
+    display: inline;
 }
 
 #alink1 {
-    margin-left: 26px;
+    margin-left: 10px;
 }
 
 #alink4 {
-    margin-right: 26px;
+    margin-right: 10px;
 }
 
 nav a {
-    color: black;
     text-decoration: none;
+}
+
+a {
+    border-radius: 3px;
+    color: rgb(36, 36, 36);
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.1s;
+    border-bottom: 2px solid rgba(18, 18, 18, 0);
+}
+
+a:hover {
+    background-color: #e3e3e3c2;
+    border-bottom: 2px solid #dcdcdcc2;
+    color: black;
+}
+
+a:focus {
+    background-color: #dbe4dac2;
+    border-bottom: 2px solid #c7d3c7c2;
 }
 
 .alink {
-    color: rgb(36, 36, 36);
-    text-decoration: none;
-    font-size: 20px;
-    cursor: pointer;
-    border-bottom: 2px solid #ec1c2300;
-    transition: all 0.1s;
-    padding-top: 14px;
-    padding-bottom: 11px;
-}
-
-.alink:hover {
-    background-color: #e6e6e6c2;
-    border-bottom: 2px solid rgb(36, 36, 36);
-}
-
-.alink:focus {
-    color: rgb(102, 160, 102);
-    border-bottom: 2px solid rgb(102, 160, 102);
+    padding: 5px;
 }
 
 #logo1 {
     color: #ec1c24;
     text-align: center;
     cursor: default;
-    font-size: 30px;
-    padding-right: 22px;
+    font-size: 31px;
+    padding-right: 25px;
     animation: txtanimation 2s infinite;
 }
 
 #logo2 {
-    font-size: 30px;
-    padding-right: 22px;
+    font-size: 31px;
+    padding-right: 25px;
     display: none;
 }
 
 footer {
     border-top: 2px solid rgba(231, 231, 231, 0.5);
-    background-color: #f1f1f1fa;
+    box-shadow: 0 -4px 8px 0 rgba(118, 118, 118, 0.26);
+    background-color: #f3f3f3;
+    background-image: url(images/background.jpg);
     color: rgb(36, 36, 36);
     animation: startupa 1s 1;
-    padding-top: 6px;
-    padding-bottom: 12px;
+    padding-bottom: 14px;
     cursor: default;
 }
 
 .links {
-    text-shadow: 0 0 0;
-    text-decoration: none;
-    color: rgb(36, 36, 36);
-    border-top: 2px solid #ec1c2300;
-    display: inline;
-    background-repeat: no-repeat;
-    font-size: 19px;
-    padding-top: 6px;
-    padding-bottom: 13px;
-    transition: 0.1s;
-}
-
-.links:hover {
-    background-color: #e6e6e6c2;
-    border-top: 2px solid rgb(36, 36, 36);
-}
-
-.links:focus {
-    color: rgb(102, 160, 102);
-    border-bottom: 2px solid rgb(102, 160, 102);
+    padding: 5px;
 }
 
 div {
     font-size: 28px;
-    padding-bottom: 7px;
+    padding-top: 4px;
+    padding-bottom: 8px;
     border-bottom: 2px solid rgba(231, 231, 231, 0.5);
+    background-color: #efefefa0;
+    margin-bottom: 12px;
+}
+
+article {
+    background-image: url(images/abg2.png);
+    background-color: #f3f3f3;
+    box-shadow: 0 4px 8px 0 rgba(49, 49, 49, 0.26);
+    color: rgb(36, 36, 36);
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid rgba(231, 231, 231, 0.5);
+    border-top: 2px solid rgba(231, 231, 231, 0.5);
 }
 
 .mainarticle {
     background-color: #f3f3f3de;
-    border-bottom: 2px solid rgba(231, 231, 231, 0.5);
-    color: rgb(36, 36, 36);
-    background-repeat: no-repeat;
+    background-image: none;
+    border-top: 0;
     margin-bottom: 10px;
-    margin-top: 54px;
+    margin-top: 53px;
     cursor: default;
-    padding-top: 6px;
-    padding-bottom: 7px;
-}
-
-.ellink {
-    cursor: pointer;
-    font-size: 23px;
-    color: rgb(36, 36, 36);
-    padding-top: 9px;
-    padding-bottom: 9.6px;
-}
-
-.ellink:hover {
-    border-bottom: 2px solid rgb(36, 36, 36);
+    padding-bottom: 12.7px;
 }
 
 .paraellink {
     text-align: center;
-    margin-bottom: 2px;
-    padding-left: 0;
 }
 
 #h2options {
@@ -181,81 +168,22 @@ div {
 }
 
 .article1 {
-    background-color: #f3f3f3;
-    box-shadow: 0 4px 8px 0 rgba(49, 49, 49, 0.26);
-    color: rgb(36, 36, 36);
     margin-top: 14px;
-    margin-bottom: 10px;
-    background-repeat: no-repeat;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
-.article2 {
-    background-color: #f3f3f3;
-    box-shadow: 0 4px 8px 0 rgba(49, 49, 49, 0.26);
-    color: rgb(36, 36, 36);
-    background-repeat: no-repeat;
-    margin-bottom: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.article3 {
-    background-color: #f3f3f3;
-    box-shadow: 0 4px 8px 0 rgba(49, 49, 49, 0.26);
-    color: rgb(36, 36, 36);
-    background-repeat: no-repeat;
-    text-align: left;
-    margin-bottom: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.article4 {
-    background-color: #f3f3f3;
-    box-shadow: 0 4px 8px 0 rgba(49, 49, 49, 0.26);
-    color: rgb(36, 36, 36);
-    background-repeat: no-repeat;
-    margin-bottom: 10px;
-    padding-top: 10px;
-    padding-bottom: 1px;
+.article2 > h2 {
+    border-top: 2px solid rgba(231, 231, 231, 0.5);
 }
 
 .articlelink {
     display: block;
     text-decoration: none;
-    color: rgb(36, 36, 36);
-    border-bottom: 2px solid rgba(0, 0, 0, 0);
     text-align: left;
-    padding-left: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 10px;
     padding-bottom: 4px;
-    transition: all 0.1s;
     font-size: 25px;
-}
-
-.articlelink:hover {
-    background-color: #e9e9e9;
-    border-bottom: 2px solid rgb(36, 36, 36);
-}
-
-.articlelink:focus {
-    color: rgb(102, 160, 102);
-    border-bottom: 2px solid rgb(102, 160, 102);
-}
-
-#articlelink4 {
-    margin-bottom: 9px;
-}
-
-.article5 {
-    background-color: #f3f3f3;
-    box-shadow: 0 4px 8px 0 rgba(49, 49, 49, 0.26);
-    color: rgb(36, 36, 36);
-    margin-bottom: 10px;
-    background-repeat: no-repeat;
-    padding-top: 10px;
-    padding-bottom: 1px;
 }
 
 #latestmargin {
@@ -263,14 +191,7 @@ div {
 }
 
 .article6 {
-    background-color: #f3f3f3;
-    box-shadow: 0 4px 8px 0 rgba(49, 49, 49, 0.26);
-    color: rgb(36, 36, 36);
-    background-repeat: no-repeat;
-    text-align: left;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 17px;
 }
 
 .article6 > p {
@@ -281,20 +202,22 @@ div {
     padding-top: 4px;
 }
 
-#modtxt {
-    padding-bottom: 10px;
-}
-
 h2 {
     margin-bottom: 7px;
-    padding-bottom: 9px;
+    padding-bottom: 8px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 6px;
     text-align: center;
     font-size: 27px;
     font-weight: initial;
     color: black;
     border-bottom: 2px solid rgba(231, 231, 231, 0.5);
+    background-color: #efefefa0;
+}
+
+#firstqna {
+    border-top: 0 solid rgba(231, 231, 231, 0);
 }
 
 sup {
@@ -303,14 +226,13 @@ sup {
 
 p {
     text-align: left;
-    padding-left: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 25px;
 }
 
-li {
-    text-align: left;
-    font-size: 25px;
-    padding-bottom: 2px;
+.paraellink {
+    padding-left: 9px;
 }
 
 b {
@@ -348,114 +270,69 @@ em {
 @media (prefers-color-scheme: dark) {
     html {
         background-color: #121212;
-        color: white;
         background-image: url(images/backgrounddark.jpg);
+        scrollbar-color: rgb(46, 46, 46) rgb(31, 31, 31);
     }
 
     nav {
         border-bottom: 2px solid rgba(46, 46, 46, 0.5);
         background-color: #222222fa;
+        box-shadow: 0 4px 8px 0 rgba(90, 90, 90, 0.26);
     }
 
     h2 {
         color: white;
         border-bottom: 2px solid rgba(46, 46, 46, 0.5);
+        background-color: #242424a0;
     }
 
     #btxt {
         color: white;
     }
 
+    article {
+        background-image: url(images/abg2dark.png);
+        color: rgb(236, 236, 236);
+        background-color: #1f1f1f;
+        box-shadow: 0 4px 8px 0 rgba(124, 124, 124, 0.26);
+        border-bottom: 2px solid rgba(46, 46, 46, 0.5);
+        border-top: 2px solid rgba(46, 46, 46, 0.5);
+    }
+
     .mainarticle {
-        color: rgb(236, 236, 236);
         background-color: #1f1f1fde;
-        border-bottom: 2px solid rgba(46, 46, 46, 0.5);
     }
 
-    #h2options {
-        border-bottom: 2px solid rgba(46, 46, 46, 0.5);
-    }
-
-    .article1 {
-        color: rgb(236, 236, 236);
-        background-color: #1f1f1f;
-        box-shadow: 0 4px 8px 0 rgba(124, 124, 124, 0.26);
-    }
-
-    .article2 {
-        color: rgb(236, 236, 236);
-        background-color: #1f1f1f;
-        box-shadow: 0 4px 8px 0 rgba(124, 124, 124, 0.26);
-    }
-
-    .article3 {
-        color: rgb(236, 236, 236);
-        background-color: #1f1f1f;
-        box-shadow: 0 4px 8px 0 rgba(124, 124, 124, 0.26);
-    }
-
-    .article4 {
-        color: rgb(236, 236, 236);
-        background-color: #1f1f1f;
-        box-shadow: 0 4px 8px 0 rgba(124, 124, 124, 0.26);
-    }
-
-    .articlelink {
-        color: rgb(236, 236, 236);
-        border-bottom: 2px solid rgba(255, 255, 255, 0);
-    }
-
-    .articlelink:hover {
-        background-color: #2a2a2a;
-        border-bottom: 2px solid rgb(236, 236, 236);
-    }
-
-    .article5 {
-        color: rgb(236, 236, 236);
-        background-color: #1f1f1f;
-        box-shadow: 0 4px 8px 0 rgba(124, 124, 124, 0.26);
-    }
-
-    .article6 {
-        color: rgb(236, 236, 236);
-        background-color: #1f1f1f;
-        box-shadow: 0 4px 8px 0 rgba(124, 124, 124, 0.26);
+    .article2 > h2 {
+        border-top: 2px solid rgba(46, 46, 46, 0.5);
     }
 
     footer {
         border-top: 2px solid rgba(46, 46, 46, 0.5);
         background-color: #222222fa;
+        background-image: url(images/backgrounddark.jpg);
         color: rgb(236, 236, 236);
-    }
-
-    .links {
-        color: rgb(236, 236, 236);
-    }
-
-    .links:hover {
-        background-color: #2e2e2ec2;
-        border-top: 2px solid rgb(236, 236, 236);
+        box-shadow: 0 -4px 8px 0 rgba(90, 90, 90, 0.26);
     }
 
     div {
         border-bottom: 2px solid rgb(46, 46, 46, 0.5);
+        background-color: #242424a0;
     }
 
-    .alink {
+    a {
         color: rgb(236, 236, 236);
     }
 
-    .alink:hover {
-        background-color: #2e2e2ec2;
-        border-bottom: 2px solid rgb(236, 236, 236);
+    a:hover {
+        background-color: #363636c2;
+        border-bottom: 2px solid #3f3f3fc2;
+        color: white;
     }
 
-    .ellink {
-        color: rgb(236, 236, 236);
-    }
-
-    .ellink:hover {
-        border-bottom: 2px solid rgb(236, 236, 236);
+    a:focus {
+        background-color: #3d453bc2;
+        border-bottom: 2px solid #3e4a40c2;
     }
 
     ::-webkit-scrollbar-thumb {
@@ -469,13 +346,19 @@ em {
     ::-webkit-scrollbar-track {
         background-color: #1f1f1f;
     }
-    
-    html {
-        scrollbar-color: rgb(46, 46, 46) rgb(31, 31, 31);
+
+    ::-webkit-scrollbar-track:hover {
+        background-color: #252525;
     }
 }
 
 @media (max-width: 506px) {
+    .mainarticle {
+        margin-top: 48px;
+    }
+}
+
+@media (max-width: 393px) {
     #logo1 {
         display: none;
     }
@@ -484,75 +367,5 @@ em {
         display: inline;
         color: #ec1c24;
         animation: txtanimation 2s infinite;
-    }
-
-    .alink {
-        font-size: 18px;
-        padding-top: 16px;
-        padding-bottom: 12.3px;
-    }
-
-    .ellink {
-        font-size: 23px;
-        padding-top: 9px;
-        padding-bottom: 9px;
-    }
-
-    .mainarticle {
-        margin-top: 49px;
-    }
-}
-
-@media (max-width: 366px) {
-    .alink {
-        font-size: 17px;
-        padding-top: 17px;
-        padding-bottom: 12.5px;
-    }
-
-    .ellink {
-        font-size: 23px;
-        padding-top: 9px;
-        padding-bottom: 9px;
-    }
-}
-
-@media (max-width: 344px) {
-    .alink {
-        font-size: 16px;
-    }
-
-    .links {
-        font-size: 16px;
-    }
-
-    .ellink {
-        font-size: 23px;
-    }
-}
-
-@media (max-width: 324px) {
-    .alink {
-        font-size: 15px;
-    }
-
-    .ellink {
-        font-size: 23px;
-    }
-}
-
-@media (max-width: 310px) {
-    .links {
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 304px) {
-    .alink {
-        font-size: 14px;
-    }
-
-    .ellink {
-        font-size: 23px;
     }
 }

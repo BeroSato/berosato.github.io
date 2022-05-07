@@ -292,6 +292,10 @@ h2 {
     margin: 0 5px;
 }
 
+#prolink3 {
+    margin-bottom: 5px;
+}
+
 .article4 {
     border-radius: 5px;
     background-image: linear-gradient(to right, #f0ece7, rgb(247, 246, 240));

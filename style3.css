@@ -1,5 +1,5 @@
 * {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
@@ -14,6 +14,10 @@
 ::-webkit-scrollbar-track {
     background-color: #f3f3f3;
 }
+
+::-webkit-scrollbar-track:hover {
+    background-color: #eeeeee;
+}
    
 ::-webkit-scrollbar-thumb {
     background-color: #e6e6e6;
@@ -24,7 +28,7 @@
 }
 
 html {
-    background-image: url(images/background.jpg);
+    background-image: url(images/abg2.png);
     scrollbar-color: rgb(201, 179, 179) rgb(241, 231, 231);
     scrollbar-width: 10px;
     animation: startupa 1s 1;
@@ -40,7 +44,8 @@ nav {
     background-color: #f1f1f1fa;
     position: fixed;
     top: 0;
-    padding: 6px;
+    box-shadow: 0 4px 8px 0 rgba(118, 118, 118, 0.26);
+    padding: 5px;
 }
 
 ul {
@@ -48,56 +53,53 @@ ul {
     cursor: default;
 }
 
-.alink {
+a {
+    border-radius: 3px;
     color: rgb(36, 36, 36);
     text-decoration: none;
-    font-size: 20px;
     cursor: pointer;
-    border-bottom: 2px solid #ec1c2300;
     transition: all 0.1s;
-    padding-top: 15px;
-    padding-bottom: 10.5px;
+    border-bottom: 2px solid rgba(18, 18, 18, 0);
 }
 
-.alink:hover {
-    background-color: #e6e6e6c2;
-    border-bottom: 2px solid rgb(36, 36, 36);
+a:hover {
+    background-color: #e3e3e3c2;
+    border-bottom: 2px solid #dcdcdcc2;
+    color: black;
 }
 
-.alink:focus {
-    color: rgb(102, 160, 102);
-    border-bottom: 2px solid rgb(102, 160, 102);
+a:focus {
+    background-color: #dbe4dac2;
+    border-bottom: 2px solid #c7d3c7c2;
+}
+
+.alink {
+    padding: 5px;
 }
 
 #alinkalt {
-    margin-right: 22px;
+    margin-right: 10px;
 }
 
 #alink2 {
-    margin-left: 22px;
+    margin-left: 10px;
 }
 
 #alinkback {
     font-size: 30px;
-    border-top: 2px solid #ec1c2300;
-    padding-top: 7px;
-}
-
-#alinkback:hover {
-    border-top: 2px solid rgb(36, 36, 36);
-    border-bottom: 2px solid rgba(36, 36, 36, 0);
+    text-decoration: underline;
 }
 
 #logo1 {
     color: #ec1c24;
     cursor: default;
-    font-size: 30px;
+    font-size: 31px;
     animation: txtanimation 2s infinite;
 }
 
 h1 {
-    background-color: #f3f3f3de;
     border-bottom: 2px solid rgba(231, 231, 231, 0.5);
+    background-color: #efefefa0;
     color: black;
     margin-top: 42px;
     font-size: 70px;
@@ -109,21 +111,34 @@ h1 {
 p {
     color: rgb(36, 36, 36);
     font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #atxt {
     margin-top: 40px;
     padding-bottom: 7px;
+    padding-top: 7px;
     border-bottom: 2px solid rgba(231, 231, 231, 0.5);
+    border-top: 2px solid rgba(231, 231, 231, 0.5);
 }
 
 #atxt2 {
-    padding-top: 7px;
+    padding-top: 12.8px;
+    padding-bottom: 12.8px;
+    box-shadow: 0 4px 8px 0 rgba(118, 118, 118, 0.26);
+    border-bottom: 2px solid rgba(231, 231, 231, 0.5);
+}
+
+#atxt, #atxt2 {
+    background-color: #f3f3f3a0;
 }
 
 footer {
     border-top: 2px solid rgba(231, 231, 231, 0.5);
-    background-color: #f1f1f1fa;
+    box-shadow: 0 -4px 8px 0 rgba(118, 118, 118, 0.26);
+    background-color: #efefefa0;
     color: rgb(36, 36, 36);
     font-size: 28px;
     animation: startupa 1s 1;
@@ -161,46 +176,60 @@ strong {
     html {
         scrollbar-color: rgb(129, 96, 96) rgb(51, 41, 41);
         background-color: #1d1d1d;
-        background-image: url(images/backgrounddark.jpg);
+        background-image: url(images/abg2dark.png);
         color: white;
     }
 
     nav {
         border-bottom: 2px solid rgba(46, 46, 46, 0.5);
         background-color: #222222fa;
+        box-shadow: 0 4px 8px 0 rgba(90, 90, 90, 0.26);
     }
 
     h1 {
         color: white;
-        background-color: #1f1f1fde;
         border-bottom: 2px solid rgba(46, 46, 46, 0.5);
+        background-color: #242424a0;
     }
 
     p {
         color: rgb(236, 236, 236);
     }
 
-    .alink {
+    a {
         color: rgb(236, 236, 236);
     }
 
-    .alink:hover {
-        background-color: #2e2e2ec2;
-        border-bottom: 2px solid rgb(236, 236, 236);
+    a:hover {
+        background-color: #363636c2;
+        border-bottom: 2px solid #3f3f3fc2;
+        color: white;
     }
 
-    #alinkback:hover {
-        border-top: 2px solid rgb(236, 236, 236);
+    a:focus {
+        background-color: #3d453bc2;
+        border-bottom: 2px solid #3e4a40c2;
     }
 
     #atxt {
         border-bottom: 2px solid rgba(46, 46, 46, 0.5);
+        border-top: 2px solid rgba(46, 46, 46, 0.5);
+    }
+
+    #atxt2 {
+        border-bottom: 2px solid rgba(46, 46, 46, 0.5);
+        box-shadow: 0 4px 8px 0 rgba(90, 90, 90, 0.26);
+    }
+
+    #atxt, #atxt2 {
+        background-color: #242424a0;
     }
 
     footer {
         border-top: 2px solid rgba(46, 46, 46, 0.5);
-        background-color: #222222fa;
+        background-color: #242424a0;
         color: rgb(236, 236, 236);
+        box-shadow: 0 -4px 8px 0 rgba(90, 90, 90, 0.26);
     }
 
     ::-webkit-scrollbar-thumb {
@@ -213,6 +242,10 @@ strong {
 
     ::-webkit-scrollbar-track {
         background-color: #1f1f1f;
+    }
+
+    ::-webkit-scrollbar-track:hover {
+        background-color: #252525;
     }
 }
 
