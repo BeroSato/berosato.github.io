@@ -133,7 +133,7 @@ div {
     padding-top: 4px;
     padding-bottom: 8px;
     border-bottom: 2px solid rgba(231, 231, 231, 0.5);
-    background-color: #efefefa0;
+    background-color: #edededa0;
     margin-bottom: 12px;
 }
 
@@ -148,7 +148,7 @@ h2 {
     font-weight: initial;
     color: black;
     border-bottom: 2px solid rgba(231, 231, 231, 0.5);
-    background-color: #efefefa0;
+    background-color: #edededa0;
 }
 
 #maintxt {
