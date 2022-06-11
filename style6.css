@@ -13,6 +13,7 @@
    
 ::-webkit-scrollbar-track {
     background-color: #f3f3f3;
+    border-left: 2px solid rgba(231, 231, 231, 0.5);
 }
 
 ::-webkit-scrollbar-track:hover {
@@ -21,6 +22,7 @@
    
 ::-webkit-scrollbar-thumb {
     background-color: #e6e6e6;
+    border-left: 2px solid rgba(231, 231, 231, 0.5);
 }
    
 ::-webkit-scrollbar-thumb:hover {
@@ -101,7 +103,7 @@ a:focus {
     cursor: default;
     font-size: 31px;
     padding-right: 19px;
-    animation: txtanimation 2s infinite;
+    text-shadow: 2px 2px 35px #c9161c;
 }
 
 #logo2 {
@@ -173,13 +175,7 @@ p {
     color: #ec1c24;
     font-size: 29px;
     font-weight: initial;
-    animation: txtanimation 2s infinite;
-}
-
-@keyframes txtanimation {
-    0% {text-shadow: 2px 2px 25px #c9161c;}
-    50% {text-shadow: 2px 2px 35px #c9161c;}
-    100% {text-shadow: 2px 2px 25px #c9161c;}
+    text-shadow: 2px 2px 25px #c9161c;
 }
 
 @keyframes startupa {
@@ -240,6 +236,7 @@ p {
 
     ::-webkit-scrollbar-thumb {
         background-color:#2e2e2e;
+        border-left: 2px solid rgba(46, 46, 46, 0.5);
     }
 
     ::-webkit-scrollbar-thumb:hover {
@@ -248,6 +245,7 @@ p {
 
     ::-webkit-scrollbar-track {
         background-color: #1f1f1f;
+        border-left: 2px solid rgba(46, 46, 46, 0.5);
     }
 
     ::-webkit-scrollbar-track:hover {
@@ -269,6 +267,6 @@ p {
     #logo2 {
         display: inline;
         color: #ec1c24;
-        animation: txtanimation 2s infinite;
+        text-shadow: 2px 2px 35px #c9161c;
     }
 }
