@@ -11,11 +11,11 @@ https://berosato.github.io/classic
 ## Default Theme
 light mode:
 
-<img width="583" alt="msedge_9bGy4P9PQK" src="https://user-images.githubusercontent.com/75726739/169373549-47ff6e44-6bb0-4060-9825-6c5cf6f9e84e.png">
+<img width="588" alt="msedge_3ijzpqc39H" src="https://user-images.githubusercontent.com/75726739/173183163-4bb351ef-a751-46a5-87e1-71737fdcf9fd.png">
 
 dark mode:
 
-<img width="583" alt="msedge_VaFX8qInlX" src="https://user-images.githubusercontent.com/75726739/169373593-4b3f1fcc-8743-4010-bc60-57fcf129072f.png">
+<img width="588" alt="msedge_zibFzdZ9zb" src="https://user-images.githubusercontent.com/75726739/173183182-9b3fe5a5-6070-491e-88bf-0679f2b56b47.png">
 
 ## Classic Theme
 light mode:
