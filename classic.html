@@ -4,29 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bero Sato's Official Website">
-    <meta name="Keywords" content="Bero Sato, bero sato">
-    <title>Bero Sato's Website - Home</title>
-    <link rel="shortcut icon" href="images/websiteicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="style4.css">
+    <meta name="description" content="Bero Sato's Official Website - Classic">
+    <meta name="Keywords" content="Bero Sato Classic, bero sato classic, BeroSato Classic, berosato classic">
+    <title>Bero Sato's Website - Classic</title>
+    <link rel="shortcut icon" href="images/webicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styleClassic.css">
+    <script defer src="config.json"></script>
+    <link rel="stylesheet" href="fontello.css">
 </head>
 <body>
     <header>
         <nav>
-            <p id="logo1">Bero Sato</p>
-            <p id="logo2">B</p>
+            <img id="logo" src="images/logo.png" width="90" alt="Bero Sato">
             <ul>
                 <li class="list1">
-                    <a class="alink" id="alink1" href="#home">Home</a>
+                    <a class="alink visited" id="alink1" href="#home"><span class="tooltiptxt">Home</span><i class="icon-home"></i></a>
                 </li>
                 <li class="list1">
-                    <a class="alink linko" id="alink2" href="https://berosato.github.io/blogs">Blogs</a>
+                    <a class="alink" id="alink2" href="https://berosato.github.io/posts"><span class="tooltiptxt">Posts</span><i class="icon-book"></i></a>
                 </li>
                 <li class="list1">
-                    <a class="alink linko" id="alink3" href="#projects">Projects</a>
+                    <a class="alink" id="alink3" href="#projects"><span class="tooltiptxt">Projects</span><i class="icon-th-list"></i></a>
                 </li>
                 <li class="list1">
-                    <a class="alink linko"  id="alink4" href="#about">About</a>
+                    <a class="alink" id="alink4" href="#about"><span class="tooltiptxt">Info</span><i class="icon-info"></i></a>
                 </li>
             </ul>
         </nav>
@@ -34,72 +35,76 @@
     <main>
         <section>
             <article class="mainarticle">
-                <h2 id="h2options">More shortcuts:</h2>
                 <p class="paraellink">
-                    <a class="alink ellink qnalink" href="#qna">QnA</a>
-                    <a class="alink ellink videoslink" href="#videos">Videos</a>
-                    <a class="alink ellink tweetslink" href="#tweets">Tweets</a>
-                    <a class="alink ellink classiclink" href="https://berosato.github.io">Modern</a>
+                    <a class="icon-help alink ellink qnalink" href="#qna"><span class="tooltiptxt">QnA</span></a>
+                    <a class="icon-youtube-play alink ellink videoslink" href="#videos"><span class="tooltiptxt">Latest Videos</span></a>
+                    <a class="icon-twitter alink ellink tweetslink" href="#tweets"><span class="tooltiptxt">Latest Tweets</span></a>
+                    <a class="icon-box alink ellink classiclink" href="https://berosato.github.io/classic"><span class="tooltiptxt">Modern/Current Style</span></a>
+                    <a class="icon-history alink ellink historylink" href="https://berosato.github.io/developmenthistory"><span class="tooltiptxt">Development History</span></a>
                 </p>
             </article>
             <article class="article1" id="home">
-                <h2>Welcome to my website!</h2>
+                <h2><i class="icon-home"></i> Welcome!</h2>
                 <p>Here you can explore some stuff.</p>
             </article>
             <article class="article2" id="qna">
-                <h2>Who are you?</h2>
+                <h2 id="mainqnatxt"><i class="icon-help"></i> QnA</h2>
+                <h2 id="fip">Who are you?</h2>
                 <p id="lastpara1">I'm Bero, My real name is Omar and I like some tech stuff and trying to explore them.
-                I also love reading manga and watching some animes, playing some games and I'm a huge fan of HTC :) </p>
-                <h2>Why does this exist?</h2>
+                Also I'm a huge fan of HTC :) </p>
+                <h2 id="sep">Why does this exist?</h2>
                 <p id="lastpara1">I have made this website for fun.</p>
-                <h2>How many programming languages do you know?</h2>
-                <p id="lastpara1">HTML (not a programming language but still counts), CSS and will learn JavaScript and C# soon.</p>
-                <h2>What projects are you planning to do?</h2>
-                <p id="lastpara1">I'm planning to make some UWP apps and some Unity Engine games with C# and also some mobile apps and games.</p>
-                <h2>When will Kart Racing get released?</h2>
-                <p id="lastpara1">The development didn't get started yet, duo to school stuff but I will start learning C# soon!</p>
-                <h2>Why is the design of this website keeps changing/simplifing?</h2>
+                <h2 id="thp">How many programming languages do you know?</h2>
+                <p id="lastpara1">HTML (not a programming language but still counts), CSS, Kinda Python, Kinda C# (Still learning it) and planning for JavaScript as well.</p>
+                <h2 id="fop">What projects are you planning to do?</h2>
+                <p id="lastpara1">I'm planning to make some UWP apps, Some Unity Engine games with C# and also some mobile apps and games.</p>
+                <h2 id="fip">When will Kart Racing get released?</h2>
+                <p id="lastpara1">The development didn't get started yet, duo to school stuff but I'm currently trying to learn C#!</p>
+                <h2 id="sip">Why is the design of this website keeps changing/simplifing?</h2>
                 <p>Well, I've got bored from the old design and I wanted to make a new simplifed design for fun to make it look modern and better.</p>
             </article>
             <article class="article3" id="projects">
-                <h2 id="latestmargin">List of my projects:</h2>
-                <a class="prolink" href="https://berosato.github.io">Bero Sato's Website <sup class="prosup">Completed</sup></a>
-                <a class="prolink" href="https://berosato.itch.io/the-tree-world">The Tree World <sup class="prosup">Completed</sup></a>
-                <a class="prolink" href="https://berosato.github.io/uwpapps">UWP Apps <sup class="prosup">Not started yet</sup></a>
-                <a class="prolink" id="prolink3" href="https://berosato.github.io/kartracing">Kart Racing <sup class="prosup">Not started yet</sup></a>
+                <h2 id="latestmargin"><i class="icon-th-list"></i> My Projects</h2>
+                <a class="articlelink" href="https://berosato.github.io"><p>Bero Sato's Website</p> <sup>Completed</sup></a>
+                <a class="articlelink" href="https://berosato.itch.io/the-tree-world"><p>The Tree World</p> <sup>Completed</sup></a> <br>
+                <a class="articlelink" href="https://berosato.github.io/uwpapps"><p>UWP Apps</p> <sup>Under Development</sup></a>
+                <a class="articlelink" href="https://berosato.github.io/kartracing"><p>Karters Racing</p> <sup>Not started yet</sup></a>
             </article>
-            <article class="article4" id="videos">
-                <h2 id="latestmargin">Latest 4 videos:</h2>
-                <a class="vidlink" href="https://youtu.be/G0hDieLnmKc">The Tree World - Official Release Trailer</a>
-                <a class="vidlink" href="https://youtu.be/sU8Wxwx1W30">(OUTDATED) The Tree World - Official Trailer</a>
-                <a class="vidlink" href="https://youtube.com/shorts/X2nTj_yN06M?feature=share">Sonic X-treme Unity (Project SXU) | شاهده كامل الان <sup>Shorts</sup></a>
-                <a class="vidlink" id="vidlink4" href="https://youtu.be/xlU1AxAbft0">Sonic X-treme Unity (Project SXU) | اعادة احياء اللعبة الي اتكنسلت</a>
-            </article>
-            <article class="article5" id="tweets">
-                <h2 id="latestmargin">Latest 4 tweets:</h2>
-                <a class="tweetlink" href="https://twitter.com/Bero_Sato/status/1554153673084788741">Introducing... The Tree World ...</a>
-                <a class="tweetlink" href="https://twitter.com/Bero_Sato/status/1541693725503639552">Here is how the HTC Desire 22 Pro looks like irl: ...</a>
-                <a class="tweetlink" href="https://twitter.com/Bero_Sato/status/1541677626334617600">Happy HTC day! (The wait is over for the comeback!)</a>
-                <a class="tweetlink" id="tweetlink4" href="https://twitter.com/Bero_Sato/status/1525782046395752450">Happy birthday, HTC!</a>
-            </article>
-            <details class="detailsart">
-                <summary><b>About this website</b></summary>
-                <article class="article6" id="about">
-                    <p id="title1">Bero Sato's Website</p>
-                    <p>Version: <b id="btxt">3.0.5</b></p>
-                    <p>Made with: <b id="btxt">HTML, CSS and Paint 3D</b></p>
-                    <p>Font: <b id="btxt">Segoe UI by Steve Matteson</b></p>
-                    <p id="modtxt">Last modifed: <b id="btxt">5/7/2022</b></p>
+            <section id="floater">
+                <article class="article4" id="videos">
+                    <h2 id="latestmargin"><i class="icon-youtube-play"></i> Latest Videos</h2>
+                    <a class="articlelink" href="https://youtu.be/G0hDieLnmKc"><p>The Tree World - Official Release Trailer</p> <sup>Latest Video</sup></a>
+                    <a class="articlelink" href="https://youtu.be/sU8Wxwx1W30"><p>(OUTDATED) The Tree World - Official Trailer</p> <sup>Video (Outdated)</sup></a>
+                    <a class="articlelink" href="https://youtube.com/shorts/X2nTj_yN06M?feature=share"><p>Sonic X-treme Unity (Project SXU) | شاهده كامل الان </p> <sup>Shorts</sup></a>
+                    <a class="articlelink" href="https://youtu.be/xlU1AxAbft0"><p>Sonic X-treme Unity (Project SXU) | اعادة احياء اللعبة الي اتكنسلت</p> <sup>Video</sup></a>
+                    <a class="articlelink" href="https://youtu.be/xlU1AxAbft0"><i class="icon-youtube-play"></i> More</a>
                 </article>
-            </details>
+                <article class="article5" id="tweets">
+                    <h2 id="latestmargin"><i class="icon-twitter"></i> Latest Tweets</h2>
+                    <a class="articlelink" href="https://twitter.com/Bero_Sato/status/1616470878312890369"><p>Since tomorrow is the release date for version 3.5 ...</p> <sup>Latest Tweet</sup></a>
+                    <a class="articlelink" href="https://twitter.com/Bero_Sato/status/1616084919356358659"><p>And here we go, almost finished, currently doing my final touches. ...</p> <sup>Tweet</sup></a>
+                    <a class="articlelink" href="https://twitter.com/Bero_Sato/status/1614666720559366144"><p>Just got an HTC True Wireless Earbuds Plus today! ...</p> <sup>Tweet</sup></a>
+                    <a class="articlelink" href="https://twitter.com/Bero_Sato/status/1612835078949801986"><p>Introducing... Version 3.5 of my website! ...</p> <sup>Tweet</sup></a>
+                    <a class="articlelink" href="https://twitter.com/Bero_Sato/status/1525782046395752450"><i class="icon-twitter"></i> More</a>
+                </article>
+            </section>
+            <article class="article6" id="about">
+                <h2><i class="icon-info"></i> About this Website</h2>
+                <p id="title1">Bero Sato's Website</p>
+                <p>Version: <b id="btxt">Green Moon (Classic_3.5)</b></p>
+                <p>Made with: <b id="btxt">HTML, CSS and Paint 3D</b></p>
+                <p>Font: <b id="btxt">Segoe UI by Steve Matteson</b></p>
+                <p>Icons: <b id="btxt">By Typicons, Iconic, MFG Labs and Font Awesome. (Generated using Fontello)</b></p>
+                <p id="modtxt">Last edited: <b id="btxt">2023/1/21</b></p>
+            </article>
         </section>
     </main>
     <footer>
-        <div>© 2022 <strong class="strongtext">Bero Sato</strong></div>
-        <a id="linkfirst" class="links" href="https://youtube.com/c/BeroSato">YouTube</a>
-        <a id="link1" class="links" href="https://twitter.com/Bero_Sato">Twitter</a>
-        <a id="link1" class="links" href="https://github.com/BeroSato">GitHub</a>
-        <a id="linklast" class="links" href="https://github.com/BeroSato/berosato.github.io">Source Code</a>
+        <a id="linkfirst" class="icon-github-circled links" href="https://github.com/BeroSato">GitHub</a>
+        <a id="link2" class="icon-twitter links" href="https://twitter.com/Bero_Sato">Twitter</a>
+        <a id="link3" class="icon-youtube-play links" href="https://youtube.com/c/BeroSato"><span class="tooltiptxt">YouTube</span>YouTube</a>
+        <a id="linklast" class="icon-code links" href="https://github.com/BeroSato/berosato.github.io">Source Code</a>
+        <p id="footercopyright">©  Bero Sato 2022-2023</p>
     </footer>
 </body>
 </html>

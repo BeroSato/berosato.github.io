@@ -1,52 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="pagesbackground">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bero Sato's Website - UWP Apps</title>
-    <link rel="shortcut icon" href="images/websiteicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="style6.css">
+    <link rel="shortcut icon" href="images/webicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
     <script defer src="config.json"></script>
     <link rel="stylesheet" href="fontello.css">
 </head>
 <body>
     <header>
         <nav>
+            <img id="logo" src="images/logo.png" width="90" alt="Bero Sato">
             <ul>
                 <li class="list1">
-                    <a class="icon-home-outline alink" id="alink1" href="https://berosato.github.io"></a>
+                    <a class="alink" id="alink1" href="https://berosato.github.io"><span class="tooltiptxt">Home</span><i class="icon-home"></i></a>
                 </li>
                 <li class="list1">
-                    <a class="icon-book alink" id="alink2" href="https://berosato.github.io/blogs"></a>
-                </li>
-            </ul>
-            <p id="logo1">Bero Sato</p>
-            <p id="logo2">B</p>
-            <ul>
-                <li class="list1">
-                    <a class="icon-th-list-outline alink" id="alink3" href="#projects"></a>
+                    <a class="alink" id="alink2" href="https://berosato.github.io/posts"><span class="tooltiptxt">Posts</span><i class="icon-book"></i></a>
                 </li>
                 <li class="list1">
-                    <a class="icon-info-outline alink"  id="alink4" href="#about"></a>
+                    <a class="alink" id="alink3" href="https://berosato.github.io/#projects"><span class="tooltiptxt">Projects</span><i class="icon-th-list"></i></a>
+                </li>
+                <li class="list1">
+                    <a class="alink" id="alink4" href="https://berosato.github.io/#about"><span class="tooltiptxt">Info</span><i class="icon-info"></i></a>
                 </li>
             </ul>
         </nav>
     </header>
     <section>
-        <h2 id="maintxt">UWP Apps</h2>
-        <p>This is a list of UWP Apps that i'm making for fun.</p>
+        <h1 class="maintxtpage">UWP Apps</h1>
+        <p id="maintxt">This is a list of UWP Apps that i'm making for fun.</p>
         <p>I'm not currently working on any UWP App, until I learn C# I would work on one. :)</p>
         <br>
         <br>
         <a id="backbtn" href="https://berosato.github.io">Go back</a>
     </section>
-    <footer>
-        <div>© 2022 <strong class="strongtext">Bero Sato</strong></div>
-        <a id="linkfirst" class="icon-youtube links" href="https://youtube.com/c/BeroSato"></a>
-        <a id="link1" class="icon-twitter-circled links" href="https://twitter.com/Bero_Sato"></a>
-        <a id="link1" class="icon-github-circled links" href="https://github.com/BeroSato"></a>
-        <a id="linklast" class="icon-code-outline links" href="https://github.com/BeroSato/berosato.github.io"></a>
+    <footer id="pagesfooter">
+        <a id="linkfirst" class="icon-github-circled links" href="https://github.com/BeroSato">GitHub</a>
+        <a id="link2" class="icon-twitter links" href="https://twitter.com/Bero_Sato">Twitter</a>
+        <a id="link3" class="icon-youtube-play links" href="https://youtube.com/c/BeroSato"><span class="tooltiptxt">YouTube</span>YouTube</a>
+        <a id="linklast" class="icon-code links" href="https://github.com/BeroSato/berosato.github.io">Source Code</a>
+        <p id="footercopyright">©  Bero Sato 2022-2023</p>
     </footer>
 </body>
 </html>
