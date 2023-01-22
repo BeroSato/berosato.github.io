@@ -1,4 +1,4 @@
-![websitelogo](https://user-images.githubusercontent.com/75726739/158659463-400f94d5-1ffa-49c8-aa57-387b60f38b89.png)
+![berosatowebsitelogo](https://user-images.githubusercontent.com/75726739/213913250-073fe36b-716b-4da4-96b0-7e1f70491933.png)
 
 ## Info
 This is my first website made for fun to try HTML and CSS.
@@ -8,26 +8,26 @@ https://berosato.github.io
 
 https://berosato.github.io/classic
 
-## Default Theme
+## Screenshots
 light mode:
 
-<img width="588" alt="msedge_3ijzpqc39H" src="https://user-images.githubusercontent.com/75726739/173183163-4bb351ef-a751-46a5-87e1-71737fdcf9fd.png">
+<img width="629" alt="totalnewredesign" src="https://user-images.githubusercontent.com/75726739/213913059-f90b0971-71c9-491a-abeb-aa0b54248687.png">
 
 dark mode:
 
-<img width="588" alt="msedge_zibFzdZ9zb" src="https://user-images.githubusercontent.com/75726739/173183182-9b3fe5a5-6070-491e-88bf-0679f2b56b47.png">
+<img width="629" alt="totalnewredesigndark" src="https://user-images.githubusercontent.com/75726739/213913076-167b6be9-898d-4eb0-bb37-6389a350fd5e.png">
 
-## Classic Theme
+## Classic Style
 light mode:
 
-<img width="583" alt="msedge_WoxTftD2dB" src="https://user-images.githubusercontent.com/75726739/169373634-36f2fd79-f929-4395-accf-27637c5d2ed6.png">
+<img width="629" alt="newclassicstyle2" src="https://user-images.githubusercontent.com/75726739/213913118-78d81d3d-d373-4b7a-be87-150e7b369bbb.png">
 
 dark mode:
 
-<img width="583" alt="msedge_S4d3rqf1Fw" src="https://user-images.githubusercontent.com/75726739/169373670-48eef181-c3b1-4464-abc8-c9cfdfd1b4f8.png">
+<img width="629" alt="newclassicstyle2dark" src="https://user-images.githubusercontent.com/75726739/213913123-cbb5d50c-49bc-4012-b52a-f5166c927c92.png">
 
 ## Credits 
-Made with HTML and CSS
+Made with HTML, CSS and Paint 3D
 
 Default font: Segoe UI by Steve Matteson
 
