@@ -43,6 +43,7 @@ html {
     scrollbar-color: rgb(216, 216, 216) rgb(243, 243, 243);
     scrollbar-width: 10px;
     scroll-behavior: smooth;
+    background-color: #f3fdf5;
     background-image: url(images/background.jpg);
     scrollbar-color: #f5fff1 #e5f2df;
 }
@@ -416,7 +417,7 @@ em {
 
 @media (prefers-color-scheme: dark) {
     html {
-        background-color: #121212;
+        background-color: #14241a;
         background-image: url(images/background3.jpg);
         scrollbar-color: #1e281c #171e15;
     }
@@ -694,6 +695,10 @@ em {
 .pagesbackground {
     background-color: #e5f2df;
     background-image: none;
+}
+
+details summary::-webkit-details-marker {
+    display:none;
 }
 
 summary {
