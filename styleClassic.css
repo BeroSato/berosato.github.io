@@ -70,7 +70,7 @@ ul {
 }
 
 .list1 {
-    display: inline;
+    display: inline-block;
 }
 
 #alink1 {
