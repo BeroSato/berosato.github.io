@@ -80,6 +80,10 @@ ul {
     margin-left: 10px;
 }
 
+#alink3 {
+    margin-left: 0;
+}
+
 #alink4 {
     margin-right: 50px;
     animation: startupaicons 1s 1;
@@ -94,7 +98,7 @@ a {
     color: rgb(36, 36, 36);
     text-decoration: none;
     cursor: pointer;
-    transition: all 0.1s;
+    transition: all 0.2s;
     border: 2px solid rgba(18, 18, 18, 0);
     background-color: #d9e9d594;
     animation: startupa 1s 1;
@@ -141,6 +145,17 @@ a:focus {
     transition: all 0.2s;
 }
 
+/* .hiddentxt {
+    display: none;
+    transition: all 0.2s;
+}
+
+.alink:hover .hiddentxt {
+    display: inline;
+    animation: startupatxt 0.5s 1;
+    transition: all 0.2s;
+} */
+
 .alink:hover .tooltiptxt {
     top: 63px;
     visibility: visible;
@@ -157,7 +172,7 @@ a:focus {
 
 #logo {
     margin-left: 10px;
-    animation: startupatxt 1s 1;
+    animation: startupalogo 1s 1;
 }
 
 footer {
@@ -345,7 +360,7 @@ h2 {
 
 #mainqnatxt {
     border-top: 0 solid rgba(231, 231, 231, 0);
-    margin-bottom: 15px;
+    margin-bottom: 13px;
 }
 
 sup {
@@ -369,7 +384,7 @@ b {
 }
 
 #btxt {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: initial;
     color: rgb(0, 0, 0);
 }
@@ -405,9 +420,13 @@ em {
     100% {opacity: 1; margin-right: 50px;}
 }
 
-@keyframes startupatxt {
+@keyframes startupalogo {
     0% {opacity: 0; margin-left: -20px}
     100% {opacity: 1; margin-left: 10px;}
+}
+@keyframes startupatxt {
+    0% {opacity: 0; margin-left: -20px}
+    100% {opacity: 1; margin-left: 0;}
 }
 
 @keyframes startupawelcome {
@@ -565,12 +584,14 @@ em {
 @media (max-width: 506px) {
     .welcometxt {
         font-size: 70px;
+        margin-top: 70px;
     }
 }
 
 @media (max-width: 417px) {
     .welcometxt {
         font-size: 50px;
+        margin-top: 75px;
     }
 
     #linklast {
@@ -715,7 +736,7 @@ summary {
     margin-right: 5.5px; 
     margin-left: 5.5px;
     margin-bottom: 4px;
-    transition: all 0.1s;
+    transition: all 0.2s;
     animation: startupa 1s 1;
 }
 
