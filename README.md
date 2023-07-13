@@ -11,11 +11,11 @@ https://berosato.github.io/classic
 ## Screenshots
 light mode:
 
-<img width="629" alt="totalnewredesign" src="https://user-images.githubusercontent.com/75726739/213913059-f90b0971-71c9-491a-abeb-aa0b54248687.png">
+<img width="626" alt="newdesignupdate" src="https://github.com/BeroSato/berosato.github.io/assets/75726739/38ff7f7f-c795-423c-a79c-04378cd7f618">
 
 dark mode:
 
-<img width="629" alt="totalnewredesigndark" src="https://user-images.githubusercontent.com/75726739/213913076-167b6be9-898d-4eb0-bb37-6389a350fd5e.png">
+<img width="626" alt="newdesignupdatedark" src="https://github.com/BeroSato/berosato.github.io/assets/75726739/bbf0df09-00fa-4536-828e-d989a47cdf57">
 
 ## Classic Style
 light mode:
