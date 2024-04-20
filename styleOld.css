@@ -1,10 +1,16 @@
 * {
     font-size: 20px;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: SegoeUI;
+    src: url(font/SegoeUI.ttf);
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+@font-face {
+    font-family: SegoeUI;
+    src: url(font/SegoeUI.ttf);
 }
 
 ::-webkit-scrollbar {
